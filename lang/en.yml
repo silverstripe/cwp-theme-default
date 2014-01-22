@@ -1,0 +1,21 @@
+en:
+  BlogEntry.ss:
+    COMMENTS: Comments
+    EDITTHIS: 'Edit this post'
+    POSTEDBY: 'Posted by'
+    POSTEDON: on
+    TAGS: 'Tags:'
+    UNPUBLISHTHIS: 'Unpublish this post'
+    VIEWALLPOSTTAGGED: 'View all posts tagged'
+  BlogHolder.ss:
+    NOENTRIES: 'There are no blog entries'
+    VIEWINGPOSTEDBY: 'Viewing entries posted by'
+    VIEWINGPOSTEDIN: 'Viewing entries posted in'
+    VIEWINGTAGGED: 'Viewing entries tagged with'
+  BlogTree.ss:
+    NOENTRIES: 'There are no blog entries'
+    VIEWINGPOSTEDBY: 'Viewing entries posted by'
+    VIEWINGPOSTEDIN: 'Viewing entries posted in'
+    VIEWINGTAGGED: 'Viewing entries tagged with'
+  MainNav.ss:
+    MENU: Menu
