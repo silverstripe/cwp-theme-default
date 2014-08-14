@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
-	<title>$Title</title>
-	<link href="$Link" rel="self" />
-	<link href="$BaseHref" />
+	<title>$Title.XML</title>
+	<link href="$Link.ATT" rel="self" />
+	<link href="$BaseHref.ATT" />
 	<id>$Link.XML</id>
 	<updated><% if Entries %>$Entries.First.LastEdited.Rfc3339<% else %>$Now.Rfc3339<% end_if %></updated>
 	<% loop Entries %>
