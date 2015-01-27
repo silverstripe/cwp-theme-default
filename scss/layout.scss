@@ -212,6 +212,10 @@ header {
 .typography { 				/* Needed to override typography styles */
 
 	// Breadcrumbs
+	.breadcrumb {
+		padding: 7px 14px;
+		margin: 0 0 20px;
+	}
 	.breadcrumb .divider {
 	    color: $gray; 		/* adjust color to meet accessibility standards */
 	}
@@ -596,6 +600,10 @@ footer {
 .label,
 .badge {
 	background-color: $gray;			// make darker to meet accessibility standards
+
+	a {
+		color: $white;
+	}
 }
 
 /**
@@ -727,6 +735,49 @@ footer {
 	}
 }
 
+/* rss widget styles */
+.typography .RSSWidget {
+	a[href^="http://"],
+	a[href^="https"],
+	a.external {
+		background-image: url(../../../themes/default/images/icons/external-link.png);
+		background-position: 97% 6px;
+		background-repeat: no-repeat;
+
+		&:hover {
+			background-color: #eee;
+		}
+	}
+}
+
+/* tagcloud widget styles */
+.typography ul.tagcloud {
+	padding: 0 15px;
+	margin: 0;
+
+	li {
+		display: inline-block;
+		padding: 3px 0;
+	}
+
+	a {
+		padding: 0 3px;
+		border-radius: 4px;
+
+		&:hover {
+			text-decoration: none;
+			background-color: #eee;
+		}
+	}
+}
+
+.tagcloud-not-popular { font-size: 0.9em; }
+.tagcloud-not-very-popular { font-size: 1em; }
+.tagcloud-somewhat-popular { font-size: 1.3em; }
+.tagcloud-popular { font-size: 1.6em; }
+.tagcloud-very-popular { font-size: 1.9em; }
+.tagcloud-ultra-popular { font-size: 2.2em; }
+
 /**
  * Comments
  */
@@ -735,18 +786,25 @@ footer {
 		clear: left;
 	}
 
+	.comments-list {
+		margin: 0;
+	}
+
 	.comments-holder {
 		li.comment {
 			list-style-type: none;
-			padding: 5px;
+			padding: 15px;
 			&.odd {
 				background: #eee;
 			}
 			&.unmoderated {
 				border: 2px dashed grey;
 			}
-
+			.info {
+				margin-bottom: 0;
+			}
 			ul.action-links {
+				margin: 0;
 				li {
 					list-style-type: none;
 					display: inline;
@@ -757,6 +815,10 @@ footer {
 				}
 			}
 		}
+	}
+
+	.commenting-rss-feed {
+		margin-top: 20px;
 	}
 }
 
