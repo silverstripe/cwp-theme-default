@@ -1,30 +1,55 @@
-<div id="BlogContent" class="blogcontent typography">
-	<div class="row">
-		<% include BreadCrumbs %>
-		<div class="span3">
-			<div class="sidebar-nav well">
-				<% include BlogSideBar %>
-			</div>
+<div class="row">
+	<% include Breadcrumbs %>
+	<% include BlogSideBar %>
+	
+	<div id="main" class="<% if $SideBarView %>span9<% else %>span12<% end_if %> resultsList" role="main">
+		<h1 class="page-header">$Title</h1>
+
+		<div class="clearfix">
+			$Content.RichLinks
 		</div>
-		<div id="main" class="span9">
-			<h1 class="page-header">$Title</h1>
-			<% if SelectedTag %>
-				<h3><% _t('VIEWINGTAGGED', 'Viewing entries tagged with') %> '$SelectedTag'</h3>
-			<% else_if SelectedDate %>
-				<h3><% _t('VIEWINGPOSTEDIN', 'Viewing entries posted in') %> $SelectedNiceDate</h3>
-			<% else_if SelectedAuthor %>
-				<h3><% _t('VIEWINGPOSTEDBY', 'Viewing entries posted by') %> $SelectedAuthor</h3>
-			<% end_if %>
-			
-			<% if BlogEntries %>
-				<% loop BlogEntries %>
-					<% include BlogSummary %>
-				<% end_loop %>
+
+		<div class="resultsHeader">
+			<h2 class="pull-left">
+				<% if $SelectedTag %>
+					<% _t('BlogHolder_ss.VIEWINGTAGGED', 'Viewing entries tagged with') %> '$SelectedTag'
+				<% else_if $SelectedDate %>
+					<% _t('BlogHolder_ss.VIEWINGPOSTEDIN', 'Viewing entries posted in') %> $SelectedNiceDate
+				<% else_if $SelectedAuthor %>
+					<% _t('BlogHolder_ss.VIEWINGPOSTEDBY', 'Viewing entries posted by') %> $SelectedAuthor
+				<% else %>
+					Viewing all entries
+				<% end_if %>
+				<% if $SelectedTag || $SelectedDate || $SelectedAuthor %>
+					<a href="$Link">Show all entries</a>
+				<% end_if %>
+			</h2>
+			<% if $BlogEntries %>
+				<p class="pull-right"><% with $BlogEntries %>$FirstItem - $LastItem of $count<% end_with %></p>
 			<% else %>
-				<h2><% _t('NOENTRIES', 'There are no blog entries') %></h2>
+				<p class="pull-right">None</p>
 			<% end_if %>
-			
-			<% include BlogPagination %>
 		</div>
+
+		<% if $BlogEntries %>
+			<% loop $BlogEntries %>
+				<article class="$EvenOdd">
+					<% include BlogSummary %>
+				</article>
+			<% end_loop %>
+
+			<% with $BlogEntries %>
+				<% include Pagination %>
+			<% end_with %>
+		<% else %>
+			<article>
+				<p><% _t('BlogHolder_ss.NOENTRIES', 'There are no blog entries') %></p>
+			</article>
+		<% end_if %>
+
+		$Form
+		<% include RelatedPages %>
+		$PageComments
+		<% include PrintShare %>
 	</div>
 </div>
