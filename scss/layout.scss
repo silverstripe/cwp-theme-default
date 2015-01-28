@@ -740,6 +740,7 @@ footer {
 	a[href^="http://"],
 	a[href^="https"],
 	a.external {
+		display: block;
 		background-image: url(../../../themes/default/images/icons/external-link.png);
 		background-position: 97% 6px;
 		background-repeat: no-repeat;

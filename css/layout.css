@@ -7098,6 +7098,7 @@ footer .socialLinks a:hover i:before {
 .typography .RSSWidget a[href^="http://"],
 .typography .RSSWidget a[href^="https"],
 .typography .RSSWidget a.external {
+  display: block;
   background-image: url(../../../themes/default/images/icons/external-link.png);
   background-position: 97% 6px;
   background-repeat: no-repeat;

@@ -1,4 +1,4 @@
-<% if FeaturedImage %>
+<% if $FeaturedImage %>
 	<figure>
 		$FeaturedImage.SetHeight(150)
 	</figure>
@@ -7,18 +7,19 @@
 	<h3><a href="$Link">$Title</a></h3>
 </header>
 
-<% if $Date || $Author %>
+<% if $Date || $Author || $Comments %>
 	<p class="metaInfo">
 		<% if $Date %>
 			<time datetime="$Date">$Date.nice <% if $StartTime %>$StartTime.Nice <% end_if %>
 			</time>
 		<% end_if %>
-		<% if Author %>by $Author<% end_if %>
+		<% if $Author %>by $Author<% end_if %>
+		<% if $Comments %> | <a href="$Link#comments-holder" title="View Comments Posted">$Comments.Count <% _t('BlogEntry_ss.COMMENTS', 'Comments') %></a><% end_if %>
 	</p>
 <% end_if %>
 
 <p>
-	<% if Abstract %>
+	<% if $Abstract %>
 		$Abstract
 	<% else %>
 		$Content.LimitWordCount
