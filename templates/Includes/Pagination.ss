@@ -1,5 +1,5 @@
 <% if MoreThanOnePage %>
-<div id="" class="pagination pagination-centered clear">
+<div class="pagination pagination-centered clear">
 	<h3 class="nonvisual-indicator">Pages</h3>
 	<ul id="PageNumbers">
 	<% if NotFirstPage %>
