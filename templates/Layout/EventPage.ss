@@ -1,7 +1,7 @@
 <div class="row">
 	<% include Breadcrumbs %>
 	<div id="main" role="main">
-		<div class="span3">
+		<aside class="span3">
 			<div class="well update-information">
 				<h2 class="nonvisual-indicator">Event information</h2>
 				<dl>
@@ -25,7 +25,7 @@
 					<% end_if %>
 				</dl>
 			</div>
-		</div>
+		</aside>
 		<div class="span9">
 			<h1 class="page-header">$Title</h1>
 

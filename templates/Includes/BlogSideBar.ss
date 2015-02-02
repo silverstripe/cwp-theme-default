@@ -1,5 +1,5 @@
 <% if $SideBarView %>
-	<div class="span3" id="Sidebar">
+	<aside class="span3" id="Sidebar">
 		$SideBarView
-	</div>
+	</aside>
 <% end_if %>

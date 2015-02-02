@@ -1,6 +1,6 @@
 <div class="row">
 	<% include Breadcrumbs %>
-	<div class="span3">
+	<aside class="span3">
 		<div class="sidebar-nav well">
 			<h2 class="h6-style">Filter by tag</h2>
 			<nav role="navigation">
@@ -46,7 +46,7 @@
 				</form>
 			<% end_with %>
 		</div>
-	</div>
+	</aside>
 	<div id="main" class="span9 resultsList" role="main">
 		<h1 class="page-header">$Title</h1>
 

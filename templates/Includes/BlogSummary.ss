@@ -10,7 +10,7 @@
 <% if $Date || $Author || $Comments %>
 	<p class="metaInfo">
 		<% if $Date %>
-			<time datetime="$Date">$Date.nice <% if $StartTime %>$StartTime.Nice <% end_if %>
+			<time datetime="$Date">$Date.Long <% if $StartTime %>$StartTime.Nice <% end_if %>
 			</time>
 		<% end_if %>
 		<% if $Author %>by $Author<% end_if %>
@@ -18,10 +18,8 @@
 	</p>
 <% end_if %>
 
-<p>
-	<% if $Abstract %>
-		$Abstract
-	<% else %>
-		$Content.LimitWordCount
-	<% end_if %>
-</p>
+<% if BlogHolder.ShowFullEntry %>
+	$Content
+<% else %> 
+	<p>$Content.FirstParagraph(html)</p>
+<% end_if %>

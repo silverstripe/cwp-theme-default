@@ -21,17 +21,19 @@
 					<% else %>
 						Viewing all entries
 					<% end_if %>
-					<% if $SelectedTag || $SelectedDate || $SelectedAuthor %>
-						<a href="$Link">Show all entries</a>
+
+					- <% with $BlogEntries %><% if $NotFirstPage %>Page $CurrentPage of <% end_if %>$Count <% end_with %>entries
+					<% if $SelectedTag %>
+						tagged with '$SelectedTag'
+					<% else_if $SelectedDate %>
+						in $SelectedNiceDate
+					<% else_if $SelectedAuthor %>
+						by $SelectedAuthor
 					<% end_if %>
 				</h2>
-				<p class="pull-right">
-					<% if $BlogEntries %>
-						<% with $BlogEntries %>$FirstItem - $LastItem of $count<% end_with %>
-					<% else %>
-						None
-					<% end_if %>
-				</p>
+				<% if $SelectedTag || $SelectedDate || $SelectedAuthor %>
+					<p class="pull-right"><a href="$Link">Browse all entries</a></p>
+				<% end_if %>
 			</div>
 
 			<% if $BlogEntries %>

@@ -1,9 +1,7 @@
 <% if $TagsCollection %>
-<nav role="navigation">
-	<ul class="tagcloud unstyled">
-		<% loop $TagsCollection %>
-			<li class="tagcloud-{$Class}"><a href="$Link" title="View entries tagged $Tag.ATT">$Tag.XML</a></li>
-		<% end_loop %>
-	</ul>
-</nav>
+<ul class="tagcloud unstyled">
+	<% loop $TagsCollection %>
+		<li class="tagcloud-{$Class}"><a href="$Link" title="View {$Count} entries tagged $Tag.ATT">$Tag.XML <span class="nonvisual-indicator">({$Count} entries)</span></a></li>
+	<% end_loop %>
+</ul>
 <% end_if %>

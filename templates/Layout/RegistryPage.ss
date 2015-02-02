@@ -1,13 +1,13 @@
 <div class="row">
 	<% include Breadcrumbs %>
-	<div class="span3">
+	<aside class="span3">
 		<div class="sidebar-form well">
 			<div id="{$DataClass}_searchform" class="searchForm">
 				<h2 class="h6-style">Search Filter</h2>
 				$RegistryFilterForm
 			</div>
 		</div>
-	</div>
+	</aside>
 	<div class="span9">
 		<div id="main" role="main">
 			<h1 class="page-header">$Title</h1>

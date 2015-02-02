@@ -1,7 +1,7 @@
 <div class="span3" id="Sidebar">
 	
 	<div class="well update-information">
-		<h2 class="nonvisual-indicator">Blog item information</h2>
+		<h2 class="h6-style">About this blog post</h2>
 		<dl>
 			<dt><%t BlogEntry.DT 'Date' %>:</dt>
 			<dd><time datetime="$Date.Long">$Date.Long</time></dd>

@@ -1,9 +1,9 @@
 <div class="row">
 	<% include Breadcrumbs %>
 	<% if Menu(2) %>
-		<div class="span3">
+		<aside class="span3">
 			<% include SidebarNav %>
-		</div>
+		</aside>
 	<% end_if %>
 	<div class="<% if Menu(2) %>span9<% else %>span12<% end_if %>">
 		<div id="main" role="main">
