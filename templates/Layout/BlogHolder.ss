@@ -13,7 +13,7 @@
 			<div class="resultsHeader">
 				<h2 class="pull-left">
 					<% with $BlogEntries %>
-						Viewing <% if $NotFirstPage %>page $CurrentPage of <% end_if %>$Count entries
+						Viewing <% if $NotFirstPage %>page $CurrentPage of <% end_if %>$Count blog posts
 					<% end_with %>
 					<% if $SelectedTag %>
 						tagged with '$SelectedTag'
@@ -24,7 +24,7 @@
 					<% end_if %>
 				</h2>
 				<% if $SelectedTag || $SelectedDate || $SelectedAuthor %>
-					<p class="pull-right"><a href="$Link">Browse all entries</a></p>
+					<p class="pull-right"><a href="$Link">Browse all blog posts</a></p>
 				<% end_if %>
 			</div>
 
@@ -40,7 +40,7 @@
 				<% end_with %>
 			<% else %>
 				<article>
-					<p><% _t('BlogHolder_ss.NOENTRIES', 'There are no blog entries') %></p>
+					<p>There are no blog posts</p>
 				</article>
 			<% end_if %>
 

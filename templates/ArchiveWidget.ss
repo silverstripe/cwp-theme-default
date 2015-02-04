@@ -4,7 +4,7 @@
 		<ul class="archiveMonths nav nav-list">
 			<% loop $Dates %>
 				<li>
-					<a href="$Link" title="View entries in $Date.Format(F) $Date.Year">
+					<a href="$Link" title="View blog posts in $Date.Format(F) $Date.Year">
 						$Date.Format(F) $Date.Year
 					</a>
 				</li>
@@ -14,7 +14,7 @@
 		<ul class="archiveYears nav nav-list">
 			<% loop $Dates %>
 				<li>
-					<a href="$Link" title="View entries in $Date.Year">
+					<a href="$Link" title="View blog posts in $Date.Year">
 						$Date.Year<% if not Last %>,<% end_if %>
 					</a>
 				</li>
