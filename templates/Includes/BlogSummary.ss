@@ -23,3 +23,5 @@
 <% else %> 
 	<p>$Content.FirstParagraph(html)</p>
 <% end_if %>
+
+<% include BlogEntryTags %>
