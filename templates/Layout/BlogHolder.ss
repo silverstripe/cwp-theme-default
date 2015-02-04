@@ -12,21 +12,13 @@
 
 			<div class="resultsHeader">
 				<h2 class="pull-left">
-					<% if $SelectedTag %>
-						<% _t('BlogHolder_ss.VIEWINGTAGGED', 'Viewing entries tagged with') %> '$SelectedTag'
-					<% else_if $SelectedDate %>
-						<% _t('BlogHolder_ss.VIEWINGPOSTEDIN', 'Viewing entries posted in') %> $SelectedNiceDate
-					<% else_if $SelectedAuthor %>
-						<% _t('BlogHolder_ss.VIEWINGPOSTEDBY', 'Viewing entries posted by') %> $SelectedAuthor
-					<% else %>
-						Viewing all entries
-					<% end_if %>
-
-					- <% with $BlogEntries %><% if $NotFirstPage %>Page $CurrentPage of <% end_if %>$Count <% end_with %>entries
+					<% with $BlogEntries %>
+						Viewing <% if $NotFirstPage %>page $CurrentPage of <% end_if %>$Count entries
+					<% end_with %>
 					<% if $SelectedTag %>
 						tagged with '$SelectedTag'
 					<% else_if $SelectedDate %>
-						in $SelectedNiceDate
+						posted in $SelectedNiceDate
 					<% else_if $SelectedAuthor %>
 						by $SelectedAuthor
 					<% end_if %>
