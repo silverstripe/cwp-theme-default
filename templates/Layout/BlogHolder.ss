@@ -13,7 +13,7 @@
 			<div class="resultsHeader">
 				<h2 class="pull-left">
 					<% with $BlogEntries %>
-						Viewing <% if $NotFirstPage %>page $CurrentPage of <% end_if %>$Count blog posts
+						Viewing <% if $NotFirstPage %>page $CurrentPage/$TotalPages of <% end_if %>$Count blog posts
 					<% end_with %>
 					<% if $SelectedTag %>
 						tagged with '$SelectedTag'
