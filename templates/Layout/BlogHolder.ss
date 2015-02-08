@@ -13,12 +13,12 @@
 			<div class="resultsHeader">
 				<h2 class="pull-left">
 					<% with $BlogEntries %>
-						Viewing <% if $NotFirstPage %>page $CurrentPage/$TotalPages of <% end_if %>$Count blog posts
+						Viewing <% if $NotFirstPage %>page $CurrentPage of <% end_if %>$Count blog posts
 					<% end_with %>
 					<% if $SelectedTag %>
 						tagged with '$SelectedTag'
 					<% else_if $SelectedDate %>
-						posted in $SelectedNiceDate
+						from $SelectedNiceDate
 					<% else_if $SelectedAuthor %>
 						by $SelectedAuthor
 					<% end_if %>
