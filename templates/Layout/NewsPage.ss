@@ -40,7 +40,7 @@
 			$Form
 			<p><a href="$Parent.Link">←  Back to the news</a></p>
 			<% include RelatedPages %>
-			$PageComments
+			$CommentsForm
 			<% include PrintShare %>
 			<% include LastEdited %>
 		</div>

@@ -782,7 +782,39 @@ footer {
 /**
  * Comments
  */
-#comments-holder {
+#comments-holder {		
+	ul.action-links {
+		margin-top: 10px;
+		text-align: right;
+
+		li {
+			list-style-type: none;
+			display: inline;
+			margin-left: 15px;
+
+			a {
+				background-image: none;
+				padding: 0;
+			}
+		}
+	}
+}
+.typography .commenting-area {
+	form {
+		margin: 0;
+	}
+	h3 {
+		margin-top: 0;
+	}
+	.Actions {
+		padding-bottom: 0;
+	}
+}
+.typography #comments-holder {
+	h2 {
+		margin-top: 0;
+	}
+	
 	div.field {
 		clear: left;
 	}
@@ -794,25 +826,33 @@ footer {
 	.comments-holder {
 		li.comment {
 			list-style-type: none;
-			padding: 15px;
-			&.odd {
-				background: #eee;
-			}
+			padding: 10px 15px;
+			
 			&.unmoderated {
 				border: 2px dashed grey;
 			}
 			.info {
-				margin-bottom: 0;
-			}
-			ul.action-links {
-				margin: 0;
-				li {
-					list-style-type: none;
-					display: inline;
-					margin-right: 15px;
-					&:last-of-type {
-						margin-right: 0;
+				margin-bottom: 10px;
+				
+				.author {
+					font-size: 1.3em;
+					
+					&:after {
+						content: '\0000a0\0000a0\0000a0\0000a0';
 					}
+				}
+				.date {
+				}
+			}
+			.comment-text {
+				border: 1px solid grey;
+				// background: #E2E2E2;
+				background: white;
+				padding: 10px 20px;
+				margin: 0;
+				
+				p:last-child {
+					margin-bottom: 0;
 				}
 			}
 		}

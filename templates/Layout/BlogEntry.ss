@@ -10,7 +10,7 @@
 			<% include BlogEntryTags %>
 			$Form
 			<% include RelatedPages %>
-			$PageComments
+			$CommentsForm
 			<% include PrintShare %>
 		</div>
 		<% include LastEdited %>

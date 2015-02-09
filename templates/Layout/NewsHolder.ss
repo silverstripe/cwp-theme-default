@@ -128,7 +128,7 @@
 
 		$Form
 		<% include RelatedPages %>
-		$PageComments
+		$CommentsForm
 		<% include PrintShare %>
 	</div>
 </div>

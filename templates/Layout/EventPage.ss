@@ -35,7 +35,7 @@
 			$Form
 			<p><a href="$Parent.Link">←  Back to the event listing</a></p>
 			<% include RelatedPages %>
-			$PageComments
+			$CommentsForm
 			<% include PrintShare %>
 			<% include LastEdited %>
 		</div>

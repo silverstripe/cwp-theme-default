@@ -7154,37 +7154,65 @@ footer .socialLinks a:hover i:before {
 /**
  * Comments
  */
-#comments-holder div.field {
-  clear: left;
+#comments-holder ul.action-links {
+  margin-top: 10px;
+  text-align: right;
 }
-#comments-holder .comments-list {
-  margin: 0;
-}
-#comments-holder .comments-holder li.comment {
-  list-style-type: none;
-  padding: 15px;
-}
-#comments-holder .comments-holder li.comment.odd {
-  background: #eee;
-}
-#comments-holder .comments-holder li.comment.unmoderated {
-  border: 2px dashed grey;
-}
-#comments-holder .comments-holder li.comment .info {
-  margin-bottom: 0;
-}
-#comments-holder .comments-holder li.comment ul.action-links {
-  margin: 0;
-}
-#comments-holder .comments-holder li.comment ul.action-links li {
+#comments-holder ul.action-links li {
   list-style-type: none;
   display: inline;
-  margin-right: 15px;
+  margin-left: 15px;
 }
-#comments-holder .comments-holder li.comment ul.action-links li:last-of-type {
-  margin-right: 0;
+#comments-holder ul.action-links li a {
+  background-image: none;
+  padding: 0;
 }
-#comments-holder .commenting-rss-feed {
+
+.typography .commenting-area form {
+  margin: 0;
+}
+.typography .commenting-area h3 {
+  margin-top: 0;
+}
+.typography .commenting-area .Actions {
+  padding-bottom: 0;
+}
+
+.typography #comments-holder h2 {
+  margin-top: 0;
+}
+.typography #comments-holder div.field {
+  clear: left;
+}
+.typography #comments-holder .comments-list {
+  margin: 0;
+}
+.typography #comments-holder .comments-holder li.comment {
+  list-style-type: none;
+  padding: 10px 15px;
+}
+.typography #comments-holder .comments-holder li.comment.unmoderated {
+  border: 2px dashed grey;
+}
+.typography #comments-holder .comments-holder li.comment .info {
+  margin-bottom: 10px;
+}
+.typography #comments-holder .comments-holder li.comment .info .author {
+  font-size: 1.3em;
+}
+.typography #comments-holder .comments-holder li.comment .info .author:after {
+  content: '\0000a0\0000a0\0000a0\0000a0';
+}
+.typography #comments-holder .comments-holder li.comment .comment-text {
+  border: 1px solid grey;
+  background: white;
+  padding: 10px 20px;
+  margin: 0;
+}
+.typography #comments-holder .comments-holder li.comment .comment-text p:last-child {
+  margin-bottom: 0;
+}
+.typography #comments-holder .commenting-rss-feed {
   margin-top: 20px;
 }
 
