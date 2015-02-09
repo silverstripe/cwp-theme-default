@@ -7200,7 +7200,7 @@ footer .socialLinks a:hover i:before {
 .typography #comments-holder .comments-holder li.comment .info .author {
   font-size: 1.3em;
 }
-.typography #comments-holder .comments-holder li.comment .info .author:after {
+.typography #comments-holder .comments-holder li.comment .info .date:before {
   content: '\0000a0\0000a0\0000a0\0000a0';
 }
 .typography #comments-holder .comments-holder li.comment .comment-text {

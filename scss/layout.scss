@@ -836,12 +836,9 @@ footer {
 				
 				.author {
 					font-size: 1.3em;
-					
-					&:after {
-						content: '\0000a0\0000a0\0000a0\0000a0';
-					}
 				}
-				.date {
+				.date:before {
+					content: '\0000a0\0000a0\0000a0\0000a0';
 				}
 			}
 			.comment-text {
