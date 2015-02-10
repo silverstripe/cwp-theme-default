@@ -7167,19 +7167,31 @@ footer .socialLinks a:hover i:before {
   background-image: none;
   padding: 0;
 }
+#comments-holder .comment-count {
+  margin: 15px 0;
+}
 
+.typography .commenting-area {
+  margin-top: 50px;
+}
 .typography .commenting-area form {
   margin: 0;
+}
+.typography .commenting-area .text {
+  max-width: 100%;
 }
 .typography .commenting-area h3 {
   margin-top: 0;
 }
 .typography .commenting-area .Actions {
-  padding-bottom: 0;
+  padding: 0;
+  border-top: none;
 }
 
 .typography #comments-holder h2 {
-  margin-top: 0;
+  margin: 30px 0 10px;
+  padding-bottom: 5px;
+  border-bottom: 1px solid #eee;
 }
 .typography #comments-holder div.field {
   clear: left;
@@ -7187,9 +7199,22 @@ footer .socialLinks a:hover i:before {
 .typography #comments-holder .comments-list {
   margin: 0;
 }
+.typography #comments-holder .comments-holder .num,
+.typography #comments-holder .comments-holder .author {
+  font-size: 1.3em;
+}
+.typography #comments-holder .comments-holder .num {
+  color: #999;
+  margin-right: 5px;
+}
+.typography #comments-holder .comments-holder .num-total {
+  line-height: 40px;
+  margin-bottom: 0;
+}
 .typography #comments-holder .comments-holder li.comment {
+  overflow: hidden;
   list-style-type: none;
-  padding: 10px 15px;
+  padding: 20px 0 10px;
 }
 .typography #comments-holder .comments-holder li.comment.unmoderated {
   border: 2px dashed grey;
@@ -7197,23 +7222,37 @@ footer .socialLinks a:hover i:before {
 .typography #comments-holder .comments-holder li.comment .info {
   margin-bottom: 10px;
 }
-.typography #comments-holder .comments-holder li.comment .info .author {
-  font-size: 1.3em;
+.typography #comments-holder .comments-holder li.comment .date {
+  font-size: 12px;
 }
-.typography #comments-holder .comments-holder li.comment .info .date:before {
+.typography #comments-holder .comments-holder li.comment .date:before {
   content: '\0000a0\0000a0\0000a0\0000a0';
 }
 .typography #comments-holder .comments-holder li.comment .comment-text {
-  border: 1px solid grey;
-  background: white;
-  padding: 10px 20px;
+  border: 1px solid #ddd;
+  background-color: #fff;
   margin: 0;
+  padding: 0 15% 0 20px;
+  white-space: pre;
+  white-space: pre-wrap;
+  white-space: pre-line;
+  word-wrap: break-word;
 }
 .typography #comments-holder .comments-holder li.comment .comment-text p:last-child {
   margin-bottom: 0;
 }
+.typography #comments-holder .comments-holder .action-links {
+  margin: 10px 10px 10px 5px;
+}
+.typography #comments-holder .comments-holder .action-links a::first-letter {
+  text-transform: capitalize;
+}
 .typography #comments-holder .commenting-rss-feed {
   margin-top: 20px;
+}
+.typography #comments-holder .no-comments-yet {
+  display: inline-block;
+  margin-top: 10px;
 }
 
 /**

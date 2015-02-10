@@ -1,41 +1,42 @@
 <% if $CommentsEnabled %>
 	<div id="$CommentHolderID" class="comments-holder-container">
 	
-		<div class="comments-holder well">
-			<h2><% _t('CommentsInterface_ss.COMMENTS','Comments') %></h2>
+		<div class="comments-holder">
+			<p class="pull-right num num-total">$Comments.Count comments</p>
+			<h2>Leave a reply</h2>
 			
 			<% if $Comments %>
-				<ul class="comments-list">
+				<ol class="comments-list">
 					<% loop $Comments %>
 						<li class="comment $EvenOdd<% if FirstLast %> $FirstLast <% end_if %> $SpamClass">
 							<% include CommentsInterface_singlecomment %>
 						</li>
 					<% end_loop %>
-				</ul>
+				</ol>
 			
 				<% with $Comments %>
 					<% include Pagination %>
 				<% end_with %>
 			<% end_if %>
 
-			<p class="no-comments-yet"<% if $Comments.Count %> style='display: none' <% end_if %> ><% _t('CommentsInterface_ss.NOCOMMENTSYET','No one has commented on this page yet.') %></p>
-		
-			<ul class="action-links">
-				<% if DeleteAllLink %>
-					<li class="delete-comments">
-						<a href="$DeleteAllLink"><% _t('CommentsInterface_ss.PageCommentInterface.DELETEALLCOMMENTS','Delete all comments on this page') %></a>
-					</li>
-				<% end_if %>
+			<p class="no-comments-yet"<% if $Comments.Count %> style='display: none' <% end_if %> ><% _t('CommentsInterface_ss.NOCOMMENTSYET','No one has commented on this page yet.') %> <a href="#Form_CommentsForm" title="Comment form">Be the first to reply</a></p>
+		</div>
+
+		<ul class="action-links">
+			<% if DeleteAllLink %>
+				<li class="delete-comments">
+					<a href="$DeleteAllLink"><% _t('CommentsInterface_ss.PageCommentInterface.DELETEALLCOMMENTS','Delete all comments on this page') %></a>
+				</li>
+			<% end_if %>
+			<% if $Comments %>
 				<li><a href="$RssLinkPage"><% _t('CommentsInterface_ss.RSSFEEDCOMMENTS', 'RSS feed for comments on this page') %></a></li>
 				<li><a href="$RssLink"><% _t('CommentsInterface_ss.RSSFEEDALLCOMMENTS', 'RSS feed for all comments') %></a></li>
-			</ul>
-
-		</div>
+			<% end_if %>
+		</ul>
 		
-		<div class="commenting-area well">
-			<h3><% _t('CommentsInterface_ss.POSTCOM','Post your comment') %></h3>
-
+		<div class="commenting-area">
 			<% if $CanPost %>
+				<h3>Comment form</h3>
 				<% if $ModeratedSubmitted %>
 					<p id="$CommentHolderID_PostCommentForm_error" class="message good"><% _t('CommentsInterface_ss.AWAITINGMODERATION', 'Your comment has been submitted and is now awaiting moderation.') %></p>
 				<% end_if %>

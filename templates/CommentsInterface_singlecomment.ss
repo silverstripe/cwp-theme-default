@@ -1,5 +1,6 @@
 <% if not isPreview %>
 	<p class="info">
+		<span class="num pull-right">$Pos</span>
 		<% if $URL %>
 			<a class="author" href="$URL.URL" rel="nofollow">$AuthorName.XML</a>
 		<% else %>
@@ -15,10 +16,10 @@
 <div class="comment-text well" id="<% if isPreview %>comment-preview<% else %>$Permalink<% end_if %>">
 	$EscapedComment
 </div>
-
 <% if not $isPreview %>
 	<% if $ApproveLink || $SpamLink || $HamLink || $DeleteLink %>
-		<ul class="action-links">
+		<ul class="action-links pull-left">
+			<li><strong>Admin options:</strong></li>
 			<% if ApproveLink %>
 				<li><a href="$ApproveLink.ATT" class="approve"><% _t('CommentsInterface_singlecomment_ss.APPROVE', 'approve this comment') %></a></li>
 			<% end_if %>
@@ -34,3 +35,7 @@
 		</ul>
 	<% end_if %>
 <% end_if %>
+
+<ul class="action-links pull-right">
+	<li class="last"><a href="#">Reply</a></li>
+</ul>
