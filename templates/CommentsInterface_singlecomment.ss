@@ -1,6 +1,6 @@
 <% if not isPreview %>
 	<p class="info">
-		<span class="num pull-right">$Pos</span>
+		<span class="num pull-right">$Countdown</span>
 		<% if $URL %>
 			<a class="author" href="$URL.URL" rel="nofollow">$AuthorName.XML</a>
 		<% else %>
