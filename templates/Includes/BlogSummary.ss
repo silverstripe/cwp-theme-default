@@ -4,7 +4,7 @@
 	</figure>
 <% end_if %>
 <header>
-	<h3><a href="$Link">$Title</a></h3>
+	<h2><a href="$Link">$Title</a></h2>
 </header>
 
 <% if $Date || $Author || $Comments %>

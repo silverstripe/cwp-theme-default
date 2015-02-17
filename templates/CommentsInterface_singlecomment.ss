@@ -1,6 +1,5 @@
 <% if not isPreview %>
 	<p class="info">
-		<span class="num pull-right">$Countdown</span>
 		<% if $URL %>
 			<a class="author" href="$URL.URL" rel="nofollow">$AuthorName.XML</a>
 		<% else %>
@@ -35,7 +34,3 @@
 		</ul>
 	<% end_if %>
 <% end_if %>
-
-<ul class="action-links pull-right">
-	<li class="last"><a href="#">Reply</a></li>
-</ul>
