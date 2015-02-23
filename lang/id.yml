@@ -1,0 +1,14 @@
+id:
+  MainNav:
+    BlogHolder:
+      BlogEntry:
+        ss:
+          COMMENTS: Komentar
+          TAGS: 'Tag'
+        BlogTree:
+          ss:
+            NOENTRIES: 'Tidak ada entri blog'
+      ss:
+        NOENTRIES: 'Tidak ada entri blog'
+    ss:
+      MENU: Menu

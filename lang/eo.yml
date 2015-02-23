@@ -1,0 +1,24 @@
+eo:
+  MainNav:
+    BlogHolder:
+      BlogEntry:
+        ss:
+          COMMENTS: Komentoj
+          EDITTHIS: 'Redakti la afiŝon'
+          POSTEDBY: 'Afiŝita de'
+          TAGS: 'Etikedoj:'
+          UNPUBLISHTHIS: 'Malafiŝi la afiŝon'
+          VIEWALLPOSTTAGGED: 'Vidigi ĉiujn markitajn afiŝojn'
+        BlogTree:
+          ss:
+            NOENTRIES: 'Mankas blogaĵoj'
+            VIEWINGPOSTEDBY: 'Vidigas blogaĵojn afiŝitajn de '
+            VIEWINGPOSTEDIN: 'Vidigas blogaĵojn afiŝitajn en '
+            VIEWINGTAGGED: 'Vidigas blogaĵojn markitajn per'
+      ss:
+        NOENTRIES: 'Mankas blogaĵoj'
+        VIEWINGPOSTEDBY: 'Vidigas blogaĵojn afiŝitajn de'
+        VIEWINGPOSTEDIN: 'Vidigas blogaĵojn afiŝitajn en'
+        VIEWINGTAGGED: 'Vidigas blogaĵojn markitajn per'
+    ss:
+      MENU: Menuo
