@@ -7,11 +7,10 @@
 	<h2><a href="$Link">$Title</a></h2>
 </header>
 
-<% if $Date || $Author || $Comments %>
+<% if $PublishDate || $Author || $Comments %>
 	<p class="metaInfo">
-		<% if $Date %>
-			<time datetime="$Date">$Date.Long <% if $StartTime %>$StartTime.Nice <% end_if %>
-			</time>
+		<% if $PublishDate %>
+			<time datetime="$PublishDate">$PublishDate.Long</time>
 		<% end_if %>
 		<% if $Author %>by $Author<% end_if %>
 		<% if $Comments %> | <a href="$Link#comments-holder" title="View Comments Posted">$Comments.Count <% _t('BlogEntry_ss.COMMENTS', 'Comments') %></a><% end_if %>
