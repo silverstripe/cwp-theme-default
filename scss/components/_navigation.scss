@@ -149,14 +149,37 @@ ul.nav, ul.dropdown-menu{
 
 /* Side navigation */
 .sidebar-nav {
-    padding: 9px 0;
+    padding: 16px 0;
+	background-color: #f2f2f2;
+	border: none;
+	@include box-shadow(none);
+
     a:visited{
     	/* color:$linkColor; */
     }
+
+    ul.nav-list,
+    .h6-style,
+    .tagcloud,
+    .sidebar-form {
+    	padding: 0 20px;
+    }
+
+    ul.nav-list {
+		padding-left: 20px;
+		padding-right: 20px;
+	}
+	.nav-list > li > a,
+	.nav-list .nav-header {
+		margin-left:  -20px;
+		margin-right: -20px;
+	}
+	.nav-list > li > a {
+		padding: 3px 21px;
+	}
+
     ul.nav-list {	
-    	list-style:none;    
-    	padding-left:15px;
-    	padding-right:15px;
+    	list-style:none;
     	margin:0;
     	.nav-list li { /* third level */
 	    	a {

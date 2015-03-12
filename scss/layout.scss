@@ -215,6 +215,8 @@ header {
 	.breadcrumb {
 		padding: 7px 14px;
 		margin: 0 0 20px;
+		border: none;
+		@include gradient-vertical(#f2f2f2, #f2f2f2); /* overriding existing gradient-vertical */
 	}
 	.breadcrumb .divider {
 	    color: $gray; 		/* adjust color to meet accessibility standards */
@@ -614,7 +616,7 @@ footer {
  */
 .typography .h6-style {
 	color: $gray;
-	font-size: 11px;
+	font-size: $baseFontSize;
 	text-transform: uppercase;
 	line-height: 18px;
 	margin: 0;
@@ -633,14 +635,7 @@ footer {
 	}
 }
 
-.sidebar-nav {
-	.h6-style {
-		padding: 0 14px;
-	}
-}
-
 .sidebar-form {
-	padding: 9px 14px;
 	fieldset {
 		#IE6 & {
 			display: block;
@@ -732,7 +727,6 @@ footer {
 		}
 
 		.tagcloud {
-			margin: 0 14px;
 			line-height: 1.8em;
 		}
 	}
@@ -756,16 +750,14 @@ footer {
 
 /* tagcloud widget styles */
 .typography ul.tagcloud {
-	padding: 0 15px;
 	margin: 0;
 
 	li {
 		display: inline-block;
-		padding: 3px 0;
+		padding: 3px 6px 3px 0;
 	}
 
 	a {
-		padding: 0 3px;
 		border-radius: 4px;
 
 		&:hover {

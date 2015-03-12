@@ -5649,15 +5649,36 @@ ul.nav, ul.dropdown-menu {
 
 /* Side navigation */
 .sidebar-nav {
-  padding: 9px 0;
+  padding: 16px 0;
+  background-color: #f2f2f2;
+  border: none;
+  -webkit-box-shadow: none;
+  -moz-box-shadow: none;
+  box-shadow: none;
 }
 .sidebar-nav a:visited {
   /* color:$linkColor; */
 }
+.sidebar-nav ul.nav-list,
+.sidebar-nav .h6-style,
+.sidebar-nav .tagcloud,
+.sidebar-nav .sidebar-form {
+  padding: 0 20px;
+}
+.sidebar-nav ul.nav-list {
+  padding-left: 20px;
+  padding-right: 20px;
+}
+.sidebar-nav .nav-list > li > a,
+.sidebar-nav .nav-list .nav-header {
+  margin-left: -20px;
+  margin-right: -20px;
+}
+.sidebar-nav .nav-list > li > a {
+  padding: 3px 21px;
+}
 .sidebar-nav ul.nav-list {
   list-style: none;
-  padding-left: 15px;
-  padding-right: 15px;
   margin: 0;
 }
 .sidebar-nav ul.nav-list .nav-list li {
@@ -5909,25 +5930,11 @@ ul.nav, ul.dropdown-menu {
 #layout .resultsHeader {
   padding: 7px 14px;
   margin: 12px 0 24px;
-  border: 1px solid #ddd;
-  background-color: #fbfbfb;
-  background-image: -ms-linear-gradient(top, #fff, #f5f5f5);
-  background-image: -webkit-gradient(linear, 0 0, 0 100%, from(#fff), to(#f5f5f5));
-  background-image: -webkit-linear-gradient(top, #fff, #f5f5f5);
-  background-image: -o-linear-gradient(top, #fff, #f5f5f5);
-  background-image: -moz-linear-gradient(top, #fff, #f5f5f5);
-  background-image: linear-gradient(top, #fff, #f5f5f5);
-  background-repeat: repeat-x;
+  background-color: #f2f2f2;
   -webkit-border-radius: 3px;
   -moz-border-radius: 3px;
   border-radius: 3px;
-  -webkit-box-shadow: inset 0 1px 0 #fff;
-  -moz-box-shadow: inset 0 1px 0 #fff;
-  box-shadow: inset 0 1px 0 #fff;
   *zoom: 1;
-}
-#IE8 #layout .resultsHeader {
-  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#FFFFFFFF', endColorstr='#FFF5F5F5', GradientType=0);
 }
 #layout .resultsHeader:before, #layout .resultsHeader:after {
   display: table;
@@ -6172,6 +6179,19 @@ header ul#lang li {
 .typography .breadcrumb {
   padding: 7px 14px;
   margin: 0 0 20px;
+  border: none;
+  background-color: #f2f2f2;
+  background-image: -ms-linear-gradient(top, #f2f2f2, #f2f2f2);
+  background-image: -webkit-gradient(linear, 0 0, 0 100%, from(#f2f2f2), to(#f2f2f2));
+  background-image: -webkit-linear-gradient(top, #f2f2f2, #f2f2f2);
+  background-image: -o-linear-gradient(top, #f2f2f2, #f2f2f2);
+  background-image: -moz-linear-gradient(top, #f2f2f2, #f2f2f2);
+  background-image: linear-gradient(top, #f2f2f2, #f2f2f2);
+  background-repeat: repeat-x;
+  /* overriding existing gradient-vertical */
+}
+#IE8 .typography .breadcrumb {
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#FFF2F2F2', endColorstr='#FFF2F2F2', GradientType=0);
 }
 .typography .breadcrumb .divider {
   color: #555;
@@ -6996,7 +7016,7 @@ footer .socialLinks a:hover i:before {
  */
 .typography .h6-style {
   color: #555;
-  font-size: 11px;
+  font-size: 16px;
   text-transform: uppercase;
   line-height: 18px;
   margin: 0;
@@ -7013,13 +7033,6 @@ footer .socialLinks a:hover i:before {
   margin: 0;
 }
 
-.sidebar-nav .h6-style {
-  padding: 0 14px;
-}
-
-.sidebar-form {
-  padding: 9px 14px;
-}
 #IE6 .sidebar-form fieldset {
   display: block;
   width: 160px;
@@ -7095,7 +7108,6 @@ footer .socialLinks a:hover i:before {
   text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.2);
 }
 #BlogContent #Sidebar .tagcloud {
-  margin: 0 14px;
   line-height: 1.8em;
 }
 
@@ -7116,15 +7128,13 @@ footer .socialLinks a:hover i:before {
 
 /* tagcloud widget styles */
 .typography ul.tagcloud {
-  padding: 0 15px;
   margin: 0;
 }
 .typography ul.tagcloud li {
   display: inline-block;
-  padding: 3px 0;
+  padding: 3px 6px 3px 0;
 }
 .typography ul.tagcloud a {
-  padding: 0 3px;
   border-radius: 4px;
 }
 .typography ul.tagcloud a:hover {
