@@ -894,8 +894,13 @@
   .nav-collapse .navbar-form,
   .nav-collapse .navbar-search {
     float: none;
+<<<<<<< Updated upstream
     padding: 12px 15px;
     margin: 12px 0;
+=======
+    padding: 10px 15px;
+    margin: 10px 0;
+>>>>>>> Stashed changes
     border-top: 1px solid #222;
     border-bottom: 1px solid #222;
     -webkit-box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.1), 0 1px 0 rgba(255, 255, 255, 0.1);

@@ -37,6 +37,7 @@ body {
 	padding: 0 !important;
 }
 
+
 /*Customise search field */	
 #SearchGroup{
 	float: right;
@@ -48,6 +49,9 @@ body {
 		&:focus {
 			background-color: #FFF;
 		}
+	}
+	.navbar-search{
+		margin-top:2px;
 	}
 	/* search container takes 100% width by default when floated right in IE7 */
 	#IE6 &,

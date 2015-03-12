@@ -3921,7 +3921,7 @@ input[type="submit"].btn.btn-mini,
 }
 
 .navbar-inner {
-  min-height: 35px;
+  min-height: 57px;
   padding-left: 20px;
   padding-right: 20px;
   background-color: #2c2c2c;
@@ -3956,7 +3956,7 @@ input[type="submit"].btn.btn-mini,
 .navbar .brand {
   float: left;
   display: block;
-  padding: 5.5px 20px 9.5px;
+  padding: 16.5px 20px 20.5px;
   margin-left: -20px;
   font-size: 20px;
   font-weight: 200;
@@ -3965,7 +3965,7 @@ input[type="submit"].btn.btn-mini,
 }
 .navbar .navbar-text {
   margin-bottom: 0;
-  line-height: 35px;
+  line-height: 57px;
 }
 .navbar .navbar-link {
   color: #c7c7c7;
@@ -3975,7 +3975,7 @@ input[type="submit"].btn.btn-mini,
 }
 .navbar .btn, .navbar .Actions .action, .Actions .navbar .action,
 .navbar .btn-group {
-  margin-top: 2.5px;
+  margin-top: 13.5px;
 }
 .navbar .btn-group .btn, .navbar .btn-group .Actions .action, .Actions .navbar .btn-group .action {
   margin: 0;
@@ -3996,7 +3996,7 @@ input[type="submit"].btn.btn-mini,
 .navbar-form select,
 .navbar-form .radio,
 .navbar-form .checkbox {
-  margin-top: 2.5px;
+  margin-top: 13.5px;
 }
 .navbar-form input,
 .navbar-form select {
@@ -4021,7 +4021,7 @@ input[type="submit"].btn.btn-mini,
 .navbar-search {
   position: relative;
   float: left;
-  margin-top: 3.5px;
+  margin-top: 14.5px;
   margin-bottom: 0;
 }
 .navbar-search .search-query {
@@ -4110,7 +4110,7 @@ input[type="submit"].btn.btn-mini,
 
 .navbar .nav > li > a {
   float: none;
-  padding: 6.5px 10px 8.5px;
+  padding: 17.5px 10px 19.5px;
   line-height: 19px;
   color: #c7c7c7;
   text-decoration: none;
@@ -4120,13 +4120,18 @@ input[type="submit"].btn.btn-mini,
 .navbar .btn, .navbar .Actions .action, .Actions .navbar .action {
   display: inline-block;
   padding: 4px 10px 4px;
+<<<<<<< Updated upstream
   margin: 2.5px 5px 3.5px;
   line-height: 24px;
+=======
+  margin: 13.5px 5px 14.5px;
+  line-height: 20px;
+>>>>>>> Stashed changes
 }
 
 .navbar .btn-group {
   margin: 0;
-  padding: 2.5px 5px 3.5px;
+  padding: 13.5px 5px 14.5px;
 }
 
 .navbar .nav > li > a:hover {
@@ -4143,7 +4148,7 @@ input[type="submit"].btn.btn-mini,
 }
 
 .navbar .divider-vertical {
-  height: 35px;
+  height: 57px;
   width: 1px;
   margin: 0 9px;
   overflow: hidden;
@@ -5577,7 +5582,7 @@ ul.nav, ul.dropdown-menu {
   }
 }
 .navbar {
-  font-size: 13px;
+  font-size: 15px;
 }
 .navbar .showChildren {
   display: inline-block;
@@ -5589,7 +5594,7 @@ ul.nav, ul.dropdown-menu {
   margin-top: -3px;
 }
 .navbar .nav > li > a {
-  padding: 9px 10px 9px 11px;
+  padding: 19px 15px 19px 11px;
 }
 .navbar .nav > li > a:focus {
   background-color: #555;
@@ -6028,6 +6033,9 @@ body {
 }
 #SearchGroup .navbar-search .search-query:focus {
   background-color: #FFF;
+}
+#SearchGroup .navbar-search {
+  margin-top: 2px;
 }
 #IE6 #SearchGroup, #IE7 #SearchGroup {
   width: 25%;
