@@ -4120,13 +4120,8 @@ input[type="submit"].btn.btn-mini,
 .navbar .btn, .navbar .Actions .action, .Actions .navbar .action {
   display: inline-block;
   padding: 4px 10px 4px;
-<<<<<<< Updated upstream
-  margin: 2.5px 5px 3.5px;
-  line-height: 24px;
-=======
   margin: 13.5px 5px 14.5px;
-  line-height: 20px;
->>>>>>> Stashed changes
+  line-height: 24px;
 }
 
 .navbar .btn-group {
@@ -6014,6 +6009,7 @@ body {
 }
 #SearchGroup .navbar-search .search-query {
   line-height: 1.3em;
+  font-size: 15px;
   background-color: #FFF;
   color: #555;
 }

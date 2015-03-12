@@ -43,6 +43,7 @@ body {
 	float: right;
 	.navbar-search .search-query {
 		line-height:1.3em;
+		font-size: 15px;
 		background-color: #FFF;
 		color: $textColor; 
 		@include customPlaceholder();
