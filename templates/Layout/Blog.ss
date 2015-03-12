@@ -1,6 +1,5 @@
 <div class="row">
 	<% include Breadcrumbs %>
-	<% include BlogSideBar %>
 	
 	<div class="<% if $SideBarView %>span9<% else %>span12<% end_if %> resultsList">
 		<div id="main" role="main">
@@ -60,4 +59,5 @@
 		</div>
 		<% include LastEdited %>
 	</div>
+	<% include BlogSideBar %>
 </div>

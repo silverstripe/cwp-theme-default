@@ -221,12 +221,15 @@ header {
 	}
 
 	p.last-edited {
-		float: right;
-		clear: right;
+		clear: both;
+  		text-align: right;
 		font-size: 0.8em;
 		margin: 0;
 		time {
 			font-size: 1.0em;
+		}
+		@media (max-width: 767px) {
+			margin: 0 0 20px;
 		}
 	}
 

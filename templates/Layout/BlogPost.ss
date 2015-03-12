@@ -1,6 +1,5 @@
 <div class="row">
 	<% include Breadcrumbs %>
-	<% include BlogSideBar %>
 
 	<div class="span9">
 		<div id="main" role="main">
@@ -17,4 +16,5 @@
 		</div>
 		<% include LastEdited %>
 	</div>
+	<% include BlogSideBar %>
 </div>

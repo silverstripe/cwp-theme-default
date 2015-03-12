@@ -1655,20 +1655,20 @@ TYPOGRAPHY
   /*** Image formatting ***/
 }
 .typography p {
-  margin: 0 0 10px;
+  margin: 0 0 12px;
   font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
-  font-size: 14px;
-  line-height: 20px;
+  font-size: 16px;
+  line-height: 24px;
 }
 .typography p small {
-  font-size: 12px;
+  font-size: 14px;
   color: #999;
 }
 .typography .lead {
-  margin-bottom: 20px;
+  margin-bottom: 24px;
   font-size: 20px;
   font-weight: 200;
-  line-height: 30px;
+  line-height: 36px;
 }
 .typography h1, .typography h2, .typography h3, .typography h4, .typography h5, .typography h6 {
   margin: 0;
@@ -1683,27 +1683,27 @@ TYPOGRAPHY
 }
 .typography h1 {
   font-size: 30px;
-  line-height: 40px;
+  line-height: 48px;
 }
 .typography h1 small {
   font-size: 18px;
 }
 .typography h2 {
   font-size: 24px;
-  line-height: 40px;
+  line-height: 48px;
 }
 .typography h2 small {
   font-size: 18px;
 }
 .typography h3 {
   font-size: 18px;
-  line-height: 30px;
+  line-height: 36px;
 }
 .typography h3 small {
   font-size: 14px;
 }
 .typography h4, .typography h5, .typography h6 {
-  line-height: 20px;
+  line-height: 24px;
 }
 .typography h4 {
   font-size: 14px;
@@ -1720,8 +1720,8 @@ TYPOGRAPHY
   text-transform: uppercase;
 }
 .typography .page-header {
-  padding-bottom: 19px;
-  margin: 20px 0;
+  padding-bottom: 23px;
+  margin: 24px 0;
   border-bottom: 1px solid #eee;
 }
 .typography .page-header h1 {
@@ -1729,7 +1729,7 @@ TYPOGRAPHY
 }
 .typography ul, .typography ol {
   padding: 0;
-  margin: 0 0 10px 25px;
+  margin: 0 0 12px 25px;
 }
 .typography ul ul,
 .typography ul ol,
@@ -1744,7 +1744,7 @@ TYPOGRAPHY
   list-style: decimal;
 }
 .typography li {
-  line-height: 20px;
+  line-height: 24px;
 }
 .typography ul.unstyled,
 .typography ol.unstyled {
@@ -1752,18 +1752,18 @@ TYPOGRAPHY
   list-style: none;
 }
 .typography dl {
-  margin-bottom: 20px;
+  margin-bottom: 24px;
 }
 .typography dt,
 .typography dd {
-  line-height: 20px;
+  line-height: 24px;
 }
 .typography dt {
   font-weight: bold;
-  line-height: 19px;
+  line-height: 23px;
 }
 .typography dd {
-  margin-left: 10px;
+  margin-left: 12px;
 }
 .typography .dl-horizontal dt {
   float: left;
@@ -1778,7 +1778,7 @@ TYPOGRAPHY
   margin-left: 130px;
 }
 .typography hr {
-  margin: 20px 0;
+  margin: 24px 0;
   border: 0;
   border-top: 1px solid #DDD;
   border-bottom: 1px solid #fff;
@@ -1802,18 +1802,18 @@ TYPOGRAPHY
 }
 .typography blockquote {
   padding: 0 0 0 15px;
-  margin: 0 0 20px;
+  margin: 0 0 24px;
   border-left: 5px solid #eee;
 }
 .typography blockquote p {
   margin-bottom: 0;
   font-size: 16px;
   font-weight: 300;
-  line-height: 25px;
+  line-height: 30px;
 }
 .typography blockquote small {
   display: block;
-  line-height: 20px;
+  line-height: 24px;
   color: #999;
 }
 .typography blockquote small:before {
@@ -1838,9 +1838,9 @@ TYPOGRAPHY
 }
 .typography address {
   display: block;
-  margin-bottom: 20px;
+  margin-bottom: 24px;
   font-style: normal;
-  line-height: 20px;
+  line-height: 24px;
 }
 .typography small {
   font-size: 100%;
@@ -1852,7 +1852,7 @@ TYPOGRAPHY
 .typography pre {
   padding: 0 3px 2px;
   font-family: Menlo, Monaco, Consolas, "Courier New", monospace;
-  font-size: 13px;
+  font-size: 15px;
   color: #333;
   -webkit-border-radius: 3px;
   -moz-border-radius: 3px;
@@ -1866,10 +1866,10 @@ TYPOGRAPHY
 }
 .typography pre {
   display: block;
-  padding: 9.5px;
-  margin: 0 0 10px;
-  font-size: 12.95px;
-  line-height: 20px;
+  padding: 11.5px;
+  margin: 0 0 12px;
+  font-size: 14.8px;
+  line-height: 24px;
   word-break: break-all;
   word-wrap: break-word;
   white-space: pre;
@@ -1882,7 +1882,7 @@ TYPOGRAPHY
   border-radius: 4px;
 }
 .typography pre.pre-prettyprint {
-  margin-bottom: 20px;
+  margin-bottom: 24px;
 }
 .typography pre code {
   padding: 0;
@@ -1902,13 +1902,13 @@ TYPOGRAPHY
 }
 .typography .table, .typography table {
   width: 100%;
-  margin-bottom: 20px;
+  margin-bottom: 24px;
 }
 .typography .table th, .typography table th,
 .typography .table td,
 .typography table td {
   padding: 8px;
-  line-height: 20px;
+  line-height: 24px;
   text-align: left;
   vertical-align: top;
   border-top: 1px solid #ddd;
@@ -2048,7 +2048,7 @@ TYPOGRAPHY
 .typography .hero-unit p {
   font-size: 18px;
   font-weight: 200;
-  line-height: 30px;
+  line-height: 36px;
   color: inherit;
 }
 .typography h1 {
@@ -2056,21 +2056,21 @@ TYPOGRAPHY
   line-height: 1;
 }
 .typography h2, .typography h3 {
-  margin: 20px 0 10px;
+  margin: 24px 0 12px;
 }
 .typography h6 {
   color: #555;
 }
 .typography p {
-  margin-bottom: 20px;
-  font-size: 14px;
-  line-height: 20px;
+  margin-bottom: 24px;
+  font-size: 16px;
+  line-height: 24px;
 }
 .typography a:hover img, .typography a:focus img {
-  border: 1px solid #0464EA;
+  border: 1px solid #0b7aca;
 }
 .typography .metaInfo {
-  margin-bottom: 10px;
+  margin-bottom: 12px;
   color: #555;
 }
 .typography span.highlight {
@@ -2082,7 +2082,7 @@ TYPOGRAPHY
 .typography blockquote small, .typography blockquote .blockquote-author {
   color: #555;
   display: block;
-  line-height: 20px;
+  line-height: 24px;
   font-size: .8em;
   margin-bottom: 0;
 }

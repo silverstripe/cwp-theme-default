@@ -1,6 +1,19 @@
 <div class="row">
 	<% include Breadcrumbs %>
 	<div id="main" role="main">
+		<div class="span9">
+			<h1 class="page-header">$Title</h1>
+
+			<div class="clearfix">
+				$Content.RichLinks
+			</div>
+			$Form
+			<p><a href="$Parent.Link">←  Back to the event listing</a></p>
+			<% include RelatedPages %>
+			$CommentsForm
+			<% include PrintShare %>
+			<% include LastEdited %>
+		</div>
 		<aside class="span3">
 			<div class="well update-information">
 				<h2 class="nonvisual-indicator">Event information</h2>
@@ -26,18 +39,5 @@
 				</dl>
 			</div>
 		</aside>
-		<div class="span9">
-			<h1 class="page-header">$Title</h1>
-
-			<div class="clearfix">
-				$Content.RichLinks
-			</div>
-			$Form
-			<p><a href="$Parent.Link">←  Back to the event listing</a></p>
-			<% include RelatedPages %>
-			$CommentsForm
-			<% include PrintShare %>
-			<% include LastEdited %>
-		</div>
 	</div>
 </div>
