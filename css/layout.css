@@ -5589,7 +5589,7 @@ ul.nav, ul.dropdown-menu {
   margin-top: -3px;
 }
 .navbar .nav > li > a {
-  padding: 19px 15px 19px 11px;
+  padding: 19px 15px 21px 11px;
 }
 .navbar .nav > li > a:focus {
   background-color: #555;
@@ -6031,13 +6031,13 @@ body {
   background-color: #FFF;
 }
 #SearchGroup .navbar-search {
-  margin-top: 2px;
+  margin-top: 0;
 }
 #IE6 #SearchGroup, #IE7 #SearchGroup {
   width: 25%;
 }
 #SearchGroup form {
-  padding: 0;
+  padding: 13px 0 0 0;
 }
 #SearchGroup form .field {
   margin: 0;
@@ -6073,7 +6073,8 @@ body {
   border-color: rgba(0, 0, 0, 0.1) rgba(0, 0, 0, 0.1) rgba(0, 0, 0, 0.25);
   text-shadow: none;
   padding-top: 4px;
-  padding-bottom: 3px;
+  padding-bottom: 1px;
+  margin: 0px;
 }
 #IE8 #SearchGroup form input.btn-navbar {
   filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#FFFFFFFF', endColorstr='#FFE6E6E6', GradientType=0);

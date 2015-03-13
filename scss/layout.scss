@@ -52,7 +52,7 @@ body {
 		}
 	}
 	.navbar-search{
-		margin-top:2px;
+		margin-top:0;
 	}
 	/* search container takes 100% width by default when floated right in IE7 */
 	#IE6 &,
@@ -63,7 +63,7 @@ body {
 		.field{
 			margin:0;
 		}
-		padding:0;
+		padding:13px 0 0 0;
 
 		label {
 			display: none;
@@ -96,7 +96,8 @@ body {
 			@include gradientBar(#FFF, #E6E6E6);
 			text-shadow: none;
 			padding-top: 4px;
-			padding-bottom: 3px;
+			padding-bottom: 1px;
+			margin:0px;
 			
 			#IE6 & {
 				width: 40px;
