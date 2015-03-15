@@ -148,20 +148,24 @@ ul.nav, ul.dropdown-menu{
 }
 
 /* Side navigation */
-.sidebar-nav {
-    padding: 16px 0;
+.sidebar-nav,
+.sidebar-form {
+	padding: 16px 0;
 	background-color: #f2f2f2;
 	border: none;
 	@include box-shadow(none);
-
+}
+.sidebar-form {
+	padding: 16px 20px;
+}
+.sidebar-nav {
     a:visited{
     	/* color:$linkColor; */
     }
 
     ul.nav-list,
     .h6-style,
-    .tagcloud,
-    .sidebar-form {
+    .tagcloud {
     	padding: 0 20px;
     }
 

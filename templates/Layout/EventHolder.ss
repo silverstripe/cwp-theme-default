@@ -1,6 +1,6 @@
 <div class="row">
-	<% include Breadcrumbs %>
 	<div id="main" class="span9 resultsList" role="main">
+		<% include Breadcrumbs %>
 		<h1 class="page-header">$Title</h1>
 
 		<div class="clearfix">
@@ -28,17 +28,6 @@
 		<% end_if %>
 
 		<% if FilteredUpdates %>
-			<div class="resultsHeader">
-				<h2 class="pull-left">
-					<% if FilterDescription %>
-						$FilterDescription
-					<% else %>
-						Upcoming events
-					<% end_if %>
-				</h2> 
-				<p class="pull-right"><% with FilteredUpdates %>$FirstItem - $LastItem of $count<% end_with %></p>
-			</div>
-		
 			<% loop FilteredUpdates %>
 				<article class="$EvenOdd">
 					<header>
@@ -65,11 +54,6 @@
 				<% include Pagination %>
 			<% end_with %>
 		<% else %>
-			<div class="resultsHeader">
-				<h2 class="pull-left"><% if FilterDescription %>$FilterDescription<% else %>Upcoming events<% end_if %></h2>
-				<p class="pull-right">None</p>
-			</div>
-
 			<article class="">
 				<p>No events</p>
 			</article>

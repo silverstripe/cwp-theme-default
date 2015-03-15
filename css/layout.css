@@ -5648,7 +5648,8 @@ ul.nav, ul.dropdown-menu {
 }
 
 /* Side navigation */
-.sidebar-nav {
+.sidebar-nav,
+.sidebar-form {
   padding: 16px 0;
   background-color: #f2f2f2;
   border: none;
@@ -5656,13 +5657,17 @@ ul.nav, ul.dropdown-menu {
   -moz-box-shadow: none;
   box-shadow: none;
 }
+
+.sidebar-form {
+  padding: 16px 20px;
+}
+
 .sidebar-nav a:visited {
   /* color:$linkColor; */
 }
 .sidebar-nav ul.nav-list,
 .sidebar-nav .h6-style,
-.sidebar-nav .tagcloud,
-.sidebar-nav .sidebar-form {
+.sidebar-nav .tagcloud {
   padding: 0 20px;
 }
 .sidebar-nav ul.nav-list {
@@ -6182,21 +6187,21 @@ header ul#lang li {
   /* Needed to override typography styles */
 }
 .typography .breadcrumb {
-  padding: 7px 14px;
+  padding: 0 1px;
   margin: 0 0 20px;
   border: none;
-  background-color: #f2f2f2;
-  background-image: -ms-linear-gradient(top, #f2f2f2, #f2f2f2);
-  background-image: -webkit-gradient(linear, 0 0, 0 100%, from(#f2f2f2), to(#f2f2f2));
-  background-image: -webkit-linear-gradient(top, #f2f2f2, #f2f2f2);
-  background-image: -o-linear-gradient(top, #f2f2f2, #f2f2f2);
-  background-image: -moz-linear-gradient(top, #f2f2f2, #f2f2f2);
-  background-image: linear-gradient(top, #f2f2f2, #f2f2f2);
+  background-color: white;
+  background-image: -ms-linear-gradient(top, #fff, #fff);
+  background-image: -webkit-gradient(linear, 0 0, 0 100%, from(#fff), to(#fff));
+  background-image: -webkit-linear-gradient(top, #fff, #fff);
+  background-image: -o-linear-gradient(top, #fff, #fff);
+  background-image: -moz-linear-gradient(top, #fff, #fff);
+  background-image: linear-gradient(top, #fff, #fff);
   background-repeat: repeat-x;
   /* overriding existing gradient-vertical */
 }
 #IE8 .typography .breadcrumb {
-  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#FFF2F2F2', endColorstr='#FFF2F2F2', GradientType=0);
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#FFFFFFFF', endColorstr='#FFFFFFFF', GradientType=0);
 }
 .typography .breadcrumb .divider {
   color: #555;
@@ -7025,6 +7030,7 @@ footer .socialLinks a:hover i:before {
   text-transform: uppercase;
   line-height: 18px;
   margin: 0;
+  padding-bottom: 7px;
 }
 
 .typography .month-filter .h6-style {
@@ -7038,6 +7044,9 @@ footer .socialLinks a:hover i:before {
   margin: 0;
 }
 
+.sidebar-form form {
+  margin-bottom: 0;
+}
 #IE6 .sidebar-form fieldset {
   display: block;
   width: 160px;
@@ -7053,6 +7062,9 @@ footer .socialLinks a:hover i:before {
 }
 #IE6 .sidebar-form div.field.date input {
   height: 20px;
+}
+.sidebar-form .Actions {
+  padding-bottom: 0;
 }
 #IE8 .sidebar-form .Actions {
   filter: none;

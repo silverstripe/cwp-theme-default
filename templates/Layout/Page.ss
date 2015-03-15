@@ -1,6 +1,6 @@
 <div class="row">
-	<% include Breadcrumbs %>
 	<div class="<% if Menu(2) %>span9<% else %>span12<% end_if %>">
+		<% include Breadcrumbs %>
 		<div id="main" role="main">
 			<h1 class="page-header">$Title</h1>
 			$Content.RichLinks

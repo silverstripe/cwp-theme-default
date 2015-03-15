@@ -219,10 +219,10 @@ header {
 
 	// Breadcrumbs
 	.breadcrumb {
-		padding: 7px 14px;
+		padding: 0 1px;
 		margin: 0 0 20px;
 		border: none;
-		@include gradient-vertical(#f2f2f2, #f2f2f2); /* overriding existing gradient-vertical */
+		@include gradient-vertical(#fff, #fff); /* overriding existing gradient-vertical */
 	}
 	.breadcrumb .divider {
 	    color: $gray; 		/* adjust color to meet accessibility standards */
@@ -626,6 +626,7 @@ footer {
 	text-transform: uppercase;
 	line-height: 18px;
 	margin: 0;
+	padding-bottom: 7px;
 }
 
 .typography .month-filter {
@@ -642,6 +643,9 @@ footer {
 }
 
 .sidebar-form {
+	form {
+		margin-bottom: 0;
+	}
 	fieldset {
 		#IE6 & {
 			display: block;
@@ -661,6 +665,7 @@ footer {
 		}
 	}
 	.Actions {
+		padding-bottom: 0;
 		#IE8 & {
 			filter: none;
 		}

@@ -1,7 +1,7 @@
 <div class="row">
-	<% include Breadcrumbs %>
 	<div id="main" role="main">
 		<div class="span9">
+			<% include Breadcrumbs %>
 			<h1 class="page-header">$Title</h1>
 
 			<div class="clearfix">

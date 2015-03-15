@@ -9,7 +9,7 @@
 			</a>
 		<% else %>
 			<a title="Return to homepage" href="$BaseHref" style="padding-left: 105px; height: 119px; min-height: 119px;">
-				<img src="$ThemeDir/images/logo.png" width="105" height="119" title="My Department Logo" alt="My Department Logo" />
+				<img src="$ThemeDir/images/logo.png" width="75" height="75" title="My Department Logo" alt="My Department Logo" />
 				<span>
 					$SiteConfig.Title
 				</span>
