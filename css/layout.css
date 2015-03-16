@@ -6091,7 +6091,7 @@ body {
 /*HEADER */
 header .brand {
   font-size: 3em;
-  font-weight: bold;
+  font-weight: normal;
   overflow: visible;
   line-height: 1em;
   float: left;
@@ -6108,13 +6108,13 @@ header .brand a {
 }
 header .brand a img {
   position: absolute;
-  top: 0px;
-  left: 0px;
+  top: 0;
+  left: 0;
 }
 header .brand a span {
   float: left;
-  margin-top: 38px;
-  margin-left: 5px;
+  margin-top: 35px;
+  margin-left: 10px;
 }
 header .brand a:visited {
   color: black;
