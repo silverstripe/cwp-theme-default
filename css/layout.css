@@ -6009,6 +6009,7 @@ body {
 
 h1.page-header, header .page-header.brand {
   border-bottom: none !important;
+  padding-bottom: 0px !important;
 }
 
 /*Customise search field */

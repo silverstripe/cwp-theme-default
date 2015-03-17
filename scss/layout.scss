@@ -37,11 +37,12 @@ body {
 	padding: 0 !important;
 }
 
-h1.page-header{
-	border-bottom:none !important;
+.typography h1.page-header{
+	border-bottom:none;
+	padding-bottom:0px;
 }
 
-/*Customise search field */	
+/*Customise search field */
 #SearchGroup{
 	float: right;
 	.navbar-search .search-query {
