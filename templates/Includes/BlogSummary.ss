@@ -7,13 +7,23 @@
 	<h2><a href="$Link">$Title</a></h2>
 </header>
 
-<% if $PublishDate || $Author || $Comments %>
+<% if $PublishDate || $Author|| $AuthorNames || $Comments %>
 	<p class="metaInfo">
+		<% if $Authors || $AuthorNames %>
+			<%t Blog.By "by" %>
+			<% if $Authors %><% loop $Authors %>
+				$Name.XML,<% if not $Last || $Up.AuthorNames %><% end_if %>
+			<% end_loop %><% end_if %>
+			<% if $AuthorNames %>
+				$AuthorNames,
+			<% end_if %>
+		<% end_if %>
 		<% if $PublishDate %>
 			<time datetime="$PublishDate">$PublishDate.Long</time>
-		<% end_if %>
-		<% if $Author %>by $Author<% end_if %>
-		<% if $Comments %> | <a href="$Link#comments-holder" title="View Comments Posted">$Comments.Count <% _t('BlogEntry_ss.COMMENTS', 'Comments') %></a><% end_if %>
+		<% end_if %>	
+	</p>
+	<p class="metaInfo">
+		<% if $Comments %> <a href="$Link#comments-holder" title="View Comments Posted">$Comments.Count <% _t('BlogEntry_ss.COMMENTS', 'Comments') %></a><% end_if %>
 	</p>
 <% end_if %>
 

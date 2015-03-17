@@ -37,6 +37,9 @@ body {
 	padding: 0 !important;
 }
 
+h1.page-header{
+	border-bottom:none !important;
+}
 
 /*Customise search field */	
 #SearchGroup{
@@ -46,6 +49,7 @@ body {
 		font-size: 15px;
 		background-color: #FFF;
 		color: $textColor; 
+		border-radius:4px;
 		@include customPlaceholder();
 		&:focus {
 			background-color: #FFF;
@@ -95,9 +99,8 @@ body {
 			display: inline;
 			@include gradientBar(#FFF, #E6E6E6);
 			text-shadow: none;
-			padding-top: 4px;
-			padding-bottom: 1px;
 			margin:0px;
+			padding:4px 10px;
 			
 			#IE6 & {
 				width: 40px;
@@ -107,6 +110,7 @@ body {
 }
 
 /*HEADER */
+
 header {
 	.brand {
 		#IE6 &,
@@ -696,8 +700,74 @@ footer {
 }
 
 /**
+ * CWP Blog and BlogPosts
+ */
+
+.Blog{
+	header{
+		h2{
+			margin-top:40px;
+			margin-bottom:0px;			
+			a{
+				font-size:28px;
+				line-height:36px;
+			}
+		}
+	}
+	article{
+		padding-bottom: 40px;
+		.metaInfo{
+			margin-bottom: 0px;
+		}
+	}
+}
+
+.BlogPost{
+	.blog-post-meta{
+		margin-bottom:0px;
+	}
+	.typography #comments-holder{
+		.comments-holder{
+			.author{
+				font-size:16px;
+			}
+			li.comment{
+				clear:both;
+				.comment-text{
+					border: 0px;
+  					background-color: #f2f2f2 ;
+  					box-shadow: none;
+				}
+				.date{
+					font-size:16px;
+				}
+			}
+		}
+	}
+	.commenting-area{
+		label.left{
+			font-weight: normal;
+		}
+		input, textarea, select{
+			background-color:#f2f2f2;
+			border:none;
+			box-shadow: none;
+		}
+	}
+}
+
+/*CWP blog widgets */	
+#Sidebar ul li a:hover {
+  background-color: #0b7aca;
+  text-decoration: none;
+  color:white;
+  text-shadow:none;
+}
+
+/**
  * Blog module
  */
+
 #BlogContent {
 	#Sidebar {
 		h3 {
@@ -788,7 +858,7 @@ footer {
 /**
  * Comments
  */
-#comments-holder {		
+#comments-holder {	
 	ul.action-links {
 		margin-top: 10px;
 		text-align: right;
@@ -807,6 +877,7 @@ footer {
 	.comment-count {
 		margin: 15px 0;
 	}
+
 }
 .typography .commenting-area {
 	margin-top: 50px;

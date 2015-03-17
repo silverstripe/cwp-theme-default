@@ -1,11 +1,9 @@
 <% if $CommentsEnabled %>
 	<div id="$CommentHolderID" class="comments-holder-container">
 	
-		<div class="comments-holder">
-			<p class="pull-right num num-total">$Comments.Count comments</p>
-			<h2>Leave a reply</h2>
-			
+		<div class="comments-holder">			
 			<% if $Comments %>
+			<h3>Comments ($Comments.Count)</h3>			
 				<ol class="comments-list">
 					<% loop $Comments %>
 						<li class="comment $EvenOdd<% if FirstLast %> $FirstLast <% end_if %> $SpamClass">
@@ -19,7 +17,6 @@
 				<% end_with %>
 			<% end_if %>
 
-			<p class="no-comments-yet"<% if $Comments.Count %> style='display: none' <% end_if %> ><% _t('CommentsInterface_ss.NOCOMMENTSYET','No one has commented on this page yet.') %> <a href="#Form_CommentsForm" title="Comment form">Be the first to reply</a></p>
 		</div>
 
 		<ul class="action-links">
@@ -36,7 +33,7 @@
 		
 		<div class="commenting-area">
 			<% if $CanPost %>
-				<h3>Comment form</h3>
+				<h3>Leave a comment</h3>
 				<% if $ModeratedSubmitted %>
 					<p id="$CommentHolderID_PostCommentForm_error" class="message good"><% _t('CommentsInterface_ss.AWAITINGMODERATION', 'Your comment has been submitted and is now awaiting moderation.') %></p>
 				<% end_if %>
