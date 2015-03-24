@@ -1,5 +1,5 @@
 <% if $SideBarView %>
-	<aside class="span3" id="Sidebar">
+	<aside id="blog-sidebar" class="span3">
 		$SideBarView
 	</aside>
 <% end_if %>

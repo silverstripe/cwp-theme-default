@@ -1,0 +1,42 @@
+.blog-entry {
+
+    .blog-post-meta{
+        margin-bottom:0px;
+    }
+
+    .typography #comments-holder {
+        .comments-holder {
+            .author {
+                font-size:16px;
+            }
+
+            li.comment {
+                clear:both;
+
+                .comment-text {
+                    border: 0px;
+                    background-color: #f2f2f2;
+                    box-shadow: none;
+                }
+
+                .date {
+                    font-size:16px;
+                }
+            }
+        }
+    }
+
+    .commenting-area {
+        label.left{
+            font-weight: normal;
+        }
+
+        input,
+        textarea,
+        select {
+            background-color:#f2f2f2;
+            border:none;
+            box-shadow: none;
+        }
+    }
+}
