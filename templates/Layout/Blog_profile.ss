@@ -11,23 +11,7 @@
 				$Content.RichLinks
 			</div>
 
-			<% if $PaginatedList %>
-				<h2>Posts by $CurrentProfile.FirstName $CurrentProfile.Surname for $Title:</h2>
-
-				<% loop $PaginatedList %>
-					<article class="$EvenOdd">
-						<% include BlogSummary %>
-					</article>
-				<% end_loop %>
-
-				<% with $PaginatedList %>
-					<% include Pagination %>
-				<% end_with %>
-			<% else %>
-				<article>
-					<p>There are no blog posts</p>
-				</article>
-			<% end_if %>
+			<% include BlogPostPaginatedList %>
 
 			$Form
 			<% include RelatedPages %>
