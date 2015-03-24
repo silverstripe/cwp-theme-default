@@ -3,7 +3,7 @@
 		<% include Breadcrumbs %>
 
 		<div id="main" role="main">
-			<% include MemberDetails %>
+			<% include BlogMemberDetails %>
 
 			<hr />
 

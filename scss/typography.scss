@@ -22,13 +22,25 @@ TYPOGRAPHY
 	@include bootstrapHeroUnit;
 
 	font-family: $baseFontFamily;
+
 	h1 {
 		font-size: 40px;
-		line-height: 1;
+
+		&.page-header {
+			border-bottom: none;
+			padding-bottom: 0px;
+		}
 	}
-	h2, h3 {
+
+	h2 {
+		line-height: 36px;
+	}
+
+	h2,
+	h3 {
 		margin: $baseLineHeight 0 $baseLineHeight/2;
 	}
+
 	h6 {
 		color: $gray;
 	}

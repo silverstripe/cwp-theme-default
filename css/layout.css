@@ -6074,17 +6074,16 @@ ul.nav, ul.dropdown-menu {
   line-height: 1.8em;
 }
 
+.blog-member-details .profile-image {
+  margin-top: 24px;
+}
+
 /*****************************
 EXPRESS LAYOUT
 ******************************/
 /* todo: this is a workaround for responsive.css including padding: 20px coming from module_bootstrap */
 body {
   padding: 0 !important;
-}
-
-.typography h1.page-header, .typography header .page-header.brand, header .typography .page-header.brand {
-  border-bottom: none;
-  padding-bottom: 0px;
 }
 
 /*Customise search field */

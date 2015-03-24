@@ -85,6 +85,7 @@
   src: url("../../../themes/default/font/fontawesome-webfont.eot");
   src: url("../../../themes/default/font/fontawesome-webfont.eot?#iefix") format("embedded-opentype"), url("../../../themes/default/font/fontawesome-webfont.woff") format("woff"), url("../../../themes/default/font/fontawesome-webfont.svg") format("svg"), url("../../../themes/default/font/fontawesome-webfont.ttf") format("truetype");
 }
+
 /*  Font Awesome styles
     ------------------------------------------------------- */
 [class^="icon-"]:before,
@@ -1000,634 +1001,634 @@ ul.icons li .icon-large:before {
   font-size: 1.3333em;
 }
 #IE7 .icon-glass {
-  *zoom: expression( this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xf000;&nbsp;');
+  *zoom: expression(this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xf000;&nbsp;');
 }
 #IE7 .icon-music {
-  *zoom: expression( this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xf001;&nbsp;');
+  *zoom: expression(this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xf001;&nbsp;');
 }
 #IE7 .icon-search {
-  *zoom: expression( this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xf002;&nbsp;');
+  *zoom: expression(this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xf002;&nbsp;');
 }
 #IE7 .icon-envelope {
-  *zoom: expression( this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xf003;&nbsp;');
+  *zoom: expression(this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xf003;&nbsp;');
 }
 #IE7 .icon-heart {
-  *zoom: expression( this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xf004;&nbsp;');
+  *zoom: expression(this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xf004;&nbsp;');
 }
 #IE7 .icon-star {
-  *zoom: expression( this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xf005;&nbsp;');
+  *zoom: expression(this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xf005;&nbsp;');
 }
 #IE7 .icon-star-empty {
-  *zoom: expression( this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xf006;&nbsp;');
+  *zoom: expression(this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xf006;&nbsp;');
 }
 #IE7 .icon-user {
-  *zoom: expression( this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xf007;&nbsp;');
+  *zoom: expression(this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xf007;&nbsp;');
 }
 #IE7 .icon-film {
-  *zoom: expression( this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xf008;&nbsp;');
+  *zoom: expression(this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xf008;&nbsp;');
 }
 #IE7 .icon-th-large {
-  *zoom: expression( this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xf009;&nbsp;');
+  *zoom: expression(this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xf009;&nbsp;');
 }
 #IE7 .icon-th {
-  *zoom: expression( this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xf00a;&nbsp;');
+  *zoom: expression(this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xf00a;&nbsp;');
 }
 #IE7 .icon-th-list {
-  *zoom: expression( this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xf00b;&nbsp;');
+  *zoom: expression(this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xf00b;&nbsp;');
 }
 #IE7 .icon-ok {
-  *zoom: expression( this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xf00c;&nbsp;');
+  *zoom: expression(this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xf00c;&nbsp;');
 }
 #IE7 .icon-remove {
-  *zoom: expression( this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xf00d;&nbsp;');
+  *zoom: expression(this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xf00d;&nbsp;');
 }
 #IE7 .icon-zoom-in {
-  *zoom: expression( this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xf00e;&nbsp;');
+  *zoom: expression(this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xf00e;&nbsp;');
 }
 #IE7 .icon-zoom-out {
-  *zoom: expression( this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xf010;&nbsp;');
+  *zoom: expression(this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xf010;&nbsp;');
 }
 #IE7 .icon-off {
-  *zoom: expression( this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xf011;&nbsp;');
+  *zoom: expression(this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xf011;&nbsp;');
 }
 #IE7 .icon-signal {
-  *zoom: expression( this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xf012;&nbsp;');
+  *zoom: expression(this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xf012;&nbsp;');
 }
 #IE7 .icon-cog {
-  *zoom: expression( this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xf013;&nbsp;');
+  *zoom: expression(this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xf013;&nbsp;');
 }
 #IE7 .icon-trash {
-  *zoom: expression( this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xf014;&nbsp;');
+  *zoom: expression(this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xf014;&nbsp;');
 }
 #IE7 .icon-home {
-  *zoom: expression( this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xf015;&nbsp;');
+  *zoom: expression(this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xf015;&nbsp;');
 }
 #IE7 .icon-file {
-  *zoom: expression( this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xf016;&nbsp;');
+  *zoom: expression(this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xf016;&nbsp;');
 }
 #IE7 .icon-time {
-  *zoom: expression( this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xf017;&nbsp;');
+  *zoom: expression(this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xf017;&nbsp;');
 }
 #IE7 .icon-road {
-  *zoom: expression( this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xf018;&nbsp;');
+  *zoom: expression(this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xf018;&nbsp;');
 }
 #IE7 .icon-download-alt {
-  *zoom: expression( this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xf019;&nbsp;');
+  *zoom: expression(this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xf019;&nbsp;');
 }
 #IE7 .icon-download {
-  *zoom: expression( this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xf01a;&nbsp;');
+  *zoom: expression(this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xf01a;&nbsp;');
 }
 #IE7 .icon-upload {
-  *zoom: expression( this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xf01b;&nbsp;');
+  *zoom: expression(this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xf01b;&nbsp;');
 }
 #IE7 .icon-inbox {
-  *zoom: expression( this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xf01c;&nbsp;');
+  *zoom: expression(this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xf01c;&nbsp;');
 }
 #IE7 .icon-play-circle {
-  *zoom: expression( this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xf01d;&nbsp;');
+  *zoom: expression(this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xf01d;&nbsp;');
 }
 #IE7 .icon-repeat {
-  *zoom: expression( this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xf01e;&nbsp;');
+  *zoom: expression(this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xf01e;&nbsp;');
 }
 #IE7 .icon-refresh {
-  *zoom: expression( this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xf021;&nbsp;');
+  *zoom: expression(this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xf021;&nbsp;');
 }
 #IE7 .icon-list-alt {
-  *zoom: expression( this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xf022;&nbsp;');
+  *zoom: expression(this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xf022;&nbsp;');
 }
 #IE7 .icon-lock {
-  *zoom: expression( this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xf023;&nbsp;');
+  *zoom: expression(this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xf023;&nbsp;');
 }
 #IE7 .icon-flag {
-  *zoom: expression( this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xf024;&nbsp;');
+  *zoom: expression(this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xf024;&nbsp;');
 }
 #IE7 .icon-headphones {
-  *zoom: expression( this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xf025;&nbsp;');
+  *zoom: expression(this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xf025;&nbsp;');
 }
 #IE7 .icon-volume-off {
-  *zoom: expression( this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xf026;&nbsp;');
+  *zoom: expression(this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xf026;&nbsp;');
 }
 #IE7 .icon-volume-down {
-  *zoom: expression( this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xf027;&nbsp;');
+  *zoom: expression(this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xf027;&nbsp;');
 }
 #IE7 .icon-volume-up {
-  *zoom: expression( this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xf028;&nbsp;');
+  *zoom: expression(this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xf028;&nbsp;');
 }
 #IE7 .icon-qrcode {
-  *zoom: expression( this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xf029;&nbsp;');
+  *zoom: expression(this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xf029;&nbsp;');
 }
 #IE7 .icon-barcode {
-  *zoom: expression( this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xf02a;&nbsp;');
+  *zoom: expression(this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xf02a;&nbsp;');
 }
 #IE7 .icon-tag {
-  *zoom: expression( this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xf02b;&nbsp;');
+  *zoom: expression(this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xf02b;&nbsp;');
 }
 #IE7 .icon-tags {
-  *zoom: expression( this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xf02c;&nbsp;');
+  *zoom: expression(this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xf02c;&nbsp;');
 }
 #IE7 .icon-book {
-  *zoom: expression( this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xf02d;&nbsp;');
+  *zoom: expression(this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xf02d;&nbsp;');
 }
 #IE7 .icon-bookmark {
-  *zoom: expression( this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xf02e;&nbsp;');
+  *zoom: expression(this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xf02e;&nbsp;');
 }
 #IE7 .icon-print {
-  *zoom: expression( this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xf02f;&nbsp;');
+  *zoom: expression(this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xf02f;&nbsp;');
 }
 #IE7 .icon-camera {
-  *zoom: expression( this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xf030;&nbsp;');
+  *zoom: expression(this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xf030;&nbsp;');
 }
 #IE7 .icon-font {
-  *zoom: expression( this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xf031;&nbsp;');
+  *zoom: expression(this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xf031;&nbsp;');
 }
 #IE7 .icon-bold {
-  *zoom: expression( this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xf032;&nbsp;');
+  *zoom: expression(this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xf032;&nbsp;');
 }
 #IE7 .icon-italic {
-  *zoom: expression( this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xf033;&nbsp;');
+  *zoom: expression(this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xf033;&nbsp;');
 }
 #IE7 .icon-text-height {
-  *zoom: expression( this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xf034;&nbsp;');
+  *zoom: expression(this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xf034;&nbsp;');
 }
 #IE7 .icon-text-width {
-  *zoom: expression( this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xf035;&nbsp;');
+  *zoom: expression(this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xf035;&nbsp;');
 }
 #IE7 .icon-align-left {
-  *zoom: expression( this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xf036;&nbsp;');
+  *zoom: expression(this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xf036;&nbsp;');
 }
 #IE7 .icon-align-center {
-  *zoom: expression( this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xf037;&nbsp;');
+  *zoom: expression(this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xf037;&nbsp;');
 }
 #IE7 .icon-align-right {
-  *zoom: expression( this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xf038;&nbsp;');
+  *zoom: expression(this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xf038;&nbsp;');
 }
 #IE7 .icon-align-justify {
-  *zoom: expression( this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xf039;&nbsp;');
+  *zoom: expression(this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xf039;&nbsp;');
 }
 #IE7 .icon-list {
-  *zoom: expression( this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xf03a;&nbsp;');
+  *zoom: expression(this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xf03a;&nbsp;');
 }
 #IE7 .icon-indent-left {
-  *zoom: expression( this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xf03b;&nbsp;');
+  *zoom: expression(this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xf03b;&nbsp;');
 }
 #IE7 .icon-indent-right {
-  *zoom: expression( this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xf03c;&nbsp;');
+  *zoom: expression(this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xf03c;&nbsp;');
 }
 #IE7 .icon-facetime-video {
-  *zoom: expression( this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xf03d;&nbsp;');
+  *zoom: expression(this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xf03d;&nbsp;');
 }
 #IE7 .icon-picture {
-  *zoom: expression( this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xf03e;&nbsp;');
+  *zoom: expression(this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xf03e;&nbsp;');
 }
 #IE7 .icon-pencil {
-  *zoom: expression( this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xf040;&nbsp;');
+  *zoom: expression(this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xf040;&nbsp;');
 }
 #IE7 .icon-map-marker {
-  *zoom: expression( this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xf041;&nbsp;');
+  *zoom: expression(this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xf041;&nbsp;');
 }
 #IE7 .icon-adjust {
-  *zoom: expression( this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xf042;&nbsp;');
+  *zoom: expression(this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xf042;&nbsp;');
 }
 #IE7 .icon-tint {
-  *zoom: expression( this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xf043;&nbsp;');
+  *zoom: expression(this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xf043;&nbsp;');
 }
 #IE7 .icon-edit {
-  *zoom: expression( this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xf044;&nbsp;');
+  *zoom: expression(this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xf044;&nbsp;');
 }
 #IE7 .icon-share {
-  *zoom: expression( this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xf045;&nbsp;');
+  *zoom: expression(this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xf045;&nbsp;');
 }
 #IE7 .icon-check {
-  *zoom: expression( this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xf046;&nbsp;');
+  *zoom: expression(this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xf046;&nbsp;');
 }
 #IE7 .icon-move {
-  *zoom: expression( this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xf047;&nbsp;');
+  *zoom: expression(this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xf047;&nbsp;');
 }
 #IE7 .icon-step-backward {
-  *zoom: expression( this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xf048;&nbsp;');
+  *zoom: expression(this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xf048;&nbsp;');
 }
 #IE7 .icon-fast-backward {
-  *zoom: expression( this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xf049;&nbsp;');
+  *zoom: expression(this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xf049;&nbsp;');
 }
 #IE7 .icon-backward {
-  *zoom: expression( this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xf04a;&nbsp;');
+  *zoom: expression(this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xf04a;&nbsp;');
 }
 #IE7 .icon-play {
-  *zoom: expression( this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xf04b;&nbsp;');
+  *zoom: expression(this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xf04b;&nbsp;');
 }
 #IE7 .icon-pause {
-  *zoom: expression( this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xf04c;&nbsp;');
+  *zoom: expression(this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xf04c;&nbsp;');
 }
 #IE7 .icon-stop {
-  *zoom: expression( this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xf04d;&nbsp;');
+  *zoom: expression(this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xf04d;&nbsp;');
 }
 #IE7 .icon-forward {
-  *zoom: expression( this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xf04e;&nbsp;');
+  *zoom: expression(this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xf04e;&nbsp;');
 }
 #IE7 .icon-fast-forward {
-  *zoom: expression( this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xf050;&nbsp;');
+  *zoom: expression(this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xf050;&nbsp;');
 }
 #IE7 .icon-step-forward {
-  *zoom: expression( this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xf051;&nbsp;');
+  *zoom: expression(this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xf051;&nbsp;');
 }
 #IE7 .icon-eject {
-  *zoom: expression( this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xf052;&nbsp;');
+  *zoom: expression(this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xf052;&nbsp;');
 }
 #IE7 .icon-chevron-left {
-  *zoom: expression( this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xf053;&nbsp;');
+  *zoom: expression(this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xf053;&nbsp;');
 }
 #IE7 .icon-chevron-right {
-  *zoom: expression( this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xf054;&nbsp;');
+  *zoom: expression(this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xf054;&nbsp;');
 }
 #IE7 .icon-plus-sign {
-  *zoom: expression( this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xf055;&nbsp;');
+  *zoom: expression(this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xf055;&nbsp;');
 }
 #IE7 .icon-minus-sign {
-  *zoom: expression( this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xf056;&nbsp;');
+  *zoom: expression(this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xf056;&nbsp;');
 }
 #IE7 .icon-remove-sign {
-  *zoom: expression( this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xf057;&nbsp;');
+  *zoom: expression(this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xf057;&nbsp;');
 }
 #IE7 .icon-ok-sign {
-  *zoom: expression( this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xf058;&nbsp;');
+  *zoom: expression(this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xf058;&nbsp;');
 }
 #IE7 .icon-question-sign {
-  *zoom: expression( this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xf059;&nbsp;');
+  *zoom: expression(this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xf059;&nbsp;');
 }
 #IE7 .icon-info-sign {
-  *zoom: expression( this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xf05a;&nbsp;');
+  *zoom: expression(this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xf05a;&nbsp;');
 }
 #IE7 .icon-screenshot {
-  *zoom: expression( this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xf05b;&nbsp;');
+  *zoom: expression(this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xf05b;&nbsp;');
 }
 #IE7 .icon-remove-circle {
-  *zoom: expression( this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xf05c;&nbsp;');
+  *zoom: expression(this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xf05c;&nbsp;');
 }
 #IE7 .icon-ok-circle {
-  *zoom: expression( this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xf05d;&nbsp;');
+  *zoom: expression(this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xf05d;&nbsp;');
 }
 #IE7 .icon-ban-circle {
-  *zoom: expression( this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xf05e;&nbsp;');
+  *zoom: expression(this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xf05e;&nbsp;');
 }
 #IE7 .icon-arrow-left {
-  *zoom: expression( this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xf060;&nbsp;');
+  *zoom: expression(this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xf060;&nbsp;');
 }
 #IE7 .icon-arrow-right {
-  *zoom: expression( this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xf061;&nbsp;');
+  *zoom: expression(this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xf061;&nbsp;');
 }
 #IE7 .icon-arrow-up {
-  *zoom: expression( this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xf062;&nbsp;');
+  *zoom: expression(this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xf062;&nbsp;');
 }
 #IE7 .icon-arrow-down {
-  *zoom: expression( this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xf063;&nbsp;');
+  *zoom: expression(this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xf063;&nbsp;');
 }
 #IE7 .icon-share-alt {
-  *zoom: expression( this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xf064;&nbsp;');
+  *zoom: expression(this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xf064;&nbsp;');
 }
 #IE7 .icon-resize-full {
-  *zoom: expression( this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xf065;&nbsp;');
+  *zoom: expression(this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xf065;&nbsp;');
 }
 #IE7 .icon-resize-small {
-  *zoom: expression( this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xf066;&nbsp;');
+  *zoom: expression(this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xf066;&nbsp;');
 }
 #IE7 .icon-plus {
-  *zoom: expression( this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xf067;&nbsp;');
+  *zoom: expression(this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xf067;&nbsp;');
 }
 #IE7 .icon-minus {
-  *zoom: expression( this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xf068;&nbsp;');
+  *zoom: expression(this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xf068;&nbsp;');
 }
 #IE7 .icon-asterisk {
-  *zoom: expression( this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xf069;&nbsp;');
+  *zoom: expression(this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xf069;&nbsp;');
 }
 #IE7 .icon-exclamation-sign {
-  *zoom: expression( this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xf06a;&nbsp;');
+  *zoom: expression(this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xf06a;&nbsp;');
 }
 #IE7 .icon-gift {
-  *zoom: expression( this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xf06b;&nbsp;');
+  *zoom: expression(this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xf06b;&nbsp;');
 }
 #IE7 .icon-leaf {
-  *zoom: expression( this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xf06c;&nbsp;');
+  *zoom: expression(this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xf06c;&nbsp;');
 }
 #IE7 .icon-fire {
-  *zoom: expression( this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xf06d;&nbsp;');
+  *zoom: expression(this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xf06d;&nbsp;');
 }
 #IE7 .icon-eye-open {
-  *zoom: expression( this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xf06e;&nbsp;');
+  *zoom: expression(this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xf06e;&nbsp;');
 }
 #IE7 .icon-eye-close {
-  *zoom: expression( this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xf070;&nbsp;');
+  *zoom: expression(this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xf070;&nbsp;');
 }
 #IE7 .icon-warning-sign {
-  *zoom: expression( this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xf071;&nbsp;');
+  *zoom: expression(this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xf071;&nbsp;');
 }
 #IE7 .icon-plane {
-  *zoom: expression( this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xf072;&nbsp;');
+  *zoom: expression(this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xf072;&nbsp;');
 }
 #IE7 .icon-calendar {
-  *zoom: expression( this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xf073;&nbsp;');
+  *zoom: expression(this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xf073;&nbsp;');
 }
 #IE7 .icon-random {
-  *zoom: expression( this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xf074;&nbsp;');
+  *zoom: expression(this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xf074;&nbsp;');
 }
 #IE7 .icon-comment {
-  *zoom: expression( this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xf075;&nbsp;');
+  *zoom: expression(this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xf075;&nbsp;');
 }
 #IE7 .icon-magnet {
-  *zoom: expression( this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xf076;&nbsp;');
+  *zoom: expression(this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xf076;&nbsp;');
 }
 #IE7 .icon-chevron-up {
-  *zoom: expression( this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xf077;&nbsp;');
+  *zoom: expression(this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xf077;&nbsp;');
 }
 #IE7 .icon-chevron-down {
-  *zoom: expression( this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xf078;&nbsp;');
+  *zoom: expression(this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xf078;&nbsp;');
 }
 #IE7 .icon-retweet {
-  *zoom: expression( this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xf079;&nbsp;');
+  *zoom: expression(this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xf079;&nbsp;');
 }
 #IE7 .icon-shopping-cart {
-  *zoom: expression( this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xf07a;&nbsp;');
+  *zoom: expression(this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xf07a;&nbsp;');
 }
 #IE7 .icon-folder-close {
-  *zoom: expression( this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xf07b;&nbsp;');
+  *zoom: expression(this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xf07b;&nbsp;');
 }
 #IE7 .icon-folder-open {
-  *zoom: expression( this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xf07c;&nbsp;');
+  *zoom: expression(this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xf07c;&nbsp;');
 }
 #IE7 .icon-resize-vertical {
-  *zoom: expression( this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xf07d;&nbsp;');
+  *zoom: expression(this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xf07d;&nbsp;');
 }
 #IE7 .icon-resize-horizontal {
-  *zoom: expression( this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xf07e;&nbsp;');
+  *zoom: expression(this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xf07e;&nbsp;');
 }
 #IE7 .icon-bar-chart {
-  *zoom: expression( this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xf080;&nbsp;');
+  *zoom: expression(this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xf080;&nbsp;');
 }
 #IE7 .icon-twitter-sign {
-  *zoom: expression( this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xf081;&nbsp;');
+  *zoom: expression(this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xf081;&nbsp;');
 }
 #IE7 .icon-facebook-sign {
-  *zoom: expression( this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xf082;&nbsp;');
+  *zoom: expression(this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xf082;&nbsp;');
 }
 #IE7 .icon-camera-retro {
-  *zoom: expression( this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xf083;&nbsp;');
+  *zoom: expression(this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xf083;&nbsp;');
 }
 #IE7 .icon-key {
-  *zoom: expression( this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xf084;&nbsp;');
+  *zoom: expression(this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xf084;&nbsp;');
 }
 #IE7 .icon-cogs {
-  *zoom: expression( this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xf085;&nbsp;');
+  *zoom: expression(this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xf085;&nbsp;');
 }
 #IE7 .icon-comments {
-  *zoom: expression( this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xf086;&nbsp;');
+  *zoom: expression(this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xf086;&nbsp;');
 }
 #IE7 .icon-thumbs-up {
-  *zoom: expression( this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xf087;&nbsp;');
+  *zoom: expression(this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xf087;&nbsp;');
 }
 #IE7 .icon-thumbs-down {
-  *zoom: expression( this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xf088;&nbsp;');
+  *zoom: expression(this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xf088;&nbsp;');
 }
 #IE7 .icon-star-half {
-  *zoom: expression( this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xf089;&nbsp;');
+  *zoom: expression(this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xf089;&nbsp;');
 }
 #IE7 .icon-heart-empty {
-  *zoom: expression( this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xf08a;&nbsp;');
+  *zoom: expression(this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xf08a;&nbsp;');
 }
 #IE7 .icon-signout {
-  *zoom: expression( this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xf08b;&nbsp;');
+  *zoom: expression(this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xf08b;&nbsp;');
 }
 #IE7 .icon-linkedin-sign {
-  *zoom: expression( this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xf08c;&nbsp;');
+  *zoom: expression(this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xf08c;&nbsp;');
 }
 #IE7 .icon-pushpin {
-  *zoom: expression( this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xf08d;&nbsp;');
+  *zoom: expression(this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xf08d;&nbsp;');
 }
 #IE7 .icon-external-link {
-  *zoom: expression( this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xf08e;&nbsp;');
+  *zoom: expression(this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xf08e;&nbsp;');
 }
 #IE7 .icon-signin {
-  *zoom: expression( this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xf090;&nbsp;');
+  *zoom: expression(this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xf090;&nbsp;');
 }
 #IE7 .icon-trophy {
-  *zoom: expression( this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xf091;&nbsp;');
+  *zoom: expression(this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xf091;&nbsp;');
 }
 #IE7 .icon-github-sign {
-  *zoom: expression( this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xf092;&nbsp;');
+  *zoom: expression(this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xf092;&nbsp;');
 }
 #IE7 .icon-upload-alt {
-  *zoom: expression( this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xf093;&nbsp;');
+  *zoom: expression(this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xf093;&nbsp;');
 }
 #IE7 .icon-lemon {
-  *zoom: expression( this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xf094;&nbsp;');
+  *zoom: expression(this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xf094;&nbsp;');
 }
 #IE7 .icon-phone {
-  *zoom: expression( this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xf095;&nbsp;');
+  *zoom: expression(this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xf095;&nbsp;');
 }
 #IE7 .icon-check-empty {
-  *zoom: expression( this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xf096;&nbsp;');
+  *zoom: expression(this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xf096;&nbsp;');
 }
 #IE7 .icon-bookmark-empty {
-  *zoom: expression( this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xf097;&nbsp;');
+  *zoom: expression(this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xf097;&nbsp;');
 }
 #IE7 .icon-phone-sign {
-  *zoom: expression( this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xf098;&nbsp;');
+  *zoom: expression(this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xf098;&nbsp;');
 }
 #IE7 .icon-twitter {
-  *zoom: expression( this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xf099;&nbsp;');
+  *zoom: expression(this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xf099;&nbsp;');
 }
 #IE7 .icon-facebook {
-  *zoom: expression( this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xf09a;&nbsp;');
+  *zoom: expression(this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xf09a;&nbsp;');
 }
 #IE7 .icon-github {
-  *zoom: expression( this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xf09b;&nbsp;');
+  *zoom: expression(this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xf09b;&nbsp;');
 }
 #IE7 .icon-unlock {
-  *zoom: expression( this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xf09c;&nbsp;');
+  *zoom: expression(this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xf09c;&nbsp;');
 }
 #IE7 .icon-credit-card {
-  *zoom: expression( this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xf09d;&nbsp;');
+  *zoom: expression(this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xf09d;&nbsp;');
 }
 #IE7 .icon-rss {
-  *zoom: expression( this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xf09e;&nbsp;');
+  *zoom: expression(this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xf09e;&nbsp;');
 }
 #IE7 .icon-hdd {
-  *zoom: expression( this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xf0a0;&nbsp;');
+  *zoom: expression(this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xf0a0;&nbsp;');
 }
 #IE7 .icon-bullhorn {
-  *zoom: expression( this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xf0a1;&nbsp;');
+  *zoom: expression(this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xf0a1;&nbsp;');
 }
 #IE7 .icon-bell {
-  *zoom: expression( this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xf0a2;&nbsp;');
+  *zoom: expression(this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xf0a2;&nbsp;');
 }
 #IE7 .icon-certificate {
-  *zoom: expression( this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xf0a3;&nbsp;');
+  *zoom: expression(this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xf0a3;&nbsp;');
 }
 #IE7 .icon-hand-right {
-  *zoom: expression( this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xf0a4;&nbsp;');
+  *zoom: expression(this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xf0a4;&nbsp;');
 }
 #IE7 .icon-hand-left {
-  *zoom: expression( this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xf0a5;&nbsp;');
+  *zoom: expression(this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xf0a5;&nbsp;');
 }
 #IE7 .icon-hand-up {
-  *zoom: expression( this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xf0a6;&nbsp;');
+  *zoom: expression(this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xf0a6;&nbsp;');
 }
 #IE7 .icon-hand-down {
-  *zoom: expression( this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xf0a7;&nbsp;');
+  *zoom: expression(this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xf0a7;&nbsp;');
 }
 #IE7 .icon-circle-arrow-left {
-  *zoom: expression( this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xf0a8;&nbsp;');
+  *zoom: expression(this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xf0a8;&nbsp;');
 }
 #IE7 .icon-circle-arrow-right {
-  *zoom: expression( this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xf0a9;&nbsp;');
+  *zoom: expression(this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xf0a9;&nbsp;');
 }
 #IE7 .icon-circle-arrow-up {
-  *zoom: expression( this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xf0aa;&nbsp;');
+  *zoom: expression(this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xf0aa;&nbsp;');
 }
 #IE7 .icon-circle-arrow-down {
-  *zoom: expression( this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xf0ab;&nbsp;');
+  *zoom: expression(this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xf0ab;&nbsp;');
 }
 #IE7 .icon-globe {
-  *zoom: expression( this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xf0ac;&nbsp;');
+  *zoom: expression(this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xf0ac;&nbsp;');
 }
 #IE7 .icon-wrench {
-  *zoom: expression( this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xf0ad;&nbsp;');
+  *zoom: expression(this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xf0ad;&nbsp;');
 }
 #IE7 .icon-tasks {
-  *zoom: expression( this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xf0ae;&nbsp;');
+  *zoom: expression(this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xf0ae;&nbsp;');
 }
 #IE7 .icon-filter {
-  *zoom: expression( this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xf0b0;&nbsp;');
+  *zoom: expression(this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xf0b0;&nbsp;');
 }
 #IE7 .icon-briefcase {
-  *zoom: expression( this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xf0b1;&nbsp;');
+  *zoom: expression(this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xf0b1;&nbsp;');
 }
 #IE7 .icon-fullscreen {
-  *zoom: expression( this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xf0b2;&nbsp;');
+  *zoom: expression(this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xf0b2;&nbsp;');
 }
 #IE7 .icon-group {
-  *zoom: expression( this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xf0c0;&nbsp;');
+  *zoom: expression(this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xf0c0;&nbsp;');
 }
 #IE7 .icon-link {
-  *zoom: expression( this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xf0c1;&nbsp;');
+  *zoom: expression(this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xf0c1;&nbsp;');
 }
 #IE7 .icon-cloud {
-  *zoom: expression( this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xf0c2;&nbsp;');
+  *zoom: expression(this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xf0c2;&nbsp;');
 }
 #IE7 .icon-beaker {
-  *zoom: expression( this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xf0c3;&nbsp;');
+  *zoom: expression(this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xf0c3;&nbsp;');
 }
 #IE7 .icon-cut {
-  *zoom: expression( this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xf0c4;&nbsp;');
+  *zoom: expression(this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xf0c4;&nbsp;');
 }
 #IE7 .icon-copy {
-  *zoom: expression( this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xf0c5;&nbsp;');
+  *zoom: expression(this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xf0c5;&nbsp;');
 }
 #IE7 .icon-paper-clip {
-  *zoom: expression( this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xf0c6;&nbsp;');
+  *zoom: expression(this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xf0c6;&nbsp;');
 }
 #IE7 .icon-save {
-  *zoom: expression( this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xf0c7;&nbsp;');
+  *zoom: expression(this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xf0c7;&nbsp;');
 }
 #IE7 .icon-sign-blank {
-  *zoom: expression( this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xf0c8;&nbsp;');
+  *zoom: expression(this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xf0c8;&nbsp;');
 }
 #IE7 .icon-reorder {
-  *zoom: expression( this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xf0c9;&nbsp;');
+  *zoom: expression(this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xf0c9;&nbsp;');
 }
 #IE7 .icon-list-ul {
-  *zoom: expression( this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xf0ca;&nbsp;');
+  *zoom: expression(this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xf0ca;&nbsp;');
 }
 #IE7 .icon-list-ol {
-  *zoom: expression( this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xf0cb;&nbsp;');
+  *zoom: expression(this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xf0cb;&nbsp;');
 }
 #IE7 .icon-strikethrough {
-  *zoom: expression( this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xf0cc;&nbsp;');
+  *zoom: expression(this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xf0cc;&nbsp;');
 }
 #IE7 .icon-underline {
-  *zoom: expression( this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xf0cd;&nbsp;');
+  *zoom: expression(this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xf0cd;&nbsp;');
 }
 #IE7 .icon-table {
-  *zoom: expression( this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xf0ce;&nbsp;');
+  *zoom: expression(this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xf0ce;&nbsp;');
 }
 #IE7 .icon-magic {
-  *zoom: expression( this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xf0d0;&nbsp;');
+  *zoom: expression(this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xf0d0;&nbsp;');
 }
 #IE7 .icon-truck {
-  *zoom: expression( this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xf0d1;&nbsp;');
+  *zoom: expression(this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xf0d1;&nbsp;');
 }
 #IE7 .icon-pinterest {
-  *zoom: expression( this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xf0d2;&nbsp;');
+  *zoom: expression(this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xf0d2;&nbsp;');
 }
 #IE7 .icon-pinterest-sign {
-  *zoom: expression( this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xf0d3;&nbsp;');
+  *zoom: expression(this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xf0d3;&nbsp;');
 }
 #IE7 .icon-google-plus-sign {
-  *zoom: expression( this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xf0d4;&nbsp;');
+  *zoom: expression(this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xf0d4;&nbsp;');
 }
 #IE7 .icon-google-plus {
-  *zoom: expression( this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xf0d5;&nbsp;');
+  *zoom: expression(this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xf0d5;&nbsp;');
 }
 #IE7 .icon-money {
-  *zoom: expression( this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xf0d6;&nbsp;');
+  *zoom: expression(this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xf0d6;&nbsp;');
 }
 #IE7 .icon-caret-down {
-  *zoom: expression( this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xf0d7;&nbsp;');
+  *zoom: expression(this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xf0d7;&nbsp;');
 }
 #IE7 .icon-caret-up {
-  *zoom: expression( this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xf0d8;&nbsp;');
+  *zoom: expression(this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xf0d8;&nbsp;');
 }
 #IE7 .icon-caret-left {
-  *zoom: expression( this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xf0d9;&nbsp;');
+  *zoom: expression(this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xf0d9;&nbsp;');
 }
 #IE7 .icon-caret-right {
-  *zoom: expression( this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xf0da;&nbsp;');
+  *zoom: expression(this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xf0da;&nbsp;');
 }
 #IE7 .icon-columns {
-  *zoom: expression( this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xf0db;&nbsp;');
+  *zoom: expression(this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xf0db;&nbsp;');
 }
 #IE7 .icon-sort {
-  *zoom: expression( this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xf0dc;&nbsp;');
+  *zoom: expression(this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xf0dc;&nbsp;');
 }
 #IE7 .icon-sort-down {
-  *zoom: expression( this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xf0dd;&nbsp;');
+  *zoom: expression(this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xf0dd;&nbsp;');
 }
 #IE7 .icon-sort-up {
-  *zoom: expression( this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xf0de;&nbsp;');
+  *zoom: expression(this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xf0de;&nbsp;');
 }
 #IE7 .icon-envelope-alt {
-  *zoom: expression( this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xf0e0;&nbsp;');
+  *zoom: expression(this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xf0e0;&nbsp;');
 }
 #IE7 .icon-linkedin {
-  *zoom: expression( this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xf0e1;&nbsp;');
+  *zoom: expression(this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xf0e1;&nbsp;');
 }
 #IE7 .icon-undo {
-  *zoom: expression( this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xf0e2;&nbsp;');
+  *zoom: expression(this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xf0e2;&nbsp;');
 }
 #IE7 .icon-legal {
-  *zoom: expression( this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xf0e3;&nbsp;');
+  *zoom: expression(this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xf0e3;&nbsp;');
 }
 #IE7 .icon-dashboard {
-  *zoom: expression( this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xf0e4;&nbsp;');
+  *zoom: expression(this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xf0e4;&nbsp;');
 }
 #IE7 .icon-comment-alt {
-  *zoom: expression( this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xf0e5;&nbsp;');
+  *zoom: expression(this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xf0e5;&nbsp;');
 }
 #IE7 .icon-comments-alt {
-  *zoom: expression( this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xf0e6;&nbsp;');
+  *zoom: expression(this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xf0e6;&nbsp;');
 }
 #IE7 .icon-bolt {
-  *zoom: expression( this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xf0e7;&nbsp;');
+  *zoom: expression(this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xf0e7;&nbsp;');
 }
 #IE7 .icon-sitemap {
-  *zoom: expression( this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xf0e8;&nbsp;');
+  *zoom: expression(this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xf0e8;&nbsp;');
 }
 #IE7 .icon-umbrella {
-  *zoom: expression( this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xf0e9;&nbsp;');
+  *zoom: expression(this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xf0e9;&nbsp;');
 }
 #IE7 .icon-paste {
-  *zoom: expression( this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xf0ea;&nbsp;');
+  *zoom: expression(this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xf0ea;&nbsp;');
 }
 #IE7 .icon-user-md {
-  *zoom: expression( this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xf200;&nbsp;');
+  *zoom: expression(this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xf200;&nbsp;');
 }
 
 /*****************************
@@ -1648,7 +1649,7 @@ TYPOGRAPHY
 }
 .typography p small {
   font-size: 14px;
-  color: #999;
+  color: #999999;
 }
 .typography .lead {
   margin-bottom: 24px;
@@ -1665,7 +1666,7 @@ TYPOGRAPHY
 }
 .typography h1 small, .typography h2 small, .typography h3 small, .typography h4 small, .typography h5 small, .typography h6 small {
   font-weight: normal;
-  color: #999;
+  color: #999999;
 }
 .typography h1 {
   font-size: 30px;
@@ -1702,13 +1703,13 @@ TYPOGRAPHY
 }
 .typography h6 {
   font-size: 11px;
-  color: #999;
+  color: #999999;
   text-transform: uppercase;
 }
 .typography .page-header {
   padding-bottom: 23px;
   margin: 24px 0;
-  border-bottom: 1px solid #eee;
+  border-bottom: 1px solid #eeeeee;
 }
 .typography .page-header h1 {
   line-height: 1;
@@ -1766,8 +1767,8 @@ TYPOGRAPHY
 .typography hr {
   margin: 24px 0;
   border: 0;
-  border-top: 1px solid #DDD;
-  border-bottom: 1px solid #fff;
+  border-top: 1px solid #dddddd;
+  border-bottom: 1px solid white;
 }
 .typography strong {
   font-weight: bold;
@@ -1776,7 +1777,7 @@ TYPOGRAPHY
   font-style: italic;
 }
 .typography .muted {
-  color: #999;
+  color: #999999;
 }
 .typography abbr[title] {
   cursor: help;
@@ -1789,7 +1790,7 @@ TYPOGRAPHY
 .typography blockquote {
   padding: 0 0 0 15px;
   margin: 0 0 24px;
-  border-left: 5px solid #eee;
+  border-left: 5px solid #eeeeee;
 }
 .typography blockquote p {
   margin-bottom: 0;
@@ -1800,7 +1801,7 @@ TYPOGRAPHY
 .typography blockquote small {
   display: block;
   line-height: 24px;
-  color: #999;
+  color: #999999;
 }
 .typography blockquote small:before {
   content: '\2014 \00A0';
@@ -1809,7 +1810,7 @@ TYPOGRAPHY
   float: right;
   padding-right: 15px;
   padding-left: 0;
-  border-right: 5px solid #eee;
+  border-right: 5px solid #eeeeee;
   border-left: 0;
 }
 .typography blockquote.pull-right p,
@@ -1839,7 +1840,7 @@ TYPOGRAPHY
   padding: 0 3px 2px;
   font-family: Menlo, Monaco, Consolas, "Courier New", monospace;
   font-size: 15px;
-  color: #333;
+  color: #333333;
   -webkit-border-radius: 3px;
   -moz-border-radius: 3px;
   border-radius: 3px;
@@ -1897,7 +1898,7 @@ TYPOGRAPHY
   line-height: 24px;
   text-align: left;
   vertical-align: top;
-  border-top: 1px solid #ddd;
+  border-top: 1px solid #dddddd;
 }
 .typography .table th, .typography table th {
   font-weight: bold;
@@ -1919,7 +1920,7 @@ TYPOGRAPHY
   border-top: 0;
 }
 .typography .table tbody + tbody, .typography table tbody + tbody {
-  border-top: 2px solid #ddd;
+  border-top: 2px solid #dddddd;
 }
 .typography .table-condensed th, .typography .table-condensed-striped th,
 .typography .table-condensed td,
@@ -1927,7 +1928,7 @@ TYPOGRAPHY
   padding: 4px 5px;
 }
 .typography .table-bordered, .typography .table-bordered-striped {
-  border: 1px solid #ddd;
+  border: 1px solid #dddddd;
   border-collapse: separate;
   *border-collapse: collapsed;
   border-left: 0;
@@ -1938,7 +1939,7 @@ TYPOGRAPHY
 .typography .table-bordered th, .typography .table-bordered-striped th,
 .typography .table-bordered td,
 .typography .table-bordered-striped td {
-  border-left: 1px solid #ddd;
+  border-left: 1px solid #dddddd;
 }
 .typography .table-bordered caption + thead tr:first-child th, .typography .table-bordered-striped caption + thead tr:first-child th,
 .typography .table-bordered caption + tbody tr:first-child th,
@@ -2019,7 +2020,7 @@ TYPOGRAPHY
 .typography .hero-unit {
   padding: 60px;
   margin-bottom: 30px;
-  background-color: #eee;
+  background-color: #eeeeee;
   -webkit-border-radius: 6px;
   -moz-border-radius: 6px;
   border-radius: 6px;
@@ -2039,13 +2040,20 @@ TYPOGRAPHY
 }
 .typography h1 {
   font-size: 40px;
-  line-height: 1;
 }
-.typography h2, .typography h3 {
+.typography h1.page-header {
+  border-bottom: none;
+  padding-bottom: 0px;
+}
+.typography h2 {
+  line-height: 36px;
+}
+.typography h2,
+.typography h3 {
   margin: 24px 0 12px;
 }
 .typography h6 {
-  color: #555;
+  color: #555555;
 }
 .typography p {
   margin-bottom: 24px;
@@ -2057,7 +2065,7 @@ TYPOGRAPHY
 }
 .typography .metaInfo {
   margin-bottom: 12px;
-  color: #555;
+  color: #555555;
 }
 .typography span.highlight {
   background: yellow;
@@ -2066,7 +2074,7 @@ TYPOGRAPHY
   margin-bottom: 10px;
 }
 .typography blockquote small, .typography blockquote .blockquote-author {
-  color: #555;
+  color: #555555;
   display: block;
   line-height: 24px;
   font-size: .8em;
