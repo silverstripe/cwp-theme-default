@@ -1,5 +1,18 @@
+@import '../responsive';
+
 .blog-member-details {
+
     .profile-image {
+        float: right;
         margin-top: 24px;
+
+        // Move the image to the left when columns are stacked.
+        @include screen-size(medium) {
+            float: left;
+        }
+    }
+
+    .profile-summary {
+        float: left;
     }
 }
