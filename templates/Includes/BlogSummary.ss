@@ -12,7 +12,12 @@
 		<% if $Authors || $AuthorNames %>
 			<%t Blog.By "by" %>
 			<% if $Authors %><% loop $Authors %>
-				$Name.XML,<% if not $Last || $Up.AuthorNames %><% end_if %>
+				<% if $URLSegment %>
+					<a href="{$Up.Parent.ProfileLink($URLSegment)}">$Name.XML</a>
+				<% else %>
+					$Name.XML
+				<% end_if %>
+				<% if not $Last || $Up.AuthorNames %>,<% end_if %>
 			<% end_loop %><% end_if %>
 			<% if $AuthorNames %>
 				$AuthorNames,
