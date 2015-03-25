@@ -336,11 +336,11 @@ header {
 		color: #fff;
 		margin: 0;
 	}
-	.carousel-control {
+	/*.carousel-control {
 		&:focus {
 			@extend .carousel-control:hover
 		}
-	}
+	}*/
 	.carousel-caption h4,
 	.carousel-caption p {
 		color: $white;
@@ -357,14 +357,25 @@ header {
 			border: 0px;
 			opacity: 0.65;
 
-			&.active {
-				background-color: $linkColor;
+			&:hover {
+				background-color: $linkColorHover;
 				opacity: 1;
 			}
 
-			&:hover, &:active, &:focus {
-				background-color: $linkColorHover;
+			&:active {
+				background-color: #222;
+				opacity: 0.65;
+  				filter: alpha(opacity=65);
+			}
+
+			&.active {
+				background-color: $linkColor;
 				opacity: 1;
+
+				&:hover, &:active {
+					background-color: $linkColor;
+					opacity: 1;
+				}
 			}
 
 			&.right {
