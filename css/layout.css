@@ -8189,6 +8189,9 @@ footer .socialLinks a:hover i:before {
 /**
  * Comments
  */
+#comments-holder {
+  clear: both;
+}
 #comments-holder ul.action-links {
   margin-top: 10px;
   text-align: right;
