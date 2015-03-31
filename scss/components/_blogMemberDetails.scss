@@ -5,6 +5,8 @@
     .profile-image {
         float: right;
         margin-top: 24px;
+        overflow: hidden;
+        text-align: right;
 
         // Move the image to the left when columns are stacked.
         @include screen-size(medium) {
