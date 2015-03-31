@@ -6011,7 +6011,7 @@ ul.nav, ul.dropdown-menu {
 }
 
 .blog-entry .blog-post-meta {
-  margin-bottom: 0px;
+  margin-bottom: 1em;
 }
 .blog-entry .typography #comments-holder .comments-holder .author {
   font-size: 16px;
