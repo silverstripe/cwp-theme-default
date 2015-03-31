@@ -6073,6 +6073,11 @@ ul.nav, ul.dropdown-menu {
 #blog-sidebar .tagcloud {
   line-height: 1.8em;
 }
+#blog-sidebar .tagcloud a {
+  padding: 3px 10px;
+  margin-left: -5px;
+  margin-right: -5px;
+}
 
 /*!
  * Bootstrap Responsive v2.0.3

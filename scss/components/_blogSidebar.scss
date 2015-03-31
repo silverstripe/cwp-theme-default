@@ -16,6 +16,7 @@
         padding-right: 15px;
 
         li {
+
             a {
                 padding: 3px 15px;
                 margin-left: -15px;
@@ -41,5 +42,11 @@
 
     .tagcloud {
         line-height: 1.8em;
+
+        a {
+            padding: 3px 10px;
+            margin-left: -5px;
+            margin-right: -5px;
+        }
     }
 }
