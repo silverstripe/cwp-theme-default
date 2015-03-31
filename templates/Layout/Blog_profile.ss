@@ -20,4 +20,7 @@
 		</div>
 		<% include LastEdited %>
 	</div>
+
+	<% include BlogSideBar %>
+
 </div>
