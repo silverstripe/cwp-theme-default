@@ -12,7 +12,7 @@
 	</p>
 <% end_if %>
 	
-<div class="comment-text well" id="<% if isPreview %>comment-preview<% else %>$Permalink<% end_if %>">
+<div class="comment-text well" id="<% if $isPreview %>comment-preview<% else %>$Permalink<% end_if %>">
 	$EscapedComment
 </div>
 <% if not $isPreview %>
@@ -20,16 +20,16 @@
 		<div class="comment-moderation">
 			<p class="heading"><strong>Comment moderation:</strong></p>
 			<ul class="action-links pull-left">
-				<% if ApproveLink %>
+				<% if $ApproveLink %>
 					<li><a href="$ApproveLink.ATT" class="approve"><% _t('CommentsInterface_singlecomment_ss.APPROVE', 'approve it') %></a></li>
 				<% end_if %>
-				<% if SpamLink %>
+				<% if $SpamLink %>
 					<li><a href="$SpamLink.ATT" class="spam"><% _t('CommentsInterface_singlecomment_ss.ISSPAM','spam it') %></a></li>
 				<% end_if %>
-				<% if HamLink %>
+				<% if $HamLink %>
 					<li><a href="$HamLink.ATT" class="ham"><% _t('CommentsInterface_singlecomment_ss.ISNTSPAM','not spam') %></a></li>
 				<% end_if %>
-				<% if DeleteLink %>
+				<% if $DeleteLink %>
 					<li class="last"><a href="$DeleteLink.ATT" class="delete"><% _t('CommentsInterface_singlecomment_ss.REMCOM','reject it') %></a></li>
 				<% end_if %>
 			</ul>

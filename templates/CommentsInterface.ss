@@ -35,7 +35,7 @@
 			<% if $CanPost %>
 				<h3>Leave a comment</h3>
 				<% if $ModeratedSubmitted %>
-					<p id="$CommentHolderID_PostCommentForm_error" class="message good"><% _t('CommentsInterface_ss.AWAITINGMODERATION', 'Your comment has been submitted and is now awaiting moderation.') %></p>
+					<p id="{$CommentHolderID}_PostCommentForm_error" class="message good"><% _t('CommentsInterface_ss.AWAITINGMODERATION', 'Your comment has been submitted and is now awaiting moderation.') %></p>
 				<% end_if %>
 				$AddCommentForm
 			<% else %>
