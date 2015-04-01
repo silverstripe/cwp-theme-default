@@ -19,18 +19,20 @@
 
 		</div>
 
-		<ul class="action-links">
-			<% if DeleteAllLink %>
-				<li class="delete-comments">
-					<a href="$DeleteAllLink"><% _t('CommentsInterface_ss.PageCommentInterface.DELETEALLCOMMENTS','Delete all comments on this page') %></a>
-				</li>
-			<% end_if %>
-			<% if $Comments %>
-				<li><a href="$RssLinkPage"><% _t('CommentsInterface_ss.RSSFEEDCOMMENTS', 'RSS feed for comments on this page') %></a></li>
-				<li><a href="$RssLink"><% _t('CommentsInterface_ss.RSSFEEDALLCOMMENTS', 'RSS feed for all comments') %></a></li>
-			<% end_if %>
-		</ul>
-		
+		<div class="commenting-rss-feed">
+			<ul class="action-links">
+				<% if DeleteAllLink %>
+					<li class="delete-comments">
+						<a href="$DeleteAllLink"><% _t('CommentsInterface_ss.PageCommentInterface.DELETEALLCOMMENTS','Delete all comments on this page') %></a>
+					</li>
+				<% end_if %>
+				<% if $Comments %>
+					<li><a href="$RssLinkPage"><% _t('CommentsInterface_ss.RSSFEEDCOMMENTS', 'RSS feed for comments on this page') %></a></li>
+					<li><a href="$RssLink"><% _t('CommentsInterface_ss.RSSFEEDALLCOMMENTS', 'RSS feed for all comments') %></a></li>
+				<% end_if %>
+			</ul>
+		</div>
+
 		<div class="commenting-area">
 			<% if $CanPost %>
 				<h3>Leave a comment</h3>

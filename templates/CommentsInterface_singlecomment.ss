@@ -18,8 +18,8 @@
 <% if not $isPreview %>
 	<% if $ApproveLink || $SpamLink || $HamLink || $DeleteLink %>
 		<div class="comment-moderation">
-			<p class="heading"><strong>Comment moderation:</strong></p>
 			<ul class="action-links pull-left">
+				<li><strong>Comment moderation:</strong></li>
 				<% if $ApproveLink %>
 					<li><a href="$ApproveLink.ATT" class="approve"><% _t('CommentsInterface_singlecomment_ss.APPROVE', 'approve it') %></a></li>
 				<% end_if %>
