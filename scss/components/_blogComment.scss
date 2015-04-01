@@ -1,0 +1,51 @@
+#comments-holder {
+    .author {
+        font-size: 16px;
+    }
+
+    // A published comment
+    .comment {
+        clear:both;
+
+        .comment-text {
+            border: 0px;
+            background-color: #f2f2f2;
+            box-shadow: none;
+        }
+
+        .date {
+            font-size: 16px;
+        }
+    }
+
+    // Admin actions
+    .comment-moderation {
+        float: left;
+        margin-top: 1em;
+
+        .heading {
+            margin-bottom: 0;
+        }
+
+        .action-links {
+            li {
+                margin-left: 40px;
+            }
+        }
+    }
+
+    // The comment form
+    .commenting-area {
+        label.left{
+            font-weight: normal;
+        }
+
+        input,
+        textarea,
+        select {
+            background-color:#f2f2f2;
+            border:none;
+            box-shadow: none;
+        }
+    }
+}
