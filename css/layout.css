@@ -7022,39 +7022,116 @@ ul.nav, ul.dropdown-menu {
   float: left;
 }
 
+#comments-holder {
+  clear: both;
+}
+#comments-holder h2 {
+  margin: 30px 0 10px;
+  padding-bottom: 5px;
+  border-bottom: 1px solid #eee;
+}
+#comments-holder h3 {
+  margin-top: 0;
+}
+#comments-holder .field {
+  clear: left;
+}
+#comments-holder .num,
 #comments-holder .author {
-  font-size: 16px;
+  font-size: 1.3em;
+}
+#comments-holder .num {
+  color: #999;
+  margin-right: 5px;
+}
+#comments-holder .num-total {
+  line-height: 40px;
+  margin-bottom: 0;
+}
+#comments-holder .comments-list {
+  margin: 0;
 }
 #comments-holder .comment {
   clear: both;
+  list-style-type: none;
+  overflow: hidden;
+  padding: 20px 0 10px;
 }
 #comments-holder .comment .comment-text {
-  border: 0px;
-  background-color: #f2f2f2;
+  background-color: #fff;
+  border: 1px solid #ddd;
   box-shadow: none;
+  margin: 0;
+  padding: 0 15% 0 20px;
+  white-space: pre;
+  white-space: pre-wrap;
+  white-space: pre-line;
+  word-wrap: break-word;
+}
+#comments-holder .comment .comment-text p:last-child {
+  margin-bottom: 0;
 }
 #comments-holder .comment .date {
   font-size: 16px;
 }
+#comments-holder .comment .date:before {
+  content: '\0000a0\0000a0\0000a0\0000a0';
+}
+#comments-holder .comment.unmoderated {
+  border: 2px dashed gray;
+  -webkit-border-radius: 4px;
+  -moz-border-radius: 4px;
+  border-radius: 4px;
+  margin: 2em 0 4em;
+  padding: 2em;
+}
+#comments-holder .comment.unmoderated .comment-moderation {
+  margin-bottom: 0;
+}
+#comments-holder .comment .info {
+  margin-bottom: 10px;
+}
 #comments-holder .comment-moderation {
   float: left;
-  margin-top: 1em;
+  margin: 1em 0 2em;
 }
 #comments-holder .comment-moderation .heading {
   margin-bottom: 0;
 }
-#comments-holder .comment-moderation .action-links li {
-  margin-left: 40px;
+#comments-holder .action-links {
+  margin: 10px 10px 10px 5px;
+}
+#comments-holder .action-links li {
+  display: inline;
+  list-style-type: none;
+  margin-left: 20px;
+}
+#comments-holder .action-links li:first-child {
+  margin-left: 0;
+}
+#comments-holder .action-links a {
+  background-image: none;
+  padding: 0;
+}
+#comments-holder .action-links a::first-letter {
+  text-transform: capitalize;
+}
+#comments-holder .comment-count {
+  margin: 15px 0;
+}
+#comments-holder .commenting-area {
+  margin-top: 50px;
 }
 #comments-holder .commenting-area label.left {
   font-weight: normal;
 }
-#comments-holder .commenting-area input,
-#comments-holder .commenting-area textarea,
-#comments-holder .commenting-area select {
-  background-color: #f2f2f2;
-  border: none;
-  box-shadow: none;
+#comments-holder .commenting-rss-feed {
+  margin-top: 4em;
+  text-align: right;
+}
+#comments-holder .no-comments-yet {
+  display: inline-block;
+  margin-top: 10px;
 }
 
 /*****************************
@@ -8218,113 +8295,6 @@ footer .socialLinks a:hover i:before {
 
 .tagcloud-ultra-popular {
   font-size: 2.2em;
-}
-
-/**
- * Comments
- */
-#comments-holder {
-  clear: both;
-}
-#comments-holder ul.action-links {
-  margin-top: 10px;
-  text-align: right;
-}
-#comments-holder ul.action-links li {
-  list-style-type: none;
-  display: inline;
-  margin-left: 15px;
-}
-#comments-holder ul.action-links li a {
-  background-image: none;
-  padding: 0;
-}
-#comments-holder .comment-count {
-  margin: 15px 0;
-}
-
-.typography .commenting-area {
-  margin-top: 50px;
-}
-.typography .commenting-area form {
-  margin: 0;
-}
-.typography .commenting-area .text {
-  max-width: 100%;
-}
-.typography .commenting-area h3 {
-  margin-top: 0;
-}
-.typography .commenting-area .Actions {
-  padding: 0;
-  border-top: none;
-}
-
-.typography #comments-holder h2 {
-  margin: 30px 0 10px;
-  padding-bottom: 5px;
-  border-bottom: 1px solid #eee;
-}
-.typography #comments-holder div.field {
-  clear: left;
-}
-.typography #comments-holder .comments-list {
-  margin: 0;
-}
-.typography #comments-holder .comments-holder .num,
-.typography #comments-holder .comments-holder .author {
-  font-size: 1.3em;
-}
-.typography #comments-holder .comments-holder .num {
-  color: #999;
-  margin-right: 5px;
-}
-.typography #comments-holder .comments-holder .num-total {
-  line-height: 40px;
-  margin-bottom: 0;
-}
-.typography #comments-holder .comments-holder li.comment {
-  overflow: hidden;
-  list-style-type: none;
-  padding: 20px 0 10px;
-}
-.typography #comments-holder .comments-holder li.comment.unmoderated {
-  border: 2px dashed grey;
-}
-.typography #comments-holder .comments-holder li.comment .info {
-  margin-bottom: 10px;
-}
-.typography #comments-holder .comments-holder li.comment .date {
-  font-size: 12px;
-}
-.typography #comments-holder .comments-holder li.comment .date:before {
-  content: '\0000a0\0000a0\0000a0\0000a0';
-}
-.typography #comments-holder .comments-holder li.comment .comment-text {
-  border: 1px solid #ddd;
-  background-color: #fff;
-  margin: 0;
-  padding: 0 15% 0 20px;
-  white-space: pre;
-  white-space: pre-wrap;
-  white-space: pre-line;
-  word-wrap: break-word;
-}
-.typography #comments-holder .comments-holder li.comment .comment-text p:last-child {
-  margin-bottom: 0;
-}
-.typography #comments-holder .comments-holder .action-links {
-  margin: 10px 10px 10px 5px;
-}
-.typography #comments-holder .comments-holder .action-links a::first-letter {
-  text-transform: capitalize;
-}
-.typography #comments-holder .commenting-rss-feed {
-  margin-top: 20px;
-}
-.typography #comments-holder .no-comments-yet {
-  display: inline-block;
-  margin-top: 10px;
 }
 
 /**
