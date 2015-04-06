@@ -7,10 +7,6 @@
 
 			<hr />
 
-			<div class="clearfix">
-				$Content.RichLinks
-			</div>
-
 			<% include BlogPostPaginatedList %>
 
 			$Form
