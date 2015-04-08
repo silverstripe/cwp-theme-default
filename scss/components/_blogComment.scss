@@ -41,6 +41,11 @@
         overflow: hidden;
         padding: 20px 0 10px;
 
+        &.author-comment:after {
+            content: 'Author *';
+            float: right;
+        }
+
         .comment-text {
             background-color: #fff;
             border: 1px solid #ddd;
@@ -79,11 +84,18 @@
         .info {
             margin-bottom: 10px;
         }
+
+        &.spam .comment{
+            border: 1px dashed #F48B33;
+            color: #F48B33;
+            border-radius: 4px;
+            padding: 2.5em 1em 1em;
+        }
     }
 
     // Admin actions
     .comment-moderation {
-        float: left;
+        float: right;
         margin: 1em 0 2em;
 
         .heading {
@@ -92,7 +104,7 @@
     }
 
     .action-links {
-        margin: 10px 10px 10px 5px;
+        margin: 20px 0 10px;
 
         li {
             display: inline;
@@ -106,11 +118,27 @@
 
         a {
             background-image: none;
-            padding: 0;
+            @extend .btn-small;
 
             &::first-letter {
                 text-transform: capitalize;
             }
+        }
+
+        a.approve {
+            @extend .btn-success;
+        }
+
+        a.delete {
+            @extend .btn-danger;
+        }
+
+        a.ham {
+            @extend .btn-info;                        
+        }
+
+        a.spam {
+            @extend .btn-warning;            
         }
     }
 
