@@ -7073,10 +7073,16 @@ ul.nav, ul.dropdown-menu {
   list-style-type: none;
   overflow: hidden;
   padding: 20px 0 10px;
+  position: relative;
 }
 #comments-holder .comment.author-comment:after {
   content: 'Author *';
   float: right;
+  position: absolute;
+  top: 1.5em;
+  right: 0;
+  font-size: 1em;
+  font-weight: bold;
 }
 #comments-holder .comment .comment-text {
   background-color: #fff;
