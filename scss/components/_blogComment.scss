@@ -42,47 +42,61 @@
         padding: 20px 0 10px;
         position: relative;
 
-        &.author-comment:after {
-          content: 'Author *';
-          float: right;
-          position: absolute;
-          top: 1.5em;
-          right: 0;
-          font-size: 1em;
-          font-weight: bold;
-      }
+        &.author-comment {
+            &:after {
+              content: 'Author *';
+              float: right;
+              position: absolute;
+              top: 1.5em;
+              right: 0;
+              font-size: 1em;
+              font-weight: bold;
+              color: #00acee;
+          }
 
+          .comment-text {
+            border: 1px dashed #00acee;
+        }
+
+    }
+
+    &.spam {
       .comment-text {
-        background-color: #fff;
-        border: 1px solid #ddd;
-        box-shadow: none;
-        margin: 0;
-        padding: 0 15% 0 20px;
-        white-space: pre;
-        white-space: pre-wrap;
-        white-space: pre-line;
-        word-wrap: break-word;
-
-        p:last-child {
-            margin-bottom: 0;
-        }
+        border: 1px dashed #F48B33;
     }
+}
 
-    .date {
-        font-size: 16px;
+.comment-text {
+    background-color: #fff;
+    border: 1px solid #ddd;
+    box-shadow: none;
+    margin: 0;
+    padding: 0 15% 0 20px;
+    white-space: pre;
+    white-space: pre-wrap;
+    white-space: pre-line;
+    word-wrap: break-word;
 
-        &:before {
-            content: '\0000a0\0000a0\0000a0\0000a0';
-        }
+    p:last-child {
+        margin-bottom: 0;
     }
+}
 
-    &.unmoderated {
-        border: 2px dashed gray;
-        @include border-radius(4px);
-        margin: 2em 0 4em;
-        padding: 2em;
+.date {
+    font-size: 16px;
 
-        .comment-moderation {
+    &:before {
+        content: '\0000a0\0000a0\0000a0\0000a0';
+    }
+}
+
+&.unmoderated {
+    border: 2px dashed gray;
+    @include border-radius(4px);
+    margin: 2em 0 4em;
+    padding: 2em;
+
+    .comment-moderation {
                 margin-bottom: 0; // Remove the margin to compensate for unmoderated comment padding.
             }
         }

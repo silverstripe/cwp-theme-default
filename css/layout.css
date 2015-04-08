@@ -7083,6 +7083,13 @@ ul.nav, ul.dropdown-menu {
   right: 0;
   font-size: 1em;
   font-weight: bold;
+  color: #00acee;
+}
+#comments-holder .comment.author-comment .comment-text {
+  border: 1px dashed #00acee;
+}
+#comments-holder .comment.spam .comment-text {
+  border: 1px dashed #F48B33;
 }
 #comments-holder .comment .comment-text {
   background-color: #fff;
