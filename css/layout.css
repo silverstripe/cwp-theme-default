@@ -7076,14 +7076,13 @@ ul.nav, ul.dropdown-menu {
   position: relative;
 }
 #comments-holder .comment.author-comment:after {
-  content: 'Author *';
+  content: 'Author';
   float: right;
   position: absolute;
   top: 1.5em;
   right: 0;
   font-size: 1em;
   font-weight: bold;
-  color: #00acee;
 }
 #comments-holder .comment.author-comment .comment-text {
   border: 1px dashed #00acee;

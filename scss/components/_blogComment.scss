@@ -44,14 +44,13 @@
 
         &.author-comment {
             &:after {
-              content: 'Author *';
+              content: 'Author';
               float: right;
               position: absolute;
               top: 1.5em;
               right: 0;
               font-size: 1em;
               font-weight: bold;
-              color: #00acee;
           }
 
           .comment-text {
