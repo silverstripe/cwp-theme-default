@@ -6,7 +6,7 @@
 			<h3>Comments ($Comments.Count)</h3>			
 				<ol class="comments-list">
 					<% loop $Comments %>
-						<li class="comment $EvenOdd<% if FirstLast %> $FirstLast <% end_if %> $SpamClass">
+						<li class="comment $EvenOdd<% if FirstLast %> $FirstLast <% end_if %> $SpamClass $ExtraClass">
 							<% include CommentsInterface_singlecomment %>
 						</li>
 					<% end_loop %>
