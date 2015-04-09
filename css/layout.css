@@ -7083,6 +7083,7 @@ ul.nav, ul.dropdown-menu {
   right: 0;
   font-size: 1em;
   font-weight: bold;
+  color: #00acee;
 }
 #comments-holder .comment.author-comment .comment-text {
   border: 1px dashed #00acee;
@@ -7153,6 +7154,18 @@ ul.nav, ul.dropdown-menu {
 }
 #comments-holder .action-links a::first-letter {
   text-transform: capitalize;
+}
+#comments-holder .action-links a.approve {
+  background: #00acee;
+}
+#comments-holder .action-links a.delete {
+  background: #DB4A39;
+}
+#comments-holder .action-links a.ham {
+  background: #00acee;
+}
+#comments-holder .action-links a.spam {
+  background: #F48B33;
 }
 #comments-holder .comment-count {
   margin: 15px 0;

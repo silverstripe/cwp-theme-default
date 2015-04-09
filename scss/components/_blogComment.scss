@@ -51,6 +51,7 @@
               right: 0;
               font-size: 1em;
               font-weight: bold;
+              color: #00acee;
           }
 
           .comment-text {
@@ -144,20 +145,29 @@
             }
         }
 
+        // the background colours below is a temporary fix.
+        // bootstrap's scss file will have to be modified
+        // to ensure it is flat to match the more modern
+        // changes applied elsewhere around the site.
+
         a.approve {
             @extend .btn-success;
+            background: #00acee;
         }
 
         a.delete {
             @extend .btn-danger;
+            background: #DB4A39;
         }
 
         a.ham {
-            @extend .btn-info;                        
+            @extend .btn-info;
+            background: #00acee;                    
         }
 
         a.spam {
-            @extend .btn-warning;            
+            @extend .btn-warning;
+            background: #F48B33;            
         }
     }
 
