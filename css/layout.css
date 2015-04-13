@@ -7086,7 +7086,7 @@ ul.nav, ul.dropdown-menu {
   color: #00acee;
 }
 #comments-holder .comment.author-comment .comment-text {
-  border: 1px dashed #00acee;
+  border: 1px solid #00acee;
 }
 #comments-holder .comment.spam .comment-text {
   border: 1px dashed #F48B33;
