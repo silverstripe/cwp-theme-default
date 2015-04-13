@@ -9,10 +9,10 @@
 
 <% include BlogPostMeta %>
 
-<% if BlogHolder.ShowFullEntry %>
-	$Content
-<% else %> 
-	<p>$Content.FirstParagraph(html)</p>
+<% if $Summary %>
+	$Summary
+<% else %>
+	<p>$Excerpt</p>
 <% end_if %>
 
 <% include BlogEntryTags %>
