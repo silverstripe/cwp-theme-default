@@ -13,7 +13,7 @@
 <% end_if %>
 	
 <div class="comment-text well" id="<% if $isPreview %>comment-preview<% else %>$Permalink<% end_if %>">
-	$EscapedComment
+	<p>$EscapedComment</p>
 </div>
 <% if not $isPreview %>
 	<% if $ApproveLink || $SpamLink || $HamLink || $DeleteLink %>

@@ -2,17 +2,17 @@
 	<div id="$CommentHolderID" class="comments-holder-container">
 	
 		<div class="comments-holder">			
-			<% if $Comments %>
-			<h3>Comments ($Comments.Count)</h3>			
+			<% if $PagedComments %>
+			<h3>Comments ($PagedComments.Count)</h3>			
 				<ol class="comments-list">
-					<% loop $Comments %>
+					<% loop $PagedComments %>
 						<li class="comment $EvenOdd<% if FirstLast %> $FirstLast <% end_if %> $SpamClass $ExtraClass">
 							<% include CommentsInterface_singlecomment %>
 						</li>
 					<% end_loop %>
 				</ol>
 			
-				<% with $Comments %>
+				<% with $PagedComments %>
 					<% include Pagination %>
 				<% end_with %>
 			<% end_if %>
@@ -21,20 +21,20 @@
 
 		<div class="commenting-rss-feed">
 			<ul class="action-links">
-				<% if DeleteAllLink %>
+				<% if $DeleteAllLink %>
 					<li class="delete-comments">
 						<a href="$DeleteAllLink"><% _t('CommentsInterface_ss.PageCommentInterface.DELETEALLCOMMENTS','Delete all comments on this page') %></a>
 					</li>
 				<% end_if %>
-				<% if $Comments %>
-					<li><a href="$RssLinkPage"><% _t('CommentsInterface_ss.RSSFEEDCOMMENTS', 'RSS feed for comments on this page') %></a></li>
-					<li><a href="$RssLink"><% _t('CommentsInterface_ss.RSSFEEDALLCOMMENTS', 'RSS feed for all comments') %></a></li>
+				<% if $PagedComments %>
+					<li><a href="$CommentRSSLinkPage"><% _t('CommentsInterface_ss.RSSFEEDCOMMENTS', 'RSS feed for comments on this page') %></a></li>
+					<li><a href="$CommentRSSLink"><% _t('CommentsInterface_ss.RSSFEEDALLCOMMENTS', 'RSS feed for all comments') %></a></li>
 				<% end_if %>
 			</ul>
 		</div>
 
 		<div class="commenting-area">
-			<% if $CanPost %>
+			<% if $CanPostComment %>
 				<h3>Leave a comment</h3>
 				<% if $ModeratedSubmitted %>
 					<p id="{$CommentHolderID}_PostCommentForm_error" class="message good"><% _t('CommentsInterface_ss.AWAITINGMODERATION', 'Your comment has been submitted and is now awaiting moderation.') %></p>
