@@ -51,52 +51,52 @@
               right: 0;
               font-size: 1em;
               font-weight: bold;
-              color: #00acee;
+              color: $blue;
           }
 
           .comment-text {
-            border: 1px solid #00acee;
+            border: 1px solid $blue;
         }
 
     }
 
     &.spam {
-      .comment-text {
-        border: 1px dashed #F48B33;
+        .comment-text {
+            border: 1px dashed $orange;
+        }
     }
-}
 
-.comment-text {
-    background-color: #fff;
-    border: 1px solid #ddd;
-    box-shadow: none;
-    margin: 0;
-    padding: 0 15% 0 20px;
-    white-space: pre;
-    white-space: pre-wrap;
-    white-space: pre-line;
-    word-wrap: break-word;
+    .comment-text {
+        background-color: #fff;
+        border: 1px solid #ddd;
+        box-shadow: none;
+        margin: 0;
+        padding: 0 15% 0 20px;
+        white-space: pre;
+        white-space: pre-wrap;
+        white-space: pre-line;
+        word-wrap: break-word;
 
-    p:last-child {
-        margin-bottom: 0;
+        p:last-child {
+            margin-bottom: 0;
+        }
     }
-}
 
-.date {
-    font-size: 16px;
+    .date {
+        font-size: 16px;
 
-    &:before {
-        content: '\0000a0\0000a0\0000a0\0000a0';
+        &:before {
+            content: '\0000a0\0000a0\0000a0\0000a0';
+        }
     }
-}
 
-&.unmoderated {
-    border: 2px dashed gray;
-    @include border-radius(4px);
-    margin: 2em 0 4em;
-    padding: 2em;
+    &.unmoderated {
+        border: 2px dashed gray;
+        @include border-radius(4px);
+        margin: 2em 0 4em;
+        padding: 2em;
 
-    .comment-moderation {
+        .comment-moderation {
                 margin-bottom: 0; // Remove the margin to compensate for unmoderated comment padding.
             }
         }
@@ -106,8 +106,8 @@
         }
 
         &.spam .comment{
-            border: 1px dashed #F48B33;
-            color: #F48B33;
+            border: 1px dashed $orange;
+            color: $orange;
             border-radius: 4px;
             padding: 2.5em 1em 1em;
         }
@@ -145,29 +145,24 @@
             }
         }
 
-        // the background colours below is a temporary fix.
-        // bootstrap's scss file will have to be modified
-        // to ensure it is flat to match the more modern
-        // changes applied elsewhere around the site.
-
         a.approve {
             @extend .btn-success;
-            background: #00acee;
+            background: $blue;
         }
 
         a.delete {
             @extend .btn-danger;
-            background: #DB4A39;
+            background: $redLight;
         }
 
         a.ham {
             @extend .btn-info;
-            background: #00acee;                    
+            background: $blue;                    
         }
 
         a.spam {
             @extend .btn-warning;
-            background: #F48B33;            
+            background: $orange;            
         }
     }
 
