@@ -24,12 +24,13 @@ $white:                 #fff !default;
 
 // Accent colors
 // -------------------------
-$blue:                  #049cdb !default;
+$blue:                  #00acee !default;
 $blueDark:              #0064cd !default;
 $green:                 #46a546 !default;
+$redLight:				#DB4A39 !default;
 $red:                   #9d261d !default;
 $yellow:                #ffc40d !default;
-$orange:                #f89406 !default;
+$orange:                #f48b33 !default;
 $pink:                  #c3325f !default;
 $purple:                #7a43b6 !default;
 
@@ -74,26 +75,26 @@ $tableBorder:                       #ddd !default; // table and cell border
 // Buttons
 // -------------------------
 $btnBackground:                     $white !default;
-$btnBackgroundHighlight:            darken($white, 10%) !default;
+$btnBackgroundHighlight:            darken($white, 5%) !default;
 $btnBorder:                         #ccc !default;
 
 $btnPrimaryBackground:              $linkVisited !default;
 $btnPrimaryBackgroundHighlight:     adjust-hue($btnPrimaryBackground, 15%) !default;
 
 $btnInfoBackground:                 #5bc0de !default;
-$btnInfoBackgroundHighlight:        #2f96b4 !default;
+$btnInfoBackgroundHighlight:        $btnInfoBackground !default;
 
 $btnSuccessBackground:              #62c462 !default;
-$btnSuccessBackgroundHighlight:     #51a351 !default;
+$btnSuccessBackgroundHighlight:     $btnSuccessBackground !default;
 
 $btnWarningBackground:              lighten($orange, 15%) !default;
-$btnWarningBackgroundHighlight:     $orange !default;
+$btnWarningBackgroundHighlight:     $btnWarningBackground !default;
 
 $btnDangerBackground:               #ee5f5b !default;
-$btnDangerBackgroundHighlight:      #bd362f !default;
+$btnDangerBackgroundHighlight:      $btnDangerBackground !default;
 
 $btnInverseBackground:              $gray !default;
-$btnInverseBackgroundHighlight:     $grayDarker !default;
+$btnInverseBackgroundHighlight:     $btnInverseBackground !default;
 
 
 // Forms
