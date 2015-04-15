@@ -7030,9 +7030,13 @@ ul.nav, ul.dropdown-menu {
   overflow: hidden;
   text-align: right;
 }
-@media (max-width: 767px) {
+@media (max-width: 480px) {
   .blog-member-details .profile-image {
-    float: left;
+    width: 100%;
+  }
+  .blog-member-details .profile-image img {
+    margin: auto;
+    display: block;
   }
 }
 .blog-member-details .profile-summary {

@@ -9,8 +9,13 @@
         text-align: right;
 
         // Move the image to the left when columns are stacked.
-        @include screen-size(medium) {
-            float: left;
+        @include screen-size(small) {
+            width: 100%;
+
+            img {
+                margin: auto;
+                display: block;
+            }
         }
     }
 
