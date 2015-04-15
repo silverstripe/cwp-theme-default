@@ -965,8 +965,8 @@ select:focus:required:invalid:focus {
 }
 .input-prepend .active,
 .input-append .active {
-  background-color: #a9dba9;
-  border-color: #46a546;
+  background-color: #59ff22;
+  border-color: #228800;
 }
 
 .input-prepend .add-on,
@@ -3171,29 +3171,29 @@ button.close {
 }
 
 .btn-warning, #comments-holder .action-links a.spam {
-  background-color: #f8b47c;
-  background-image: -ms-linear-gradient(top, #f8b47c, #f8b47c);
-  background-image: -webkit-gradient(linear, 0 0, 0 100%, from(#f8b47c), to(#f8b47c));
-  background-image: -webkit-linear-gradient(top, #f8b47c, #f8b47c);
-  background-image: -o-linear-gradient(top, #f8b47c, #f8b47c);
-  background-image: -moz-linear-gradient(top, #f8b47c, #f8b47c);
-  background-image: linear-gradient(top, #f8b47c, #f8b47c);
+  background-color: #dc6400;
+  background-image: -ms-linear-gradient(top, #dc6400, #dc6400);
+  background-image: -webkit-gradient(linear, 0 0, 0 100%, from(#dc6400), to(#dc6400));
+  background-image: -webkit-linear-gradient(top, #dc6400, #dc6400);
+  background-image: -o-linear-gradient(top, #dc6400, #dc6400);
+  background-image: -moz-linear-gradient(top, #dc6400, #dc6400);
+  background-image: linear-gradient(top, #dc6400, #dc6400);
   background-repeat: repeat-x;
-  border-color: #f8b47c #f8b47c #f48b33;
+  border-color: #dc6400 #dc6400 #8f4100;
   border-color: rgba(0, 0, 0, 0.1) rgba(0, 0, 0, 0.1) rgba(0, 0, 0, 0.25);
-  *background-color: #f8b47c;
+  *background-color: #dc6400;
   /* Darken IE7 buttons by default so they stand out more given they won't have borders */
   filter: progid:DXImageTransform.Microsoft.gradient(enabled=false);
 }
 #IE8 .btn-warning, #IE8 #comments-holder .action-links a.spam, #comments-holder .action-links #IE8 a.spam {
-  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#FFF8B47C', endColorstr='#FFF8B47C', GradientType=0);
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#FFDC6400', endColorstr='#FFDC6400', GradientType=0);
 }
 .btn-warning:hover, #comments-holder .action-links a.spam:hover, .btn-warning:active, #comments-holder .action-links a.spam:active, .btn-warning.active, #comments-holder .action-links a.active.spam, .btn-warning.disabled, #comments-holder .action-links a.disabled.spam, .btn-warning[disabled], #comments-holder .action-links a[disabled].spam {
-  background-color: #f8b47c;
-  *background-color: #f7a763;
+  background-color: #dc6400;
+  *background-color: #c25800;
 }
 .btn-warning:active, #comments-holder .action-links a.spam:active, .btn-warning.active, #comments-holder .action-links a.active.spam {
-  background-color: #f5994b \9;
+  background-color: #a94d00 \9;
 }
 
 .btn-danger, #comments-holder .action-links a.delete {
@@ -3463,7 +3463,7 @@ input[type="submit"].btn.btn-mini,
   background-color: #800060;
 }
 .btn-group.open .btn-warning.dropdown-toggle, .btn-group.open #comments-holder .action-links a.dropdown-toggle.spam, #comments-holder .action-links .btn-group.open a.dropdown-toggle.spam {
-  background-color: #f8b47c;
+  background-color: #dc6400;
 }
 .btn-group.open .btn-danger.dropdown-toggle, .btn-group.open #comments-holder .action-links a.dropdown-toggle.delete, #comments-holder .action-links .btn-group.open a.dropdown-toggle.delete {
   background-color: #ee5f5b;
@@ -4850,11 +4850,11 @@ a.label:hover, a.badge:hover {
 }
 
 .label-warning, .badge-warning {
-  background-color: #f48b33;
+  background-color: #8F4100;
 }
 
 .label-warning[href], .badge-warning[href] {
-  background-color: #e8700c;
+  background-color: #5c2a00;
 }
 
 .label-success, .badge-success {
@@ -5071,21 +5071,21 @@ a.label:hover, a.badge:hover {
 }
 
 .progress-warning .bar {
-  background-color: #f6a35e;
-  background-image: -ms-linear-gradient(top, #f8b47c, #f48b33);
-  background-image: -webkit-gradient(linear, 0 0, 0 100%, from(#f8b47c), to(#f48b33));
-  background-image: -webkit-linear-gradient(top, #f8b47c, #f48b33);
-  background-image: -o-linear-gradient(top, #f8b47c, #f48b33);
-  background-image: -moz-linear-gradient(top, #f8b47c, #f48b33);
-  background-image: linear-gradient(top, #f8b47c, #f48b33);
+  background-color: #bd5600;
+  background-image: -ms-linear-gradient(top, #dc6400, #8F4100);
+  background-image: -webkit-gradient(linear, 0 0, 0 100%, from(#dc6400), to(#8F4100));
+  background-image: -webkit-linear-gradient(top, #dc6400, #8F4100);
+  background-image: -o-linear-gradient(top, #dc6400, #8F4100);
+  background-image: -moz-linear-gradient(top, #dc6400, #8F4100);
+  background-image: linear-gradient(top, #dc6400, #8F4100);
   background-repeat: repeat-x;
 }
 #IE8 .progress-warning .bar {
-  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#FFF8B47C', endColorstr='#FFF48B33', GradientType=0);
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#FFDC6400', endColorstr='#FF8F4100', GradientType=0);
 }
 
 .progress-warning.progress-striped .bar {
-  background-color: #f8b47c;
+  background-color: #dc6400;
   background-image: -webkit-gradient(linear, 0 100%, 100% 0, color-stop(0.25, rgba(255, 255, 255, 0.15)), color-stop(0.25, transparent), color-stop(0.5, transparent), color-stop(0.5, rgba(255, 255, 255, 0.15)), color-stop(0.75, rgba(255, 255, 255, 0.15)), color-stop(0.75, transparent), to(transparent));
   background-image: -webkit-linear-gradient(-45deg, rgba(255, 255, 255, 0.15) 25%, transparent 25%, transparent 50%, rgba(255, 255, 255, 0.15) 50%, rgba(255, 255, 255, 0.15) 75%, transparent 75%, transparent);
   background-image: -moz-linear-gradient(-45deg, rgba(255, 255, 255, 0.15) 25%, transparent 25%, transparent 50%, rgba(255, 255, 255, 0.15) 50%, rgba(255, 255, 255, 0.15) 75%, transparent 75%, transparent);
@@ -7087,13 +7087,13 @@ ul.nav, ul.dropdown-menu {
   right: 0;
   font-size: 1em;
   font-weight: bold;
-  color: #00acee;
+  color: #005B95;
 }
 #comments-holder .comment.author-comment .comment-text {
-  border: 1px solid #00acee;
+  border: 1px solid #005B95;
 }
 #comments-holder .comment.spam .comment-text {
-  border: 1px dashed #f48b33;
+  border: 1px dashed #8F4100;
 }
 #comments-holder .comment .comment-text {
   background-color: #fff;
@@ -7130,8 +7130,8 @@ ul.nav, ul.dropdown-menu {
   margin-bottom: 10px;
 }
 #comments-holder .comment.spam .comment {
-  border: 1px dashed #f48b33;
-  color: #f48b33;
+  border: 1px dashed #8F4100;
+  color: #8F4100;
   border-radius: 4px;
   padding: 2.5em 1em 1em;
 }
@@ -7160,16 +7160,40 @@ ul.nav, ul.dropdown-menu {
   text-transform: capitalize;
 }
 #comments-holder .action-links a.approve {
-  background: #00acee;
+  background: #005B95;
 }
 #comments-holder .action-links a.delete {
-  background: #DB4A39;
+  background: #EE0004;
 }
 #comments-holder .action-links a.ham {
-  background: #00acee;
+  background: #005B95;
 }
 #comments-holder .action-links a.spam {
-  background: #f48b33;
+  background: #8F4100;
+}
+#comments-holder .test button:nth-child(1) {
+  background: #005B95;
+}
+#comments-holder .test button:nth-child(2) {
+  background: #0064cd;
+}
+#comments-holder .test button:nth-child(3) {
+  background: #228800;
+}
+#comments-holder .test button:nth-child(4) {
+  background: #EE0004;
+}
+#comments-holder .test button:nth-child(5) {
+  background: #ffc40d;
+}
+#comments-holder .test button:nth-child(6) {
+  background: #8F4100;
+}
+#comments-holder .test button:nth-child(7) {
+  background: #c3325f;
+}
+#comments-holder .test button:nth-child(8) {
+  background: #7a43b6;
 }
 #comments-holder .comment-count {
   margin: 15px 0;

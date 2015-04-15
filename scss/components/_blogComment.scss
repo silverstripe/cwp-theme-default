@@ -152,7 +152,7 @@
 
         a.delete {
             @extend .btn-danger;
-            background: $redLight;
+            background: $red;
         }
 
         a.ham {
@@ -163,6 +163,54 @@
         a.spam {
             @extend .btn-warning;
             background: $orange;            
+        }
+    }
+
+    .test {
+        button:nth-child(1) {
+            background: $blue;
+        }
+    }
+
+    .test {
+        button:nth-child(2) {
+            background: $blueDark;
+        }
+    }
+
+    .test {
+        button:nth-child(3) {
+            background: $green;
+        }
+    }
+
+    .test {
+        button:nth-child(4) {
+            background: $red;
+        }
+    }
+
+    .test {
+        button:nth-child(5) {
+            background: $yellow;
+        }
+    }
+
+    .test {
+        button:nth-child(6) {
+            background: $orange;
+        }
+    }
+
+    .test {
+        button:nth-child(7) {
+            background: $pink;
+        }
+    }
+
+    .test {
+        button:nth-child(8) {
+            background: $purple;
         }
     }
 
