@@ -172,24 +172,23 @@ $heroUnitBackground:              $grayLighter !default;
 $heroUnitHeadingColor:            inherit !default;
 $heroUnitLeadColor:               inherit !default;
 
-
 // Form states and alerts
 // -------------------------
-$warningText:             #c09853 !default;
-$warningBackground:       #fcf8e3 !default;
-$warningBorder:           darken(adjust-hue($warningBackground, -10), 3%) !default;
+$warningText:             white !default;
+$warningBackground:       $orange !default;
+$warningBorder:           none !default;
 
-$errorText:               #b94a48 !default;
-$errorBackground:         #fcf6f6 !default;
-$errorBorder:             darken(adjust-hue($errorBackground, -10), 5%) !default;
+$errorText:               white !default;
+$errorBackground:         $red !default;
+$errorBorder:             none !default;
 
-$successText:             #468847 !default;
-$successBackground:       #dff0d8 !default;
-$successBorder:           darken(adjust-hue($successBackground, -10), 5%) !default;
+$successText:             white !default;
+$successBackground:       $green !default;
+$successBorder:           none !default;
 
-$infoText:                #3a87ad !default;
-$infoBackground:          #d9edf7 !default;
-$infoBorder:              darken(adjust-hue($infoBackground, -10), 7%) !default;
+$infoText:                white !default;
+$infoBackground:          $blue !default;
+$infoBorder:              none !default;
 
 
 
