@@ -143,6 +143,10 @@
             &::first-letter {
                 text-transform: capitalize;
             }
+
+            &:hover {
+                @extend .btn:hover;
+            }
         }
 
         a.approve {
@@ -162,7 +166,7 @@
 
         a.spam {
             @extend .btn-warning;
-            background: $orange;            
+            background: $orange;        
         }
     }
 
