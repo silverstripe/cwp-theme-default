@@ -8,6 +8,13 @@
 .typography table, .typography tr, .typography td {
   font-size: 14px;
 }
+.typography a.ss-broken {
+  background-color: #FF7B71;
+  border: 1px red solid;
+  color: #fff;
+  padding: 1px;
+  text-decoration: underline;
+}
 .typography .maori {
   background-color: #fae5e8 !important;
 }
