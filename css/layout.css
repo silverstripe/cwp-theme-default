@@ -2978,7 +2978,7 @@ button.close {
 #IE8 .btn, #IE8 .Actions .action, .Actions #IE8 .action {
   filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#FFFFFFFF', endColorstr='#FFF2F2F2', GradientType=0);
 }
-.btn:hover, .Actions .action:hover, .btn:active, .Actions .action:active, .btn.active, .Actions .active.action, .btn.disabled, .Actions .disabled.action, .btn[disabled], .Actions [disabled].action {
+.btn:hover, .Actions .action:hover, #comments-holder .action-links a:hover, .btn:active, .Actions .action:active, .btn.active, .Actions .active.action, .btn.disabled, .Actions .disabled.action, .btn[disabled], .Actions [disabled].action {
   background-color: #f2f2f2;
   *background-color: #e6e6e6;
 }
@@ -2992,7 +2992,7 @@ button.close {
   color: #333 !important;
 }
 
-.btn:hover, .Actions .action:hover {
+.btn:hover, .Actions .action:hover, #comments-holder .action-links a:hover {
   color: #333;
   text-decoration: none;
   background-color: #e6e6e6;
@@ -3410,7 +3410,7 @@ input[type="submit"].btn.btn-mini,
   border-bottom-right-radius: 6px;
 }
 
-.btn-group > .btn:hover, .Actions .btn-group > .action:hover,
+.btn-group > .btn:hover, .Actions .btn-group > .action:hover, #comments-holder .action-links .btn-group > a:hover,
 .btn-group > .btn:focus,
 .Actions .btn-group > .action:focus,
 .btn-group > .btn:active,
@@ -3483,7 +3483,7 @@ input[type="submit"].btn.btn-mini,
   margin-left: 0;
 }
 
-.btn:hover .caret, .Actions .action:hover .caret,
+.btn:hover .caret, .Actions .action:hover .caret, #comments-holder .action-links a:hover .caret,
 .open.btn-group .caret {
   opacity: 1;
   filter: alpha(opacity=100);
