@@ -7084,7 +7084,7 @@ ul.nav, ul.dropdown-menu {
   float: right;
   position: absolute;
   top: 1.5em;
-  right: 0;
+  right: 0.5em;
   font-size: 1em;
   font-weight: bold;
   color: #005B95;
@@ -7135,6 +7135,18 @@ ul.nav, ul.dropdown-menu {
   border-radius: 4px;
   padding: 2.5em 1em 1em;
 }
+#comments-holder .comment .comment-replies-container {
+  clear: both;
+  margin-left: 20px;
+  padding-left: 10px;
+  border-left: 1px dashed #999;
+}
+#comments-holder .comment .comment-replies-container .comment-reply-form-holder {
+  padding: 0 10px;
+}
+#comments-holder .comment .comment-replies-container .comment-replies-holder {
+  padding: 0 0 0 10px;
+}
 #comments-holder .comment-moderation {
   float: right;
   margin: 1em 0 2em;
@@ -7152,6 +7164,9 @@ ul.nav, ul.dropdown-menu {
 }
 #comments-holder .action-links li:first-child {
   margin-left: 0;
+}
+#comments-holder .action-links li.comment-reply-action {
+  float: right;
 }
 #comments-holder .action-links a {
   background-image: none;

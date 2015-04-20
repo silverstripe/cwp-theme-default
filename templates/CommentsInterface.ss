@@ -4,7 +4,7 @@
 		<div class="comments-holder">			
 			<% if $PagedComments %>
 			<h3>Comments ($PagedComments.Count)</h3>			
-				<ol class="comments-list">
+				<ol class="comments-list root-level">
 					<% loop $PagedComments %>
 						<li class="comment $EvenOdd<% if FirstLast %> $FirstLast <% end_if %> $SpamClass $ExtraClass">
 							<% include CommentsInterface_singlecomment %>

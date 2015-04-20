@@ -7,7 +7,7 @@
 		<% end_if %>
 		<span class="date">$Created.Nice ($Created.Ago)</span>
 		<% if $Gravatar %>
-			<img class="gravatar" src="$Gravatar" alt="Gravatar for $Name" title="Gravatar for $Name" />
+			<img class="gravatar" src="$Gravatar.ATT" alt="Gravatar for $Name.ATT" title="Gravatar for $Name.ATT" />
 		<% end_if %>
 	</p>
 <% end_if %>
@@ -15,8 +15,9 @@
 <div class="comment-text well" id="<% if $isPreview %>comment-preview<% else %>$Permalink<% end_if %>">
 	<p>$EscapedComment</p>
 </div>
+
 <% if not $isPreview %>
-	<% if $ApproveLink || $SpamLink || $HamLink || $DeleteLink %>
+	<% if $ApproveLink || $SpamLink || $HamLink || $DeleteLink || $RepliesEnabled %>
 		<div class="comment-moderation">
 			<ul class="action-links">
 				<% if $ApproveLink %>
@@ -31,7 +32,14 @@
 				<% if $DeleteLink %>
 					<li class="last"><a href="$DeleteLink.ATT" class="delete"><% _t('CommentsInterface_singlecomment_ss.REMCOM','reject it') %></a></li>
 				<% end_if %>
+				<% if $RepliesEnabled %>
+					<li class="comment-reply-action">
+						<a class="comment-reply-link" href="#{$ReplyForm.FormName}">Reply to $AuthorName.XML</a>
+					</li>
+				<% end_if %>
 			</ul>
 		</div>
 	<% end_if %>
+	
+	<% include CommentReplies %>
 <% end_if %>
