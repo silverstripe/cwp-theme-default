@@ -12,15 +12,13 @@
     ul {
         list-style: none outside none;
         margin: 0;
-        padding-left: 15px;
-        padding-right: 15px;
 
         li {
 
             a {
-                padding: 3px 15px;
-                margin-left: -15px;
-                margin-right: -15px;
+                padding: 3px 20px;
+                margin-left: -20px;
+                margin-right: -20px;
                 text-shadow: 0 1px 0 rgba(255, 255, 255, 0.5);
                 display: block;
 
@@ -42,6 +40,7 @@
 
     .tagcloud {
         line-height: 1.8em;
+        padding: 0 15px;
 
         a {
             padding: 3px 10px;
@@ -49,4 +48,12 @@
             margin-right: -5px;
         }
     }
+
+    .ContentWidget {
+        padding: 16px 20px;
+
+        .h6-style {
+            padding: 0 0 7px 0;
+        }
+    }    
 }
