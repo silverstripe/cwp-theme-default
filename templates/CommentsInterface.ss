@@ -2,21 +2,19 @@
 	<div id="$CommentHolderID" class="comments-holder-container">
 	
 		<div class="comments-holder">			
-			<% if $PagedComments %>
-			<h3>Comments ($PagedComments.Count)</h3>			
+			<% if $Comments %>
+				<h3>Comments ($AllVisibleComments.Count)</h3>
+				<% with $AllVisibleComments.Last %>
+					<p class="link-to-latest"><a href="{$Link}">Latest comment {$Created.Ago} by {$AuthorName}</a></p>
+				<% end_with %>
 				<ol class="comments-list root-level">
-					<% loop $PagedComments %>
+					<% loop $Comments %>
 						<li class="comment $EvenOdd<% if FirstLast %> $FirstLast <% end_if %> $SpamClass $ExtraClass">
 							<% include CommentsInterface_singlecomment %>
 						</li>
 					<% end_loop %>
 				</ol>
-			
-				<% with $PagedComments %>
-					<% include Pagination %>
-				<% end_with %>
 			<% end_if %>
-
 		</div>
 
 		<div class="commenting-rss-feed">

@@ -1,4 +1,4 @@
-<% if not isPreview %>
+<% if not $isPreview %>
 	<p class="info">
 		<% if $URL %>
 			<a class="author" href="$URL.URL" rel="nofollow">$AuthorName.XML</a>
