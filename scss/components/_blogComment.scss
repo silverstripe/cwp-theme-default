@@ -52,10 +52,10 @@
               font-size: 1em;
               font-weight: bold;
               color: $blue;
-          }
+		}
 
-          .comment-text {
-            border: 1px solid $blue;
+		> .comment-text {
+			border: 1px solid $blue;
         }
 
     }

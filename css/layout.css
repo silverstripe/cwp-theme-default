@@ -7089,7 +7089,7 @@ ul.nav, ul.dropdown-menu {
   font-weight: bold;
   color: #005B95;
 }
-#comments-holder .comment.author-comment .comment-text {
+#comments-holder .comment.author-comment > .comment-text {
   border: 1px solid #005B95;
 }
 #comments-holder .comment.spam .comment-text {
