@@ -14,9 +14,9 @@
 		<time datetime="$PublishDate">$PublishDate.Long</time>
 	<% end_if %>
 
-	<% if $Comments %>
+	<% if $AllVisibleComments %>
 		<p>
-			<a href="$Link#comments-holder" title="View Comments Posted">$Comments.Count <% _t('BlogEntry_ss.COMMENTS', 'Comments') %></a>
+			<a href="$Link#comments-holder" title="View Comments Posted">$AllVisibleComments.Count <% _t('BlogEntry_ss.COMMENTS', 'Comments') %></a>
 		</p>
 	<% end_if %>
 </div>

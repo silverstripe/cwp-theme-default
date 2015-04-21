@@ -24,7 +24,7 @@
 						<a href="$DeleteAllLink"><% _t('CommentsInterface_ss.PageCommentInterface.DELETEALLCOMMENTS','Delete all comments on this page') %></a>
 					</li>
 				<% end_if %>
-				<% if $PagedComments %>
+				<% if $Comments %>
 					<li><a href="$CommentRSSLinkPage"><% _t('CommentsInterface_ss.RSSFEEDCOMMENTS', 'RSS feed for comments on this page') %></a></li>
 					<li><a href="$CommentRSSLink"><% _t('CommentsInterface_ss.RSSFEEDALLCOMMENTS', 'RSS feed for all comments') %></a></li>
 				<% end_if %>
