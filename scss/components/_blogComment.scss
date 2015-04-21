@@ -40,6 +40,37 @@
     .commenting-rss-feed {
         margin-top: 4em;
         text-align: right;
+		
+		.action-links {
+			margin: 20px 0 10px;
+
+			li {
+				display: inline;
+				list-style-type: none;
+				margin-left: 20px;
+
+				&:first-child {
+					margin-left: 0;
+				}
+
+				&.comment-reply-action {
+					float: right;
+				}
+			}
+
+			a {
+				background-image: none;
+				@extend .btn-small;
+
+				&::first-letter {
+					text-transform: capitalize;
+				}
+
+				&:hover {
+					@extend .btn:hover;
+				}
+			}
+		}
     }
 
     .no-comments-yet {

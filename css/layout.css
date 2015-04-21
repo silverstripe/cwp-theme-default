@@ -2978,7 +2978,7 @@ button.close {
 #IE8 .btn, #IE8 .Actions .action, .Actions #IE8 .action {
   filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#FFFFFFFF', endColorstr='#FFF2F2F2', GradientType=0);
 }
-.btn:hover, .Actions .action:hover, .comment-action-links a:hover, .btn:active, .Actions .action:active, .btn.active, .Actions .active.action, .btn.disabled, .Actions .disabled.action, .btn[disabled], .Actions [disabled].action {
+.btn:hover, .Actions .action:hover, .comments-holder-container .commenting-rss-feed .action-links a:hover, .comment-action-links a:hover, .btn:active, .Actions .action:active, .btn.active, .Actions .active.action, .btn.disabled, .Actions .disabled.action, .btn[disabled], .Actions [disabled].action {
   background-color: #f2f2f2;
   *background-color: #e6e6e6;
 }
@@ -2992,7 +2992,7 @@ button.close {
   color: #333 !important;
 }
 
-.btn:hover, .Actions .action:hover, .comment-action-links a:hover {
+.btn:hover, .Actions .action:hover, .comments-holder-container .commenting-rss-feed .action-links a:hover, .comment-action-links a:hover {
   color: #333;
   text-decoration: none;
   background-color: #e6e6e6;
@@ -3050,13 +3050,13 @@ button.close {
   margin-top: 1px;
 }
 
-.btn-small, .comment-reply-link, .comment-action-links a {
+.btn-small, .comments-holder-container .commenting-rss-feed .action-links a, .comment-reply-link, .comment-action-links a {
   padding: 5px 9px;
   font-size: 14px;
   line-height: 22px;
 }
 
-.btn-small [class^="icon-"], .comment-reply-link [class^="icon-"], .comment-action-links a [class^="icon-"] {
+.btn-small [class^="icon-"], .comments-holder-container .commenting-rss-feed .action-links a [class^="icon-"], .comment-reply-link [class^="icon-"], .comment-action-links a [class^="icon-"] {
   margin-top: -1px;
 }
 
@@ -3414,7 +3414,7 @@ input[type="submit"].btn.btn-mini,
   border-bottom-right-radius: 6px;
 }
 
-.btn-group > .btn:hover, .Actions .btn-group > .action:hover, .comment-action-links .btn-group > a:hover,
+.btn-group > .btn:hover, .Actions .btn-group > .action:hover, .comments-holder-container .commenting-rss-feed .action-links .btn-group > a:hover, .comment-action-links .btn-group > a:hover,
 .btn-group > .btn:focus,
 .Actions .btn-group > .action:focus,
 .btn-group > .btn:active,
@@ -3444,7 +3444,7 @@ input[type="submit"].btn.btn-mini,
   padding-right: 5px;
 }
 
-.btn-group > .btn-small.dropdown-toggle, .btn-group > .dropdown-toggle.comment-reply-link, .comment-action-links .btn-group > a.dropdown-toggle {
+.btn-group > .btn-small.dropdown-toggle, .comments-holder-container .commenting-rss-feed .action-links .btn-group > a.dropdown-toggle, .btn-group > .dropdown-toggle.comment-reply-link, .comment-action-links .btn-group > a.dropdown-toggle {
   *padding-top: 4px;
   *padding-bottom: 4px;
 }
@@ -3487,7 +3487,7 @@ input[type="submit"].btn.btn-mini,
   margin-left: 0;
 }
 
-.btn:hover .caret, .Actions .action:hover .caret, .comment-action-links a:hover .caret,
+.btn:hover .caret, .Actions .action:hover .caret, .comments-holder-container .commenting-rss-feed .action-links a:hover .caret, .comment-action-links a:hover .caret,
 .open.btn-group .caret {
   opacity: 1;
   filter: alpha(opacity=100);
@@ -3497,7 +3497,7 @@ input[type="submit"].btn.btn-mini,
   margin-top: 5px;
 }
 
-.btn-small .caret, .comment-reply-link .caret, .comment-action-links a .caret {
+.btn-small .caret, .comments-holder-container .commenting-rss-feed .action-links a .caret, .comment-reply-link .caret, .comment-action-links a .caret {
   margin-top: 6px;
 }
 
@@ -7085,6 +7085,26 @@ ul.nav, ul.dropdown-menu {
 .comments-holder-container .commenting-rss-feed {
   margin-top: 4em;
   text-align: right;
+}
+.comments-holder-container .commenting-rss-feed .action-links {
+  margin: 20px 0 10px;
+}
+.comments-holder-container .commenting-rss-feed .action-links li {
+  display: inline;
+  list-style-type: none;
+  margin-left: 20px;
+}
+.comments-holder-container .commenting-rss-feed .action-links li:first-child {
+  margin-left: 0;
+}
+.comments-holder-container .commenting-rss-feed .action-links li.comment-reply-action {
+  float: right;
+}
+.comments-holder-container .commenting-rss-feed .action-links a {
+  background-image: none;
+}
+.comments-holder-container .commenting-rss-feed .action-links a::first-letter {
+  text-transform: capitalize;
 }
 .comments-holder-container .no-comments-yet {
   display: inline-block;
