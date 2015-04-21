@@ -18,26 +18,24 @@
 
 <% if not $isPreview %>
 	<% if $ApproveLink || $SpamLink || $HamLink || $DeleteLink || $RepliesEnabled %>
-		<div class="comment-moderation">
-			<ul class="action-links">
+		<div class="comment-action-links">
+			<div class="comment-moderation-options">
 				<% if $ApproveLink %>
-					<li><a href="$ApproveLink.ATT" class="approve"><% _t('CommentsInterface_singlecomment_ss.APPROVE', 'approve it') %></a></li>
+					<a href="$ApproveLink.ATT" class="approve"><% _t('CommentsInterface_singlecomment_ss.APPROVE', 'approve it') %></a>
 				<% end_if %>
 				<% if $SpamLink %>
-					<li><a href="$SpamLink.ATT" class="spam"><% _t('CommentsInterface_singlecomment_ss.ISSPAM','spam it') %></a></li>
+					<a href="$SpamLink.ATT" class="spam"><% _t('CommentsInterface_singlecomment_ss.ISSPAM','spam it') %></a>
 				<% end_if %>
 				<% if $HamLink %>
-					<li><a href="$HamLink.ATT" class="ham"><% _t('CommentsInterface_singlecomment_ss.ISNTSPAM','not spam') %></a></li>
+					<a href="$HamLink.ATT" class="ham"><% _t('CommentsInterface_singlecomment_ss.ISNTSPAM','not spam') %></a>
 				<% end_if %>
 				<% if $DeleteLink %>
-					<li class="last"><a href="$DeleteLink.ATT" class="delete"><% _t('CommentsInterface_singlecomment_ss.REMCOM','reject it') %></a></li>
+					<a href="$DeleteLink.ATT" class="delete"><% _t('CommentsInterface_singlecomment_ss.REMCOM','reject it') %></a>
 				<% end_if %>
-				<% if $RepliesEnabled %>
-					<li class="comment-reply-action">
-						<a class="comment-reply-link" href="#{$ReplyForm.FormName}">Reply to $AuthorName.XML</a>
-					</li>
-				<% end_if %>
-			</ul>
+			</div>
+			<% if $RepliesEnabled %>
+				<a class="comment-reply-link" href="#{$ReplyForm.FormName}">Reply to $AuthorName.XML</a>
+			<% end_if %>
 		</div>
 	<% end_if %>
 	
