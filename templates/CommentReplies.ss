@@ -1,9 +1,11 @@
+<% require javascript('themes/default/js/cwp-comments-interface.js') %>
+
 <% if $RepliesEnabled %>
 	<div class="comment-replies-container">
 		
-		<div class="comment-reply-form-holder">
-			$ReplyForm
-		</div>
+		<div class="comment-reply-form-holder" id="{$ReplyForm.FormName}_Holder"
+			data-form-action="{$ReplyForm.FormAction}" data-form-id="{$ReplyForm.FormName}" data-form-parentid="{$ID}"
+			></div>
 	
 		<div class="comment-replies-holder">
 			<% if $Replies %>
