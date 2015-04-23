@@ -4,12 +4,13 @@
 
 		<div id="main" role="main">
 			<article class="blog-entry">
-				<h1 class="page-header">$Title</h1>
-				<% include BlogPostMeta %>
+				<header>
+					<h1 class="page-header">$Title</h1>
+					<% include BlogPostMeta %>
+				</header>
 				$Content.RichLinks
 			</article>
 
-			<% include BlogEntryTags %>
 			$Form
 			<% include RelatedPages %>
 			$CommentsForm
