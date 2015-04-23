@@ -5,9 +5,8 @@
 <% end_if %>
 <header>
 	<h2><a href="$Link">$Title</a></h2>
+	<% include BlogPostMeta %>
 </header>
-
-<% include BlogPostMeta %>
 
 <% if $Summary %>
 	$Summary
