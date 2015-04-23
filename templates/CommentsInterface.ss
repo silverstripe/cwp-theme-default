@@ -3,7 +3,7 @@
 	
 		<div class="comments-holder">			
 			<% if $Comments %>
-				<h3>Comments ($AllVisibleComments.Count)</h3>
+				<h2>Comments ($AllVisibleComments.Count)</h2>
 				<% with $AllVisibleComments.Last %>
 					<p class="link-to-latest"><a href="{$Link}">Latest comment {$Created.Ago} by {$AuthorName}</a></p>
 				<% end_with %>
