@@ -19,7 +19,7 @@
 @import "compass/support"; //import an external compass library for IE9 SVG gradient support 
 $experimental-support-for-svg: true; //for IE9 SVG gradient support 
 
-@import 'bootstrap_config/bootstrap.scss'; //Core bootstrap layout components
+@import 'bootstrap_config/bootstrap'; //Core bootstrap layout components
 @import 'components/forms'; //form specific scss
 @import 'components/navigation'; //navigation components
 @import 'components/mobile'; //mobile specific adjustments
@@ -31,6 +31,8 @@ $experimental-support-for-svg: true; //for IE9 SVG gradient support
 @import 'components/blogMemberDetails';
 @import 'components/blogComment';
 
+// custom bootstrap
+@import 'bootstrap_config/custom/forms'; //Core bootstrap layout components
 
 /*****************************
 EXPRESS LAYOUT
