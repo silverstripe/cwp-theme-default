@@ -3,7 +3,7 @@
 <% if $RepliesEnabled %>
 	<div class="comment-replies-container">
 		
-		<div class="comment-reply-form-holder" id="{$ReplyForm.FormName}_Holder"
+		<div class="comment-reply-form-holder" id="{$ReplyForm.FormName}_Holder" aria-expanded="false"
 			data-form-action="{$ReplyForm.FormAction}" data-form-id="{$ReplyForm.FormName}" data-form-parentid="{$ID}"
 			></div>
 	
