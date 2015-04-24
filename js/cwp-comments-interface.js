@@ -55,18 +55,25 @@
 			onclick: function( e ) {
 				var allForms = $( ".comment-reply-form-holder" ),
 					// Extract the hash component from the rewritten link to get the form ID
-					formID = this.prop('href').replace(/^[^#]*#/, '#'),
+					formID = this.data('href').replace(/^[^#]*#/, '#'),
 					form = $(formID + "_Holder");
 				
 				// When we select a form, hide all other forms
 				// If we select an already open form, simply hide it
 				e.preventDefault();
 				if(form.is(':visible')) {
-					allForms.slideUp();
+					allForms
+						.slideUp()
+						.attr('aria-expanded', 'false');
 				} else {
-					allForms.not(form).slideUp();
+					allForms
+						.not(form)
+						.slideUp()
+						.attr('aria-expanded', 'false');
 					form.ensureForm();
-					form.slideDown();
+					form
+						.slideDown()
+						.attr('aria-expanded', 'true');
 				}
 			}
 		});
