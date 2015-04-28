@@ -98,6 +98,10 @@
 		> .comment-text {
 			border: 1px solid $blue;
 		}
+
+		> .info {
+			margin-right: 60px;
+		}
 	}
 
 	&.spam {
@@ -188,9 +192,9 @@
 .comment-reply-link {
 	@extend .btn-primary;
 	@extend .btn-small;
-    border: none;
-    line-height: 16px;
-    margin-top: -1px;
+	border: none;
+	line-height: 16px;
+	margin-top: -1px;
 
 	&:hover {
 		background-color: darken($btnPrimaryBackground, 10%);

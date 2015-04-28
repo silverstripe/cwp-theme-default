@@ -7131,6 +7131,9 @@ ul.nav, ul.dropdown-menu {
 .comment.author-comment > .comment-text {
   border: 1px solid #005B95;
 }
+.comment.author-comment > .info {
+  margin-right: 60px;
+}
 .comment.spam .comment-text {
   border: 1px dashed #8F4100;
 }
