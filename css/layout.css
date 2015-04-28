@@ -7201,6 +7201,11 @@ ul.nav, ul.dropdown-menu {
   list-style: none;
 }
 
+.comment-reply-link {
+  border: none;
+  line-height: 16px;
+  margin-top: -1px;
+}
 .comment-reply-link:hover {
   background-color: #4d004d;
   background-image: none;

@@ -188,6 +188,9 @@
 .comment-reply-link {
 	@extend .btn-primary;
 	@extend .btn-small;
+    border: none;
+    line-height: 16px;
+    margin-top: -1px;
 
 	&:hover {
 		background-color: darken($btnPrimaryBackground, 10%);
