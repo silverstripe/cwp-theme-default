@@ -7131,6 +7131,9 @@ ul.nav, ul.dropdown-menu {
 .comment.author-comment > .comment-text {
   border: 1px solid #005B95;
 }
+.comment.author-comment > .info {
+  margin-right: 60px;
+}
 .comment.spam .comment-text {
   border: 1px dashed #8F4100;
 }
@@ -7201,6 +7204,11 @@ ul.nav, ul.dropdown-menu {
   list-style: none;
 }
 
+.comment-reply-link {
+  border: none;
+  line-height: 16px;
+  margin-top: -1px;
+}
 .comment-reply-link:hover {
   background-color: #4d004d;
   background-image: none;
