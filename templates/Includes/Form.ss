@@ -2,10 +2,10 @@
 <form $AttributesHTML>
 	<fieldset>
 	<% end_if %>
-		<% if Message %>
-		<p id="{$FormName}_error" class="message $MessageType">$Message</p>
+		<% if $Message %>
+			<p id="{$FormName}_error" class="alert alert-$MessageType">$Message</p>
 		<% else %>
-		<p id="{$FormName}_error" class="message $MessageType" style="display: none"></p>
+			<p id="{$FormName}_error" class="alert" style="display: none"></p>
 		<% end_if %>
 		
 			<% if Legend %><legend>$Legend</legend><% end_if %> 

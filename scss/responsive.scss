@@ -1,25 +1,22 @@
-
 @import 'bootstrap_config/responsive.scss'; //Core bootstrap responsive components
 
-// LARGE DESKTOP & UP
-// ------------------
+@mixin screen-size($size) {
+	@if $size == small {
+		@media (max-width: 480px) {
+			@content;
+		}
+	}
 
-/*
-@media (min-width: 1200px) {
+	@else if $size == medium {
+		@media (max-width: 767px) {
+			@content;
+		}
+	}
 
+	@else {
+		@warn "The screen-size mixin supports: small and medium";
+	}
 }
-*/
-
-
-// ANYTHING SMALLER THAN DEFAULT DESKTOP 
-// ----------------------------------
-
-/*
-@media (max-width: 979px) {
-
-}
-*/
-
 
 // PORTRAIT TABLET TO DEFAULT DESKTOP
 // ----------------------------------
@@ -51,13 +48,3 @@
 		}
 	}
 }
-
-
-// UP TO LANDSCAPE PHONE
-// ---------------------
-
-/*
-@media (max-width: 480px) {
-
-}
-*/

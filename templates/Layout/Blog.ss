@@ -1,9 +1,15 @@
 <div class="row">
-	<div class="<% if Menu(2) %>span9<% else %>span12<% end_if %>">
+	<div class="<% if $SideBarView %>span9<% else %>span12<% end_if %> resultsList">
 		<% include Breadcrumbs %>
 		<div id="main" role="main">
 			<h1 class="page-header">$Title</h1>
-			$Content.RichLinks
+
+			<div class="clearfix">
+				$Content.RichLinks
+			</div>
+
+			<% include BlogPostPaginatedList %>
+
 			$Form
 			<% include RelatedPages %>
 			$CommentsForm
@@ -11,9 +17,5 @@
 		</div>
 		<% include LastEdited %>
 	</div>
-	<% if Menu(2) %>
-		<aside class="span3">
-			<% include SidebarNav %>
-		</aside>
-	<% end_if %>
+	<% include BlogSideBar %>
 </div>

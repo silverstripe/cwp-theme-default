@@ -23,6 +23,6 @@
 			<% end_if %>
 		</ul>
 
-		$PageComments
+		$CommentsForm
 	</div>
 </div>

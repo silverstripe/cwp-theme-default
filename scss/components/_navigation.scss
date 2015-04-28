@@ -61,7 +61,7 @@ ul.nav, ul.dropdown-menu{
 }
 
 .navbar{
-	font-size: 13px;
+	font-size: 15px;
 	.showChildren{
 		#IE7 &{
 			margin-top:-3px;
@@ -72,7 +72,7 @@ ul.nav, ul.dropdown-menu{
     	text-align:center;  
     }
     .nav > li > a{
-		padding: 9px 10px 9px 11px;
+		padding: 19px 15px 21px 11px;
 
 			&:focus {
 				background-color: $navbarLinkBackgroundHover;
@@ -148,15 +148,42 @@ ul.nav, ul.dropdown-menu{
 }
 
 /* Side navigation */
+.sidebar-nav,
+.sidebar-form {
+	padding: 16px 0;
+	background-color: #f2f2f2;
+	border: none;
+	@include box-shadow(none);
+}
+.sidebar-form {
+	padding: 16px 20px;
+}
 .sidebar-nav {
-    padding: 9px 0;
     a:visited{
     	/* color:$linkColor; */
     }
+
+    ul.nav-list,
+    .h6-style,
+    .tagcloud {
+    	padding: 0 20px;
+    }
+
+    ul.nav-list {
+		padding-left: 20px;
+		padding-right: 20px;
+	}
+	.nav-list > li > a,
+	.nav-list .nav-header {
+		margin-left:  -20px;
+		margin-right: -20px;
+	}
+	.nav-list > li > a {
+		padding: 3px 21px;
+	}
+
     ul.nav-list {	
-    	list-style:none;    
-    	padding-left:15px;
-    	padding-right:15px;
+    	list-style:none;
     	margin:0;
     	.nav-list li { /* third level */
 	    	a {

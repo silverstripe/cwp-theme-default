@@ -1,0 +1,59 @@
+#blog-sidebar {
+
+    h3 {
+        color: #666666;
+        font-size: 11px;
+        text-transform: uppercase;
+        line-height: 18px;
+        margin: 0;
+        padding: 0 14px;
+    }
+
+    ul {
+        list-style: none outside none;
+        margin: 0;
+
+        li {
+
+            a {
+                padding: 3px 20px;
+                margin-left: -20px;
+                margin-right: -20px;
+                text-shadow: 0 1px 0 rgba(255, 255, 255, 0.5);
+                display: block;
+
+                &:hover {
+                    text-decoration: none;
+                    background-color: #0b7aca;
+                    color: white;
+                    text-shadow: none;
+                }
+
+                &.active {
+                    background-color: #0464EA;
+                    color: white;
+                    text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.2);
+                }
+            }
+        }
+    }
+
+    .tagcloud {
+        line-height: 1.8em;
+        padding: 0 15px;
+
+        a {
+            padding: 3px 10px;
+            margin-left: -5px;
+            margin-right: -5px;
+        }
+    }
+
+    .ContentWidget {
+        padding: 16px 20px;
+
+        .h6-style {
+            padding: 0 0 7px 0;
+        }
+    }    
+}

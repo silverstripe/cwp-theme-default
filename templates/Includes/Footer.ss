@@ -37,7 +37,7 @@
 			<% end_if %>
 		<% else %>
 			<a href="http://newzealand.govt.nz/">
-				<img src="$ThemeDir/images/logo-btext-wbg.gif" width="150" height="40" alt="newzealand.govt.nz - connecting you to New Zealand central &amp; local government services" title="newzealand.govt.nz - connecting you to New Zealand central &amp; local government services" />
+				<img src="$ThemeDir/images/newzealand-government-footer.png" width="210" height="30" alt="newzealand.govt.nz - connecting you to New Zealand central &amp; local government services" title="newzealand.govt.nz - connecting you to New Zealand central &amp; local government services" />
 			</a>
 		<% end_if %>
 	</div>

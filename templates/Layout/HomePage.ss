@@ -2,7 +2,7 @@
 <% include HeroUnit %>
 
 $Form
-$PageComments
+$CommentsForm
 
 <!-- Example row of columns -->
 <div class="row">

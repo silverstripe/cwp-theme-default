@@ -1,6 +1,70 @@
 <div class="row">
-	<% include Breadcrumbs %>
-	<div class="span3">
+	<div id="main" class="span9 resultsList" role="main">
+		<% include Breadcrumbs %>
+		<h1 class="page-header">$Title</h1>
+
+		<div class="clearfix">
+			$Content.RichLinks
+		</div>
+	
+		<% if AvailableMonths %>
+			<div class="month-filter">
+				<h2 class="nonvisual-indicator">Month filter:</h2>
+				<% if FilteredUpdates %>
+					<% if FilterDescription %>
+						<p><a href="$Link">Show all upcoming events</a></p>
+					<% end_if %>
+				<% end_if %>
+				<% loop AvailableMonths %>
+					<h3 class="year h6-style">$YearName:</h3>
+					<ol class="nav nav-pills unstyled months">
+						<% loop Months %>
+							<li <% if Active %>class="active"<% end_if %>><a href="$MonthLink.XML">$MonthName</a></li>
+						<% end_loop %>
+					</ol>
+				<% end_loop %>
+				
+			</div>
+		<% end_if %>
+
+		<% if FilteredUpdates %>
+			<% loop FilteredUpdates %>
+				<article class="$EvenOdd">
+					<header>
+						<h3><a href="$Link">$Title</a></h3>
+					</header>
+					
+					<% if $Date %>
+						<p class="metaInfo">
+							<time datetime="$Date">$Date.Format(d/m/Y) <% if $StartTime %>$StartTime.Nice <% if $EndTime %>- $EndTime.Nice <% end_if %><% end_if %></time>
+						</p>
+					<% end_if %>
+
+					<p>
+						<% if Abstract %>
+							$Abstract
+						<% else %>
+							$Content.LimitWordCount
+						<% end_if %>
+					</p>
+				</article>
+			<% end_loop %>
+
+			<% with FilteredUpdates %>
+				<% include Pagination %>
+			<% end_with %>
+		<% else %>
+			<article class="">
+				<p>No events</p>
+			</article>
+		<% end_if %>
+
+		$Form
+		<% include RelatedPages %>
+		$CommentsForm
+		<% include PrintShare %>
+	</div>
+	<aside class="span3">
 		<div class="sidebar-nav well">
 			<h2 class="h6-style">Filter by tag</h2>
 			<nav role="navigation">
@@ -46,85 +110,5 @@
 				</form>
 			<% end_with %>
 		</div>
-	</div>
-	<div id="main" class="span9 resultsList" role="main">
-		<h1 class="page-header">$Title</h1>
-
-		<div class="clearfix">
-			$Content.RichLinks
-		</div>
-	
-		<% if AvailableMonths %>
-			<div class="month-filter">
-				<h2 class="nonvisual-indicator">Month filter:</h2>
-				<% if FilteredUpdates %>
-					<% if FilterDescription %>
-						<p><a href="$Link">Show all upcoming events</a></p>
-					<% end_if %>
-				<% end_if %>
-				<% loop AvailableMonths %>
-					<h3 class="year h6-style">$YearName:</h3>
-					<ol class="nav nav-pills unstyled months">
-						<% loop Months %>
-							<li <% if Active %>class="active"<% end_if %>><a href="$MonthLink.XML">$MonthName</a></li>
-						<% end_loop %>
-					</ol>
-				<% end_loop %>
-				
-			</div>
-		<% end_if %>
-
-		<% if FilteredUpdates %>
-			<div class="resultsHeader">
-				<h2 class="pull-left">
-					<% if FilterDescription %>
-						$FilterDescription
-					<% else %>
-						Upcoming events
-					<% end_if %>
-				</h2> 
-				<p class="pull-right"><% with FilteredUpdates %>$FirstItem - $LastItem of $count<% end_with %></p>
-			</div>
-		
-			<% loop FilteredUpdates %>
-				<article class="$EvenOdd">
-					<header>
-						<h3><a href="$Link">$Title</a></h3>
-					</header>
-					
-					<% if $Date %>
-						<p class="metaInfo">
-							<time datetime="$Date">$Date.Format(d/m/Y) <% if $StartTime %>$StartTime.Nice <% if $EndTime %>- $EndTime.Nice <% end_if %><% end_if %></time>
-						</p>
-					<% end_if %>
-
-					<p>
-						<% if Abstract %>
-							$Abstract
-						<% else %>
-							$Content.LimitWordCount
-						<% end_if %>
-					</p>
-				</article>
-			<% end_loop %>
-
-			<% with FilteredUpdates %>
-				<% include Pagination %>
-			<% end_with %>
-		<% else %>
-			<div class="resultsHeader">
-				<h2 class="pull-left"><% if FilterDescription %>$FilterDescription<% else %>Upcoming events<% end_if %></h2>
-				<p class="pull-right">None</p>
-			</div>
-
-			<article class="">
-				<p>No events</p>
-			</article>
-		<% end_if %>
-
-		$Form
-		<% include RelatedPages %>
-		$PageComments
-		<% include PrintShare %>
-	</div>
+	</aside>
 </div>

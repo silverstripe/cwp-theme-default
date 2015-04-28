@@ -19,14 +19,20 @@
 @import "compass/support"; //import an external compass library for IE9 SVG gradient support 
 $experimental-support-for-svg: true; //for IE9 SVG gradient support 
 
-@import 'bootstrap_config/bootstrap.scss'; //Core bootstrap layout components
+@import 'bootstrap_config/bootstrap'; //Core bootstrap layout components
 @import 'components/forms'; //form specific scss
 @import 'components/navigation'; //navigation components
 @import 'components/mobile'; //mobile specific adjustments
 @import 'components/sitemap'; //sitemap specific scss
 @import 'components/results'; //search results specific scss
 
+@import 'components/blogEntry';
+@import 'components/blogSidebar';
+@import 'components/blogMemberDetails';
+@import 'components/blogComment';
 
+// custom bootstrap
+@import 'bootstrap_config/custom/forms'; //Core bootstrap layout components
 
 /*****************************
 EXPRESS LAYOUT
@@ -37,17 +43,22 @@ body {
 	padding: 0 !important;
 }
 
-/*Customise search field */	
+/*Customise search field */
 #SearchGroup{
 	float: right;
 	.navbar-search .search-query {
 		line-height:1.3em;
+		font-size: 15px;
 		background-color: #FFF;
 		color: $textColor; 
+		border-radius:4px;
 		@include customPlaceholder();
 		&:focus {
 			background-color: #FFF;
 		}
+	}
+	.navbar-search{
+		margin-top:0;
 	}
 	/* search container takes 100% width by default when floated right in IE7 */
 	#IE6 &,
@@ -58,7 +69,7 @@ body {
 		.field{
 			margin:0;
 		}
-		padding:0;
+		padding:13px 0 0 0;
 
 		label {
 			display: none;
@@ -90,8 +101,8 @@ body {
 			display: inline;
 			@include gradientBar(#FFF, #E6E6E6);
 			text-shadow: none;
-			padding-top: 4px;
-			padding-bottom: 3px;
+			margin:0px;
+			padding:4px 10px;
 			
 			#IE6 & {
 				width: 40px;
@@ -101,6 +112,7 @@ body {
 }
 
 /*HEADER */
+
 header {
 	.brand {
 		#IE6 &,
@@ -110,7 +122,7 @@ header {
 
 		@extend h1;
 		font-size: 3em;
-		font-weight:bold;
+		font-weight:normal;
 		overflow:visible;
 		line-height:1em;
 		float: left;
@@ -123,14 +135,14 @@ header {
 
 			img {
 				position: absolute;
-				top: 0px;
-				left: 0px;
+				top: 0;
+				left: 0;
 			}
 
 			span {
 				float: left;
-				margin-top: 38px;
-				margin-left: 5px;
+				margin-top: 35px;
+				margin-left: 10px;
 			}
 
 			&:visited {
@@ -212,17 +224,26 @@ header {
 .typography { 				/* Needed to override typography styles */
 
 	// Breadcrumbs
+	.breadcrumb {
+		padding: 0 1px;
+		margin: 0 0 20px;
+		border: none;
+		@include gradient-vertical(#fff, #fff); /* overriding existing gradient-vertical */
+	}
 	.breadcrumb .divider {
 	    color: $gray; 		/* adjust color to meet accessibility standards */
 	}
 
 	p.last-edited {
-		float: right;
-		clear: right;
+		clear: both;
+  		text-align: right;
 		font-size: 0.8em;
 		margin: 0;
 		time {
 			font-size: 1.0em;
+		}
+		@media (max-width: 767px) {
+			margin: 0 0 20px;
 		}
 	}
 
@@ -318,11 +339,11 @@ header {
 		color: #fff;
 		margin: 0;
 	}
-	.carousel-control {
+	/*.carousel-control {
 		&:focus {
 			@extend .carousel-control:hover
 		}
-	}
+	}*/
 	.carousel-caption h4,
 	.carousel-caption p {
 		color: $white;
@@ -339,14 +360,25 @@ header {
 			border: 0px;
 			opacity: 0.65;
 
-			&.active {
-				background-color: $linkColor;
+			&:hover {
+				background-color: $linkColorHover;
 				opacity: 1;
 			}
 
-			&:hover, &:active, &:focus {
-				background-color: $linkColorHover;
+			&:active {
+				background-color: #222;
+				opacity: 0.65;
+  				filter: alpha(opacity=65);
+			}
+
+			&.active {
+				background-color: $linkColor;
 				opacity: 1;
+
+				&:hover, &:active {
+					background-color: $linkColor;
+					opacity: 1;
+				}
 			}
 
 			&.right {
@@ -596,6 +628,10 @@ footer {
 .label,
 .badge {
 	background-color: $gray;			// make darker to meet accessibility standards
+
+	a {
+		color: $white;
+	}
 }
 
 /**
@@ -603,10 +639,11 @@ footer {
  */
 .typography .h6-style {
 	color: $gray;
-	font-size: 11px;
+	font-size: $baseFontSize;
 	text-transform: uppercase;
 	line-height: 18px;
 	margin: 0;
+	padding-bottom: 7px;
 }
 
 .typography .month-filter {
@@ -622,14 +659,10 @@ footer {
 	}
 }
 
-.sidebar-nav {
-	.h6-style {
-		padding: 0 14px;
-	}
-}
-
 .sidebar-form {
-	padding: 9px 14px;
+	form {
+		margin-bottom: 0;
+	}
 	fieldset {
 		#IE6 & {
 			display: block;
@@ -649,6 +682,7 @@ footer {
 		}
 	}
 	.Actions {
+		padding-bottom: 0;
 		#IE8 & {
 			filter: none;
 		}
@@ -678,88 +712,47 @@ footer {
 	}
 }
 
-/**
- * Blog module
- */
-#BlogContent {
-	#Sidebar {
-		h3 {
-			color: #666666;
-			font-size: 11px;
-			text-transform: uppercase;
-			line-height: 18px;
-			margin: 0;
-			padding: 0 14px;
-		}
+/* rss widget styles */
+.typography .RSSWidget {
+	a[href^="http://"],
+	a[href^="https"],
+	a.external {
+		display: block;
+		background-image: url(../../../themes/default/images/icons/external-link.png);
+		background-position: 97% 6px;
+		background-repeat: no-repeat;
 
-		ul {
-			list-style: none outside none;
-			margin: 0;
-			padding-left: 15px;
-			padding-right: 15px;
-
-			li {
-				a {
-					padding: 3px 15px;
-					margin-left: -15px;
-					margin-right: -15px;
-					text-shadow: 0 1px 0 rgba(255, 255, 255, 0.5);
-					display: block;
-
-					&:hover {
-						background-color: #eee;
-						text-decoration: none;
-					}
-
-					&.active {
-						background-color: #0464EA;
-						color: white;
-						text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.2);
-					}
-				}
-			}
-		}
-
-		.tagcloud {
-			margin: 0 14px;
-			line-height: 1.8em;
+		&:hover {
+			background-color: #eee;
 		}
 	}
 }
 
-/**
- * Comments
- */
-#comments-holder {
-	div.field {
-		clear: left;
+/* tagcloud widget styles */
+.typography ul.tagcloud {
+	margin: 0;
+
+	li {
+		display: inline-block;
+		padding: 3px 6px 3px 0;
 	}
 
-	.comments-holder {
-		li.comment {
-			list-style-type: none;
-			padding: 5px;
-			&.odd {
-				background: #eee;
-			}
-			&.unmoderated {
-				border: 2px dashed grey;
-			}
+	a {
+		border-radius: 4px;
 
-			ul.action-links {
-				li {
-					list-style-type: none;
-					display: inline;
-					margin-right: 15px;
-					&:last-of-type {
-						margin-right: 0;
-					}
-				}
-			}
+		&:hover {
+			text-decoration: none;
+			background-color: #eee;
 		}
 	}
 }
 
+.tagcloud-not-popular { font-size: 0.9em; }
+.tagcloud-not-very-popular { font-size: 1em; }
+.tagcloud-somewhat-popular { font-size: 1.3em; }
+.tagcloud-popular { font-size: 1.6em; }
+.tagcloud-very-popular { font-size: 1.9em; }
+.tagcloud-ultra-popular { font-size: 2.2em; }
 
 /**
  * Accessibility Skiplinks for screen readers, allow users to bypass 
