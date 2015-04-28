@@ -1,46 +1,46 @@
 .comments-holder-container {
-    clear: both;
+	clear: both;
 
-    .field {
-        clear: left;
-    }
+	.field {
+		clear: left;
+	}
 
-    .num,
-    .author {
-        font-size: 1.3em;
-    }
+	.num,
+	.author {
+		font-size: 1.3em;
+	}
 
-    .num {
-        color: #999;
-        margin-right: 5px;
-    }
+	.num {
+		color: #999;
+		margin-right: 5px;
+	}
 
-    .num-total {
-        line-height: 40px;
-        margin-bottom: 0;
-    }
+	.num-total {
+		line-height: 40px;
+		margin-bottom: 0;
+	}
 
-    ol.comments-list {
-        margin: 0;
-    }
+	.comments-list {
+		margin: 0;
+	}
 
-    .comment-count {
-        margin: 15px 0;
-    }
+	.comment-count {
+		margin: 15px 0;
+	}
 
-    // The comment form
-    .commenting-area {
-        margin-top: 50px;
+	// The comment form
+	.commenting-area {
+		margin-top: 50px;
 
-        label.left{
-            font-weight: normal;
-        }
-    }
+		label.left{
+			font-weight: normal;
+		}
+	}
 
-    .commenting-rss-feed {
-        margin-top: 4em;
-        text-align: right;
-		
+	.commenting-rss-feed {
+		margin-top: 4em;
+		text-align: right;
+
 		.action-links {
 			margin: 20px 0 10px;
 
@@ -65,159 +65,179 @@
 				&::first-letter {
 					text-transform: capitalize;
 				}
-
-				&:hover {
-					@extend .btn:hover;
-				}
 			}
 		}
-    }
+	}
 
-    .no-comments-yet {
-        display: inline-block;
-        margin-top: 10px;
-    }
+	.no-comments-yet {
+		display: inline-block;
+		margin-top: 10px;
+	}
 }
 
 // A published comment
 .comment {
-    clear:both;
-    list-style-type: none;
-    overflow: hidden;
-    padding: 20px 0 10px;
-    position: relative;
+	clear:both;
+	list-style-type: none;
+	overflow: hidden;
+	padding: 20px 0 10px;
+	position: relative;
 
-    &.author-comment {
-        &:after {
-          content: 'Author';
-          float: right;
-          position: absolute;
-          top: 1.5em;
-          right: 0.5em;
-          font-size: 1em;
-          font-weight: bold;
-          color: $blue;
-      }
+	&.author-comment {
+		&:after {
+			content: 'Author';
+			float: right;
+			position: absolute;
+			top: 1.5em;
+			right: 0.5em;
+			font-size: 1em;
+			font-weight: bold;
+			color: $blue;
+		}
 
-      > .comment-text {
-        border: 1px solid $blue;
-    }
+		> .comment-text {
+			border: 1px solid $blue;
+		}
+	}
 
-}   
+	&.spam {
+		.comment-text {
+			border: 1px dashed $orange;
+		}
+	}
 
-&.spam {
-    .comment-text {
-        border: 1px dashed $orange;
-    }
+	.comment-text {
+		background-color: #fff;
+		border: 1px solid #ddd;
+		box-shadow: none;
+		margin: 0;
+		padding: 0 15% 0 20px;
+		white-space: pre;
+		white-space: pre-wrap;
+		white-space: pre-line;
+		word-wrap: break-word;
+
+		p:last-child {
+			margin-bottom: 0;
+		}
+	}
+
+	.date {
+		font-size: 16px;
+
+		&:before {
+			content: '\0000a0\0000a0\0000a0\0000a0';
+		}
+	}
+
+	&.unmoderated {
+		> .comment-text {
+			border: 1px solid $yellow;
+		}
+	}
+
+	.info {
+		margin-bottom: 10px;
+	}
+
+	&.spam .comment {
+		border: 1px dashed $orange;
+		border-radius: 4px;
+		padding: 2.5em 1em 1em;
+	}
+
+	.comment-replies-container {
+		clear: both;
+		padding-left: 10px;
+		margin: 80px 0 0 0;
+		border-left: 1px dashed #999;
+
+		.comment-reply-form-holder {
+			padding: 0 10px; // Prevent clipping issues on slideUp/Down
+		}
+		.comment-replies-holder {
+			padding: 0 0 0 10px;
+		}
+	}
 }
 
-.comment-text {
-    background-color: #fff;
-    border: 1px solid #ddd;
-    box-shadow: none;
-    margin: 0;
-    padding: 0 15% 0 20px;
-    white-space: pre;
-    white-space: pre-wrap;
-    white-space: pre-line;
-    word-wrap: break-word;
-
-    p:last-child {
-        margin-bottom: 0;
-    }
+.comments-list.root-level {
+	margin-left: 0;
 }
-
-.date {
-    font-size: 16px;
-
-    &:before {
-        content: '\0000a0\0000a0\0000a0\0000a0';
-    }
-}
-
-&.unmoderated {
-    border: 2px dashed gray;
-    @include border-radius(4px);
-    margin: 2em 0 4em;
-    padding: 2em;
-}
-
-.info {
-    margin-bottom: 10px;
-}
-
-&.spam .comment {
-    border: 1px dashed $orange;
-    color: $orange;
-    border-radius: 4px;
-    padding: 2.5em 1em 1em;
-}
-
-.comment-replies-container {
-    clear: both;
-    padding-left: 10px;
-    margin: 80px 0 0 0;
-    border-left: 1px dashed #999;
-    
-    .comment-reply-form-holder {
-            padding: 0 10px; // Prevent clipping issues on slideUp/Down
-        }
-        .comment-replies-holder {
-            padding: 0 0 0 10px;
-        }
-    }
-}
-
 
 .comment-reply-link {
-    @extend .btn-primary;
-    @extend .btn-small;
-    float: right;
+	float: right;
 }
 
 .comment-moderation-options {
-    float: left;
+	float: left;
 }
 
 .comment-action-links {
-    margin: 20px 0 10px;
+	margin: 20px 0 10px;
 
-    a, button {
-        background-image: none;
-		border: 0 none;
-        @extend .btn-small;
-
-        &::first-letter {
-            text-transform: capitalize;
-        }
-
-        &:hover {
-            @extend .btn:hover;
-        }
-		
-
-		&.approve {
-			@extend .btn-success;
-			background: $blue;
-		}
-
-		&.delete {
-			@extend .btn-danger;
-			background: $red;
-		}
-
-		&.ham {
-			@extend .btn-info;
-			background: $blue;                    
-		}
-
-		&.spam {
-			@extend .btn-warning;
-			background: $orange;        
-		}
-    }
+	a:not(:last-child) {
+		margin-right: 12px;
+	}
 }
 
 .commenting-rss-feed ul {
-    list-style: none;
+	list-style: none;
+}
+
+.comment-reply-link {
+	@extend .btn-primary;
+	@extend .btn-small;
+
+	&:hover {
+		background-color: darken($btnPrimaryBackground, 10%);
+		background-image: none;
+	}
+}
+
+.comment-action-links {
+
+	a {
+		@extend .btn-small;
+
+		&:hover {
+			text-decoration: none;
+		}
+	}
+
+	a.approve {
+		@extend .btn-success;
+		background: $blue;
+
+		&:hover {
+			background-color: darken($blue, 10%);
+		}
+	}
+
+	a.delete {
+		@extend .btn-danger;
+		background: $red;
+
+		&:hover {
+			background-color: darken($red, 10%);
+		}
+	}
+
+	a.ham {
+		@extend .btn-info;
+		background: $blue;
+
+		&:hover {
+			background-color: darken($blue, 10%);
+		}
+	}
+
+	a.spam {
+		@extend .btn-warning;
+		background: $orange;
+
+		&:hover {
+			background-color: darken($orange, 10%);
+		}
+	}
 }
