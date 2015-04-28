@@ -7,7 +7,15 @@
 	table, tr, td{
 		font-size: 14px;
 	}
-	
+
+	a.ss-broken {
+		background-color: #FF7B71;
+		border: 1px red solid;
+		color: #fff;
+		padding: 1px;
+		text-decoration: underline;
+	}
+
 	.maori {
 		background-color: #fae5e8 !important;
 	}
