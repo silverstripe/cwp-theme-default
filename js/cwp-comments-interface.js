@@ -54,6 +54,7 @@
 		$( "body .comment-reply-link" ).entwine({
 			onclick: function( e ) {
 				var allForms = $( ".comment-reply-form-holder" ),
+					allReplyLinks = $( ".comment-reply-link" ),
 					// Extract the hash component from the rewritten link to get the form ID
 					formID = this.data('href').replace(/^[^#]*#/, '#'),
 					form = $(formID + "_Holder");
@@ -63,17 +64,21 @@
 				e.preventDefault();
 				if(form.is(':visible')) {
 					allForms
-						.slideUp()
+						.slideUp();
+					allReplyLinks
 						.attr('aria-expanded', 'false');
 				} else {
 					allForms
 						.not(form)
-						.slideUp()
+						.slideUp();
+					allReplyLinks
+						.not(this)
 						.attr('aria-expanded', 'false');
 					form.ensureForm();
 					form
-						.slideDown()
-						.attr('aria-expanded', 'true');
+						.slideDown();
+					this
+						.attr('aria-expanded', 'true')
 				}
 			}
 		});

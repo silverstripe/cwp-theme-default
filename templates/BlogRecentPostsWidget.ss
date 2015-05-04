@@ -2,7 +2,7 @@
 	<ul class="blogposts unstyled nav nav-list">
 		<% loop $Posts %>
 			<li class="blogposts-{$Class}">
-				<a href="$Link" title="$Title.ATT">
+				<a href="$Link">
 					$Title.XML
 				</a>
 			</li>

@@ -34,7 +34,8 @@
 				<% end_if %>
 			</div>
 			<% if $RepliesEnabled %>
-				<button aria-controls="{$ReplyForm.FormName}_Holder" class="comment-reply-link" data-href="#{$ReplyForm.FormName}">Reply to $AuthorName.XML</button>
+				<button aria-controls="{$ReplyForm.FormName}_Holder" class="comment-reply-link" aria-expanded="false"
+					data-href="#{$ReplyForm.FormName}">Reply to $AuthorName.XML</button>
 			<% end_if %>
 		</div>
 	<% end_if %>

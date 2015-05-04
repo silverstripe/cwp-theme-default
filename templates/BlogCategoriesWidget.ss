@@ -3,7 +3,7 @@
 		<% loop $Categories %>
 			<li class="blogcategories-{$Class}">
 				<a href="$Link" title="View {$BlogPosts.Count} blog posts in category $Title.ATT">
-					$Title.XML <span class="nonvisual-indicator">({$BlogPosts.Count} posts)</span>
+					$Title.XML
 				</a>
 			</li>
 		<% end_loop %>
