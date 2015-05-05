@@ -21,7 +21,15 @@
 									</a>
 								</h3>
 							</header>
-							<p><% if Abstract %>$Abstract.XML<% else %>$Content.ContextSummary<% end_if %></p>
+							<p>
+								<% if $FileContent %>
+									$FileContent.ContextSummary.RAW
+								<% else_if Abstract %>
+									$Abstract.XML
+								<% else %>
+									$Content.ContextSummary
+								<% end_if %>
+							</p>
 						</article>
 					</li>
 				<% end_loop %>
