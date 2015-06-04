@@ -65,17 +65,19 @@
 		<% include PrintShare %>
 	</div>
 	<aside class="span3">
-		<div class="sidebar-nav well">
-			<h2 class="h6-style">Filter by tag</h2>
-			<nav role="navigation">
-				<ul class="nav nav-list">
-					<li <% if CurrentTag %><% else %>class="active"<% end_if %>><a href="$AllTagsLink" title="View all tags">View all tags</a></li>
-					<% loop UpdateTagsWithLinks %>
-						<li <% if $Top.CurrentTag.ID==$ID %>class="active"<% end_if %>><a href="$Link" title="View $Name">$Name</a></li>
-					<% end_loop %>
-				</ul>
-			</nav>
-		</div>
+		<% if $UpdateTagsWithLinks %>
+			<div class="sidebar-nav well">
+				<h2 class="h6-style">Filter by tag</h2>
+				<nav role="navigation">
+					<ul class="nav nav-list">
+						<li <% if CurrentTag %><% else %>class="active"<% end_if %>><a href="$AllTagsLink" title="View all tags">View all tags</a></li>
+						<% loop UpdateTagsWithLinks %>
+							<li <% if $Top.CurrentTag.ID==$ID %>class="active"<% end_if %>><a href="$Link" title="View $Name">$Name</a></li>
+						<% end_loop %>
+					</ul>
+				</nav>
+			</div>
+		<% end_if %>
 
 		<div class="sidebar-form well">
 			<h2 class="h6-style">Filter by date range</h2>
