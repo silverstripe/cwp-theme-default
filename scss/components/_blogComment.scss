@@ -196,9 +196,11 @@
 	line-height: 16px;
 	margin-top: -1px;
 
-	&:hover {
+	&:hover,
+	&:focus {
 		background-color: darken($btnPrimaryBackground, 10%);
 		background-image: none;
+		outline: none;
 	}
 }
 
@@ -216,8 +218,10 @@
 		@extend .btn-success;
 		background: $blue;
 
-		&:hover {
+		&:hover,
+		&:focus {
 			background-color: darken($blue, 10%);
+			outline: none;
 		}
 	}
 
@@ -225,8 +229,10 @@
 		@extend .btn-danger;
 		background: $red;
 
-		&:hover {
+		&:hover,
+		&:focus {
 			background-color: darken($red, 10%);
+			outline: none;
 		}
 	}
 
@@ -234,8 +240,10 @@
 		@extend .btn-info;
 		background: $blue;
 
-		&:hover {
+		&:hover,
+		&:focus {
 			background-color: darken($blue, 10%);
+			outline: none;
 		}
 	}
 
@@ -243,8 +251,10 @@
 		@extend .btn-warning;
 		background: $orange;
 
-		&:hover {
+		&:hover ,
+		&:focus{
 			background-color: darken($orange, 10%);
+			outline: none;
 		}
 	}
 }
