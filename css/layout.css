@@ -5491,6 +5491,12 @@ select.date, input.text.date, input.file.date {
   line-height: 20px;
 }
 
+input.required,
+textarea.required {
+  border-color: #ccc;
+  color: #555;
+}
+
 /* Checkboxes and radio buttons */
 form ul.optionset {
   list-style: none;
