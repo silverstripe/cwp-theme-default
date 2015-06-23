@@ -145,6 +145,11 @@ select, input.text, input.file{
 	}
 }
 
+input.required,
+textarea.required {
+	border-color: $inputBorder;
+	color: $gray;
+}
 
 /* Checkboxes and radio buttons */
 form ul.optionset{
