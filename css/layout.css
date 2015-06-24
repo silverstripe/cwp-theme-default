@@ -3299,7 +3299,7 @@ button.close {
   *background-color: #484848;
 }
 .btn-inverse:active, .btn-inverse.active {
-  background-color: #3b3b3b \9;
+  background-color: #3c3c3c \9;
 }
 
 button.btn, .Actions button.action,
@@ -6037,6 +6037,21 @@ ul.nav, ul.dropdown-menu {
   color: #555;
 }
 
+.resultsHelper a {
+  font-weight: bold;
+}
+
+.typography p.moreResults {
+  font-style: italic;
+  font-size: 1em;
+  line-height: 1.4em;
+  height: 1.4em;
+  margin: 1.385em 0;
+}
+.typography p.moreResults a {
+  font-weight: bold;
+}
+
 .blog-entry .blog-post-meta {
   margin-bottom: 1em;
 }
@@ -7506,7 +7521,6 @@ header ul#lang li {
   font-size: 1em;
   line-height: 1.4em;
   height: 1.4em;
-  clear: both;
   margin: 1.385em 0;
 }
 .typography p.printShare button {
