@@ -2,16 +2,18 @@
 	<div id="main" class="span12 resultsList" role="main">
 		<h1 class="searchQuery page-header">Search results</h1>
 
-		<% if Results %>
+		<% if $Results %>
+			<% if $Original %>
+				<div class="resultsHelper"><p>
+					No search results were found matching <strong>$Original</strong>. Did you mean: <strong>$Query</strong>.
+				</p></div>
+			<% end_if %>
 			<div class="resultsHeader">
-				<h2 class="pull-left">Results for &quot;{$Query}&quot;</h2>
+				<h2 class="pull-left">Showing results for &quot;{$Query}&quot;</h2>
 				<p class="pull-right">Displaying Page $Results.CurrentPage of $Results.TotalPages</p>
 			</div>
-		<% end_if %>
-
-		<% if Results %>
 			<ol id="SearchResults">
-				<% loop Results %>
+				<% loop $Results %>
 					<li>
 						<article class="$EvenOdd">
 							<header>
@@ -34,13 +36,22 @@
 					</li>
 				<% end_loop %>
 			</ol>
+			<% with $Results %>
+				<% include Pagination %>
+			<% end_with %>
+			<% if $Suggestion %>
+				<p class="pull-left moreResults">
+					Similar results: <a href="$SuggestionLink">$Suggestion</a>.
+				</p>
+			<% end_if %>
 		<% else %>
-			<p>Sorry, your search query did not return any results.</p>
+			<div class="resultsHelper"><p>
+				No search results were found matching <strong>$Query</strong>.
+				<% if $Suggestion %>
+					Did you mean: <a href="$SuggestionLink">$Suggestion</a>.
+				<% end_if %>
+			</p></div>
 		<% end_if %>
-		
-		<% with Results %>
-			<% include Pagination %>
-		<% end_with %>
 		<% include PrintShare %>
 	</div>
 </div>
