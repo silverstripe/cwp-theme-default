@@ -5,7 +5,7 @@
 		<% if $Results %>
 			<% if $Original %>
 				<div class="resultsHelper"><p>
-					No search results were found matching <strong>$Original</strong>. Did you mean: <strong>$Query</strong>.
+					No search results were found matching <strong>$Original</strong>. Did you mean: <strong>$Query</strong>?
 				</p></div>
 			<% end_if %>
 			<div class="resultsHeader">
