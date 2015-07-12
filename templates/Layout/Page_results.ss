@@ -3,15 +3,15 @@
 		<h1 class="searchQuery page-header">Search results</h1>
 
 		<% if $Results %>
-			<% if $Original %>
-				<div class="resultsHelper"><p>
-					No search results were found matching <strong>$Original</strong>. Did you mean: <strong>$Query</strong>?
-				</p></div>
-			<% end_if %>
 			<div class="resultsHeader">
 				<h2 class="pull-left">Showing results for &quot;{$Query}&quot;</h2>
 				<p class="pull-right">Displaying Page $Results.CurrentPage of $Results.TotalPages</p>
 			</div>
+			<% if $Original %>
+				<div class="resultsHelper"><p>
+					No search results were found matching <strong>$Original</strong>. Did you mean <strong>$Query</strong>?
+				</p></div>
+			<% end_if %>
 			<ol id="SearchResults">
 				<% loop $Results %>
 					<li>
@@ -48,7 +48,7 @@
 			<div class="resultsHelper"><p>
 				No search results were found matching <strong>$Query</strong>.
 				<% if $Suggestion %>
-					Did you mean: <a href="$SuggestionLink">$Suggestion</a>.
+					Did you mean <a href="$SuggestionLink">$Suggestion</a>?
 				<% end_if %>
 			</p></div>
 		<% end_if %>
