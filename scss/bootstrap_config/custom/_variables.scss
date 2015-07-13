@@ -178,8 +178,8 @@ $warningText:             white !default;
 $warningBackground:       $orange !default;
 $warningBorder:           none !default;
 
-$errorText:               white !default;
-$errorBackground:         $red !default;
+$errorText:               $red !default;
+$errorBackground:         transparent !default;
 $errorBorder:             none !default;
 
 $successText:             white !default;
