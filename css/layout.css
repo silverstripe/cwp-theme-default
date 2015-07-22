@@ -761,7 +761,9 @@ input[type="checkbox"][readonly] {
 
 .control-group.warning > label,
 .control-group.warning .help-block,
-.control-group.warning .help-inline {
+.control-group.warning .help-inline,
+.control-group.warning .message,
+.control-group.warning label.required {
   color: white;
 }
 .control-group.warning input,
@@ -787,33 +789,37 @@ input[type="checkbox"][readonly] {
 
 .control-group.error > label,
 .control-group.error .help-block,
-.control-group.error .help-inline {
-  color: white;
+.control-group.error .help-inline,
+.control-group.error .message,
+.control-group.error label.required {
+  color: #EE0004;
 }
 .control-group.error input,
 .control-group.error select,
 .control-group.error textarea {
-  color: white;
-  border-color: white;
+  color: #EE0004;
+  border-color: #EE0004;
 }
 .control-group.error input:focus,
 .control-group.error select:focus,
 .control-group.error textarea:focus {
-  border-color: #e6e6e6;
-  -webkit-box-shadow: 0 0 6px white;
-  -moz-box-shadow: 0 0 6px white;
-  box-shadow: 0 0 6px white;
+  border-color: #bb0003;
+  -webkit-box-shadow: 0 0 6px #ff5558;
+  -moz-box-shadow: 0 0 6px #ff5558;
+  box-shadow: 0 0 6px #ff5558;
 }
 .control-group.error .input-prepend .add-on,
 .control-group.error .input-append .add-on {
-  color: white;
-  background-color: #EE0004;
-  border-color: white;
+  color: #EE0004;
+  background-color: transparent;
+  border-color: #EE0004;
 }
 
 .control-group.success > label,
 .control-group.success .help-block,
-.control-group.success .help-inline {
+.control-group.success .help-inline,
+.control-group.success .message,
+.control-group.success label.required {
   color: white;
 }
 .control-group.success input,
@@ -888,7 +894,16 @@ select:focus:required:invalid:focus {
 }
 
 .help-block,
-.help-inline {
+.help-inline,
+.message,
+.message.error,
+label.required,
+.message.bad,
+.message.required,
+.message.good,
+.message.success,
+.message.warning,
+.message.info {
   color: #555;
 }
 
@@ -897,7 +912,7 @@ select:focus:required:invalid:focus {
   margin-bottom: 12px;
 }
 
-.help-inline {
+.help-inline, .message, .message.error, label.required, .message.bad, .message.required, .message.good, .message.success, .message.warning, .message.info {
   display: inline-block;
   *display: inline;
   *zoom: 1;
@@ -1046,6 +1061,8 @@ select:focus:required:invalid:focus {
 .form-search textarea,
 .form-search select,
 .form-search .help-inline,
+.form-search .message,
+.form-search label.required,
 .form-search .uneditable-input,
 .form-search .input-prepend,
 .form-search .input-append,
@@ -1053,6 +1070,8 @@ select:focus:required:invalid:focus {
 .form-inline textarea,
 .form-inline select,
 .form-inline .help-inline,
+.form-inline .message,
+.form-inline label.required,
 .form-inline .uneditable-input,
 .form-inline .input-prepend,
 .form-inline .input-append,
@@ -1060,6 +1079,8 @@ select:focus:required:invalid:focus {
 .form-horizontal textarea,
 .form-horizontal select,
 .form-horizontal .help-inline,
+.form-horizontal .message,
+.form-horizontal label.required,
 .form-horizontal .uneditable-input,
 .form-horizontal .input-prepend,
 .form-horizontal .input-append {
@@ -3529,7 +3550,7 @@ input[type="submit"].btn.btn-mini,
   filter: alpha(opacity=75);
 }
 
-.alert {
+.alert, #error-container div {
   padding: 8px 35px 8px 14px;
   margin-bottom: 24px;
   text-shadow: 0 1px 0 rgba(255, 255, 255, 0.5);
@@ -3545,7 +3566,7 @@ input[type="submit"].btn.btn-mini,
   color: inherit;
 }
 
-.alert .close {
+.alert .close, #error-container div .close {
   position: relative;
   top: -2px;
   right: -21px;
@@ -3559,10 +3580,11 @@ input[type="submit"].btn.btn-mini,
 }
 
 .alert-danger,
-.alert-error {
-  background-color: #EE0004;
+.alert-error,
+#error-container div {
+  background-color: transparent;
   border-color: none;
-  color: white;
+  color: #EE0004;
 }
 
 .alert-info {
@@ -4846,11 +4868,11 @@ a.label:hover, a.badge:hover {
 }
 
 .label-important, .badge-important {
-  background-color: white;
+  background-color: #EE0004;
 }
 
 .label-important[href], .badge-important[href] {
-  background-color: #e6e6e6;
+  background-color: #bb0003;
 }
 
 .label-warning, .badge-warning {
@@ -5280,7 +5302,6 @@ form div.field:after {
   zoom: 1;
 }
 form#Form_Form .req-indicator-message {
-  color: white;
   position: relative;
   font-weight: normal;
   padding-top: 5px;
@@ -5303,101 +5324,64 @@ select,
 }
 
 /* Styling for messages */
+#error-container div {
+  border: 2px solid #EE0004;
+}
+#error-container ul {
+  list-style-position: inside;
+}
+#error-container li {
+  padding-top: 6px;
+}
+#error-container a,
+#error-container a:visited,
+#error-container a:hover,
+#error-container a:focus,
+#error-container a:active {
+  color: #EE0004;
+  text-decoration: none;
+}
+
 .message {
-  padding: 5px;
-  margin-right: 5px;
-  margin-bottom: 10px;
-  margin-top: 15px;
-  font-weight: normal;
-  font-size: 16px;
-  line-height: 21px;
   display: block;
-  clear: both;
-  -webkit-border-radius: 3px;
-  -moz-border-radius: 3px;
-  border-radius: 3px;
+  padding-left: 0;
   background: #fbfbfb;
-  border: 1px solid #eee;
   color: #333;
 }
 .message.error, label.required, .message.bad, .message.required {
-  padding: 5px;
-  margin-right: 5px;
-  margin-bottom: 10px;
-  margin-top: 15px;
-  font-weight: normal;
-  font-size: 16px;
-  line-height: 21px;
   display: block;
-  clear: both;
-  -webkit-border-radius: 3px;
-  -moz-border-radius: 3px;
-  border-radius: 3px;
-  background: #EE0004;
-  border: 1px solid none;
-  color: white;
+  padding-left: 0;
+  background: transparent;
+  color: #EE0004;
 }
 .message.good, .message.success {
-  padding: 5px;
-  margin-right: 5px;
-  margin-bottom: 10px;
-  margin-top: 15px;
-  font-weight: normal;
-  font-size: 16px;
-  line-height: 21px;
   display: block;
-  clear: both;
-  -webkit-border-radius: 3px;
-  -moz-border-radius: 3px;
-  border-radius: 3px;
+  padding-left: 0;
   background: #228800;
-  border: 1px solid none;
   color: white;
 }
 .message.warning {
-  padding: 5px;
-  margin-right: 5px;
-  margin-bottom: 10px;
-  margin-top: 15px;
-  font-weight: normal;
-  font-size: 16px;
-  line-height: 21px;
   display: block;
-  clear: both;
-  -webkit-border-radius: 3px;
-  -moz-border-radius: 3px;
-  border-radius: 3px;
+  padding-left: 0;
   background: #8F4100;
-  border: 1px solid none;
   color: white;
 }
 .message.info {
-  padding: 5px;
-  margin-right: 5px;
-  margin-bottom: 10px;
-  margin-top: 15px;
-  font-weight: normal;
-  font-size: 16px;
-  line-height: 21px;
   display: block;
-  clear: both;
-  -webkit-border-radius: 3px;
-  -moz-border-radius: 3px;
-  border-radius: 3px;
+  padding-left: 0;
   background: #005B95;
-  border: 1px solid none;
   color: white;
 }
 
 .required {
-  color: white;
-  border-color: white;
+  color: #EE0004;
+  border-color: #EE0004;
 }
 .required:focus {
-  border-color: #e6e6e6;
-  -webkit-box-shadow: 0 0 6px white;
-  -moz-box-shadow: 0 0 6px white;
-  box-shadow: 0 0 6px white;
+  border-color: #bb0003;
+  -webkit-box-shadow: 0 0 6px #ff5558;
+  -moz-box-shadow: 0 0 6px #ff5558;
+  box-shadow: 0 0 6px #ff5558;
 }
 
 /* Label formatting */
@@ -5430,7 +5414,7 @@ span.extra {
 
 .requiredField label span.req-indicator, .requiredField legend span.req-indicator {
   position: relative;
-  color: white;
+  color: #EE0004;
   overflow: hidden;
   text-indent: -999px;
   display: inline-block;
@@ -5445,7 +5429,7 @@ span.extra {
 }
 .requiredField.checkbox label.checkbox:after {
   content: "*";
-  color: white;
+  color: #EE0004;
   display: inline-block;
   font-weight: bold;
 }

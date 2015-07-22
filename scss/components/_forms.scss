@@ -13,7 +13,6 @@ form {
 		@include clearAfter;
 	}
 	&#Form_Form .req-indicator-message{
-		color: $errorText;
 		position: relative;
 		font-weight: normal;
 		padding-top: 5px;
@@ -37,6 +36,31 @@ select,
 }
 
 /* Styling for messages */
+#error-container {
+	div {
+		@extend .alert;
+		@extend .alert-error;
+		border: 2px solid $red;
+	}
+
+	ul {
+		list-style-position: inside;
+	}
+
+	li {
+		padding-top: 6px;
+	}
+
+	a,
+	a:visited,
+	a:hover,
+	a:focus,
+	a:active {
+		color: $red;
+		text-decoration: none;
+	}
+}
+
 .message{
 	@include message('default');
 	&.error, &.bad, &.required{
