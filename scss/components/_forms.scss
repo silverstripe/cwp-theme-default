@@ -41,6 +41,7 @@ select,
 		@extend .alert;
 		@extend .alert-error;
 		border: 2px solid $red;
+		padding-top: 0;
 	}
 
 	ul {
@@ -55,9 +56,12 @@ select,
 	a:visited,
 	a:hover,
 	a:focus,
-	a:active {
+	a:active,
+	label {
 		color: $red;
 		text-decoration: none;
+		margin-bottom: 0;
+		cursor: pointer;
 	}
 }
 

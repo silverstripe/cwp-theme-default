@@ -3320,7 +3320,7 @@ button.close {
   *background-color: #484848;
 }
 .btn-inverse:active, .btn-inverse.active {
-  background-color: #3c3c3c \9;
+  background-color: #3b3b3b \9;
 }
 
 button.btn, .Actions button.action,
@@ -5326,6 +5326,7 @@ select,
 /* Styling for messages */
 #error-container div {
   border: 2px solid #EE0004;
+  padding-top: 0;
 }
 #error-container ul {
   list-style-position: inside;
@@ -5337,9 +5338,12 @@ select,
 #error-container a:visited,
 #error-container a:hover,
 #error-container a:focus,
-#error-container a:active {
+#error-container a:active,
+#error-container label {
   color: #EE0004;
   text-decoration: none;
+  margin-bottom: 0;
+  cursor: pointer;
 }
 
 .message {
