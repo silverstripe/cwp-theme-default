@@ -969,10 +969,26 @@ label.required,
 .input-prepend .btn,
 .input-prepend .Actions .action,
 .Actions .input-prepend .action,
+.input-prepend .step-navigation .step-buttons .action,
+.step-navigation .step-buttons .input-prepend .action,
+.input-prepend .Actions .step-navigation .resetformaction,
+.Actions .step-navigation .input-prepend .resetformaction,
+.input-prepend .step-navigation .Actions .resetformaction,
+.step-navigation .Actions .input-prepend .resetformaction,
+.input-prepend .step-navigation .step-buttons .resetformaction,
+.step-navigation .step-buttons .input-prepend .resetformaction,
 .input-append .add-on,
 .input-append .btn,
 .input-append .Actions .action,
-.Actions .input-append .action {
+.Actions .input-append .action,
+.input-append .step-navigation .step-buttons .action,
+.step-navigation .step-buttons .input-append .action,
+.input-append .Actions .step-navigation .resetformaction,
+.Actions .step-navigation .input-append .resetformaction,
+.input-append .step-navigation .Actions .resetformaction,
+.step-navigation .Actions .input-append .resetformaction,
+.input-append .step-navigation .step-buttons .resetformaction,
+.step-navigation .step-buttons .input-append .resetformaction {
   margin-left: -1px;
   -webkit-border-radius: 0;
   -moz-border-radius: 0;
@@ -987,13 +1003,29 @@ label.required,
 .input-prepend .add-on,
 .input-prepend .btn,
 .input-prepend .Actions .action,
-.Actions .input-prepend .action {
+.Actions .input-prepend .action,
+.input-prepend .step-navigation .step-buttons .action,
+.step-navigation .step-buttons .input-prepend .action,
+.input-prepend .Actions .step-navigation .resetformaction,
+.Actions .step-navigation .input-prepend .resetformaction,
+.input-prepend .step-navigation .Actions .resetformaction,
+.step-navigation .Actions .input-prepend .resetformaction,
+.input-prepend .step-navigation .step-buttons .resetformaction,
+.step-navigation .step-buttons .input-prepend .resetformaction {
   margin-right: -1px;
 }
 .input-prepend .add-on:first-child,
 .input-prepend .btn:first-child,
 .input-prepend .Actions .action:first-child,
-.Actions .input-prepend .action:first-child {
+.Actions .input-prepend .action:first-child,
+.input-prepend .step-navigation .step-buttons .action:first-child,
+.step-navigation .step-buttons .input-prepend .action:first-child,
+.input-prepend .Actions .step-navigation .resetformaction:first-child,
+.Actions .step-navigation .input-prepend .resetformaction:first-child,
+.input-prepend .step-navigation .Actions .resetformaction:first-child,
+.step-navigation .Actions .input-prepend .resetformaction:first-child,
+.input-prepend .step-navigation .step-buttons .resetformaction:first-child,
+.step-navigation .step-buttons .input-prepend .resetformaction:first-child {
   -webkit-border-radius: 3px 0 0 3px;
   -moz-border-radius: 3px 0 0 3px;
   border-radius: 3px 0 0 3px;
@@ -1013,7 +1045,15 @@ label.required,
 .input-append .add-on:last-child,
 .input-append .btn:last-child,
 .input-append .Actions .action:last-child,
-.Actions .input-append .action:last-child {
+.Actions .input-append .action:last-child,
+.input-append .step-navigation .step-buttons .action:last-child,
+.step-navigation .step-buttons .input-append .action:last-child,
+.input-append .Actions .step-navigation .resetformaction:last-child,
+.Actions .step-navigation .input-append .resetformaction:last-child,
+.input-append .step-navigation .Actions .resetformaction:last-child,
+.step-navigation .Actions .input-append .resetformaction:last-child,
+.input-append .step-navigation .step-buttons .resetformaction:last-child,
+.step-navigation .step-buttons .input-append .resetformaction:last-child {
   -webkit-border-radius: 0 3px 3px 0;
   -moz-border-radius: 0 3px 3px 0;
   border-radius: 0 3px 3px 0;
@@ -1029,7 +1069,15 @@ label.required,
 .input-prepend.input-append .add-on:first-child,
 .input-prepend.input-append .btn:first-child,
 .input-prepend.input-append .Actions .action:first-child,
-.Actions .input-prepend.input-append .action:first-child {
+.Actions .input-prepend.input-append .action:first-child,
+.input-prepend.input-append .step-navigation .step-buttons .action:first-child,
+.step-navigation .step-buttons .input-prepend.input-append .action:first-child,
+.input-prepend.input-append .Actions .step-navigation .resetformaction:first-child,
+.Actions .step-navigation .input-prepend.input-append .resetformaction:first-child,
+.input-prepend.input-append .step-navigation .Actions .resetformaction:first-child,
+.step-navigation .Actions .input-prepend.input-append .resetformaction:first-child,
+.input-prepend.input-append .step-navigation .step-buttons .resetformaction:first-child,
+.step-navigation .step-buttons .input-prepend.input-append .resetformaction:first-child {
   margin-right: -1px;
   -webkit-border-radius: 3px 0 0 3px;
   -moz-border-radius: 3px 0 0 3px;
@@ -1038,7 +1086,15 @@ label.required,
 .input-prepend.input-append .add-on:last-child,
 .input-prepend.input-append .btn:last-child,
 .input-prepend.input-append .Actions .action:last-child,
-.Actions .input-prepend.input-append .action:last-child {
+.Actions .input-prepend.input-append .action:last-child,
+.input-prepend.input-append .step-navigation .step-buttons .action:last-child,
+.step-navigation .step-buttons .input-prepend.input-append .action:last-child,
+.input-prepend.input-append .Actions .step-navigation .resetformaction:last-child,
+.Actions .step-navigation .input-prepend.input-append .resetformaction:last-child,
+.input-prepend.input-append .step-navigation .Actions .resetformaction:last-child,
+.step-navigation .Actions .input-prepend.input-append .resetformaction:last-child,
+.input-prepend.input-append .step-navigation .step-buttons .resetformaction:last-child,
+.step-navigation .step-buttons .input-prepend.input-append .resetformaction:last-child {
   margin-left: -1px;
   -webkit-border-radius: 0 3px 3px 0;
   -moz-border-radius: 0 3px 3px 0;
@@ -1219,9 +1275,13 @@ a [class*=" icon-"] {
   font-size: 4/3em;
 }
 
-.btn [class^="icon-"], .Actions .action [class^="icon-"],
+.btn [class^="icon-"], .Actions .action [class^="icon-"], .step-navigation .step-buttons .action [class^="icon-"], .Actions .step-navigation .resetformaction [class^="icon-"], .step-navigation .Actions .resetformaction [class^="icon-"], .step-navigation .step-buttons .resetformaction [class^="icon-"],
 .btn [class*=" icon-"],
-.Actions .action [class*=" icon-"], .nav-tabs [class^="icon-"],
+.Actions .action [class*=" icon-"],
+.step-navigation .step-buttons .action [class*=" icon-"],
+.Actions .step-navigation .resetformaction [class*=" icon-"],
+.step-navigation .Actions .resetformaction [class*=" icon-"],
+.step-navigation .step-buttons .resetformaction [class*=" icon-"], .nav-tabs [class^="icon-"],
 .nav-tabs [class*=" icon-"] {
   /* keeps button heights with and without icons the same */
   line-height: .9em;
@@ -2103,10 +2163,18 @@ ul.icons li .icon-large:before {
   font-style: normal;
   font-weight: normal;
 }
-#IE7 .btn.dropdown-toggle [class^="icon-"], #IE7 .Actions .dropdown-toggle.action [class^="icon-"], .Actions #IE7 .dropdown-toggle.action [class^="icon-"],
+#IE7 .btn.dropdown-toggle [class^="icon-"], #IE7 .Actions .dropdown-toggle.action [class^="icon-"], .Actions #IE7 .dropdown-toggle.action [class^="icon-"], #IE7 .step-navigation .step-buttons .dropdown-toggle.action [class^="icon-"], .step-navigation .step-buttons #IE7 .dropdown-toggle.action [class^="icon-"], #IE7 .Actions .step-navigation .dropdown-toggle.resetformaction [class^="icon-"], .Actions .step-navigation #IE7 .dropdown-toggle.resetformaction [class^="icon-"], #IE7 .step-navigation .Actions .dropdown-toggle.resetformaction [class^="icon-"], .step-navigation .Actions #IE7 .dropdown-toggle.resetformaction [class^="icon-"], #IE7 .step-navigation .step-buttons .dropdown-toggle.resetformaction [class^="icon-"], .step-navigation .step-buttons #IE7 .dropdown-toggle.resetformaction [class^="icon-"],
 #IE7 .btn.dropdown-toggle [class*=" icon-"],
 #IE7 .Actions .dropdown-toggle.action [class*=" icon-"],
-.Actions #IE7 .dropdown-toggle.action [class*=" icon-"] {
+.Actions #IE7 .dropdown-toggle.action [class*=" icon-"],
+#IE7 .step-navigation .step-buttons .dropdown-toggle.action [class*=" icon-"],
+.step-navigation .step-buttons #IE7 .dropdown-toggle.action [class*=" icon-"],
+#IE7 .Actions .step-navigation .dropdown-toggle.resetformaction [class*=" icon-"],
+.Actions .step-navigation #IE7 .dropdown-toggle.resetformaction [class*=" icon-"],
+#IE7 .step-navigation .Actions .dropdown-toggle.resetformaction [class*=" icon-"],
+.step-navigation .Actions #IE7 .dropdown-toggle.resetformaction [class*=" icon-"],
+#IE7 .step-navigation .step-buttons .dropdown-toggle.resetformaction [class*=" icon-"],
+.step-navigation .step-buttons #IE7 .dropdown-toggle.resetformaction [class*=" icon-"] {
   /* keeps button heights with and without icons the same */
   line-height: 1.4em;
 }
@@ -2958,7 +3026,7 @@ button.close {
   -webkit-appearance: none;
 }
 
-.btn, .Actions .action {
+.btn, .Actions .action, .step-navigation .step-buttons .action, .Actions .step-navigation .resetformaction, .step-navigation .Actions .resetformaction, .step-navigation .step-buttons .resetformaction {
   display: inline-block;
   *display: inline;
   *zoom: 1;
@@ -2996,24 +3064,24 @@ button.close {
   -moz-box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.2), 0 1px 2px rgba(0, 0, 0, 0.05);
   box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.2), 0 1px 2px rgba(0, 0, 0, 0.05);
 }
-#IE8 .btn, #IE8 .Actions .action, .Actions #IE8 .action {
+#IE8 .btn, #IE8 .Actions .action, .Actions #IE8 .action, #IE8 .step-navigation .step-buttons .action, .step-navigation .step-buttons #IE8 .action, #IE8 .Actions .step-navigation .resetformaction, .Actions .step-navigation #IE8 .resetformaction, #IE8 .step-navigation .Actions .resetformaction, .step-navigation .Actions #IE8 .resetformaction, #IE8 .step-navigation .step-buttons .resetformaction, .step-navigation .step-buttons #IE8 .resetformaction {
   filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#FFFFFFFF', endColorstr='#FFF2F2F2', GradientType=0);
 }
-.btn:hover, .Actions .action:hover, .btn:active, .Actions .action:active, .btn.active, .Actions .active.action, .btn.disabled, .Actions .disabled.action, .btn[disabled], .Actions [disabled].action {
+.btn:hover, .Actions .action:hover, .step-navigation .step-buttons .action:hover, .Actions .step-navigation .resetformaction:hover, .step-navigation .Actions .resetformaction:hover, .step-navigation .step-buttons .resetformaction:hover, .btn:active, .Actions .action:active, .step-navigation .step-buttons .action:active, .Actions .step-navigation .resetformaction:active, .step-navigation .Actions .resetformaction:active, .step-navigation .step-buttons .resetformaction:active, .btn.active, .Actions .active.action, .step-navigation .step-buttons .active.action, .Actions .step-navigation .active.resetformaction, .step-navigation .Actions .active.resetformaction, .step-navigation .step-buttons .active.resetformaction, .btn.disabled, .Actions .disabled.action, .step-navigation .step-buttons .disabled.action, .Actions .step-navigation .disabled.resetformaction, .step-navigation .Actions .disabled.resetformaction, .step-navigation .step-buttons .disabled.resetformaction, .btn[disabled], .Actions [disabled].action, .step-navigation .step-buttons [disabled].action, .Actions .step-navigation [disabled].resetformaction, .step-navigation .Actions [disabled].resetformaction, .step-navigation .step-buttons [disabled].resetformaction {
   background-color: #f2f2f2;
   *background-color: #e6e6e6;
 }
-.btn:active, .Actions .action:active, .btn.active, .Actions .active.action {
+.btn:active, .Actions .action:active, .step-navigation .step-buttons .action:active, .Actions .step-navigation .resetformaction:active, .step-navigation .Actions .resetformaction:active, .step-navigation .step-buttons .resetformaction:active, .btn.active, .Actions .active.action, .step-navigation .step-buttons .active.action, .Actions .step-navigation .active.resetformaction, .step-navigation .Actions .active.resetformaction, .step-navigation .step-buttons .active.resetformaction {
   background-color: #d9d9d9 \9;
 }
-.btn:first-child, .Actions .action:first-child {
+.btn:first-child, .Actions .action:first-child, .step-navigation .step-buttons .action:first-child, .Actions .step-navigation .resetformaction:first-child, .step-navigation .Actions .resetformaction:first-child, .step-navigation .step-buttons .resetformaction:first-child {
   *margin-left: 0;
 }
-.btn:visited, .Actions .action:visited {
+.btn:visited, .Actions .action:visited, .step-navigation .step-buttons .action:visited, .Actions .step-navigation .resetformaction:visited, .step-navigation .Actions .resetformaction:visited, .step-navigation .step-buttons .resetformaction:visited {
   color: #333 !important;
 }
 
-.btn:hover, .Actions .action:hover {
+.btn:hover, .Actions .action:hover, .step-navigation .step-buttons .action:hover, .Actions .step-navigation .resetformaction:hover, .step-navigation .Actions .resetformaction:hover, .step-navigation .step-buttons .resetformaction:hover {
   color: #333;
   text-decoration: none;
   background-color: #e6e6e6;
@@ -3027,15 +3095,19 @@ button.close {
   transition: background-position 0.1s linear;
 }
 
-.btn:focus, .Actions .action:focus {
+.btn:focus, .Actions .action:focus, .step-navigation .step-buttons .action:focus, .Actions .step-navigation .resetformaction:focus, .step-navigation .Actions .resetformaction:focus, .step-navigation .step-buttons .resetformaction:focus {
   outline: thin dotted #333;
   outline: 5px auto -webkit-focus-ring-color;
   outline-offset: -2px;
 }
 
-.btn.active, .Actions .active.action,
+.btn.active, .Actions .active.action, .step-navigation .step-buttons .active.action, .Actions .step-navigation .active.resetformaction, .step-navigation .Actions .active.resetformaction, .step-navigation .step-buttons .active.resetformaction,
 .btn:active,
-.Actions .action:active {
+.Actions .action:active,
+.step-navigation .step-buttons .action:active,
+.Actions .step-navigation .resetformaction:active,
+.step-navigation .Actions .resetformaction:active,
+.step-navigation .step-buttons .resetformaction:active {
   background-color: #e6e6e6;
   background-color: #d9d9d9 \9;
   background-image: none;
@@ -3045,9 +3117,13 @@ button.close {
   box-shadow: inset 0 2px 4px rgba(0, 0, 0, 0.15), 0 1px 2px rgba(0, 0, 0, 0.05);
 }
 
-.btn.disabled, .Actions .disabled.action,
+.btn.disabled, .Actions .disabled.action, .step-navigation .step-buttons .disabled.action, .Actions .step-navigation .disabled.resetformaction, .step-navigation .Actions .disabled.resetformaction, .step-navigation .step-buttons .disabled.resetformaction,
 .btn[disabled],
-.Actions [disabled].action {
+.Actions [disabled].action,
+.step-navigation .step-buttons [disabled].action,
+.Actions .step-navigation [disabled].resetformaction,
+.step-navigation .Actions [disabled].resetformaction,
+.step-navigation .step-buttons [disabled].resetformaction {
   cursor: default;
   background-color: #e6e6e6;
   background-image: none;
@@ -3087,9 +3163,13 @@ button.close {
   line-height: 20px;
 }
 
-.btn-primary, .Actions .action.primary, .comment-reply-link,
+.btn-primary, .Actions .action.primary, .step-navigation .step-buttons .action.primary, .Actions .step-navigation .primary.resetformaction, .step-navigation .Actions .primary.resetformaction, .step-navigation .step-buttons .primary.resetformaction, .comment-reply-link,
 .btn-primary:hover,
 .Actions .action.primary:hover,
+.step-navigation .step-buttons .action.primary:hover,
+.Actions .step-navigation .primary.resetformaction:hover,
+.step-navigation .Actions .primary.resetformaction:hover,
+.step-navigation .step-buttons .primary.resetformaction:hover,
 .comment-reply-link:hover,
 .btn-warning,
 .comment-action-links a.spam,
@@ -3112,9 +3192,13 @@ button.close {
   color: #fff;
   text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.25);
 }
-.btn-primary:visited, .Actions .action.primary:visited, .comment-reply-link:visited,
+.btn-primary:visited, .Actions .action.primary:visited, .step-navigation .step-buttons .action.primary:visited, .Actions .step-navigation .primary.resetformaction:visited, .step-navigation .Actions .primary.resetformaction:visited, .step-navigation .step-buttons .primary.resetformaction:visited, .comment-reply-link:visited,
 .btn-primary:hover:visited,
 .Actions .action.primary:hover:visited,
+.step-navigation .step-buttons .action.primary:hover:visited,
+.Actions .step-navigation .primary.resetformaction:hover:visited,
+.step-navigation .Actions .primary.resetformaction:hover:visited,
+.step-navigation .step-buttons .primary.resetformaction:hover:visited,
 .comment-reply-link:hover:visited,
 .btn-warning:visited,
 .comment-action-links a.spam:visited,
@@ -3137,7 +3221,7 @@ button.close {
   color: #fff !important;
 }
 
-.btn-primary.active, .Actions .active.action.primary, .active.comment-reply-link,
+.btn-primary.active, .Actions .active.action.primary, .step-navigation .step-buttons .active.action.primary, .Actions .step-navigation .active.primary.resetformaction, .step-navigation .Actions .active.primary.resetformaction, .step-navigation .step-buttons .active.primary.resetformaction, .active.comment-reply-link,
 .btn-warning.active,
 .comment-action-links a.active.spam,
 .btn-danger.active,
@@ -3149,7 +3233,7 @@ button.close {
 .btn-inverse.active {
   color: rgba(255, 255, 255, 0.75);
 }
-.btn-primary.active:visited, .Actions .active.action.primary:visited, .active.comment-reply-link:visited,
+.btn-primary.active:visited, .Actions .active.action.primary:visited, .step-navigation .step-buttons .active.action.primary:visited, .Actions .step-navigation .active.primary.resetformaction:visited, .step-navigation .Actions .active.primary.resetformaction:visited, .step-navigation .step-buttons .active.primary.resetformaction:visited, .active.comment-reply-link:visited,
 .btn-warning.active:visited,
 .comment-action-links a.active.spam:visited,
 .btn-danger.active:visited,
@@ -3162,12 +3246,12 @@ button.close {
   color: rgba(255, 255, 255, 0.75);
 }
 
-.btn, .Actions .action {
+.btn, .Actions .action, .step-navigation .step-buttons .action, .Actions .step-navigation .resetformaction, .step-navigation .Actions .resetformaction, .step-navigation .step-buttons .resetformaction {
   border-color: #ccc;
   border-color: rgba(0, 0, 0, 0.1) rgba(0, 0, 0, 0.1) rgba(0, 0, 0, 0.25);
 }
 
-.btn-primary, .Actions .action.primary, .comment-reply-link {
+.btn-primary, .Actions .action.primary, .step-navigation .step-buttons .action.primary, .Actions .step-navigation .primary.resetformaction, .step-navigation .Actions .primary.resetformaction, .step-navigation .step-buttons .primary.resetformaction, .comment-reply-link {
   background-color: #800073;
   background-image: -ms-linear-gradient(top, #800080, #800060);
   background-image: -webkit-gradient(linear, 0 0, 0 100%, from(#800080), to(#800060));
@@ -3182,14 +3266,14 @@ button.close {
   /* Darken IE7 buttons by default so they stand out more given they won't have borders */
   filter: progid:DXImageTransform.Microsoft.gradient(enabled=false);
 }
-#IE8 .btn-primary, #IE8 .Actions .action.primary, .Actions #IE8 .action.primary, #IE8 .comment-reply-link {
+#IE8 .btn-primary, #IE8 .Actions .action.primary, .Actions #IE8 .action.primary, #IE8 .step-navigation .step-buttons .action.primary, .step-navigation .step-buttons #IE8 .action.primary, #IE8 .Actions .step-navigation .primary.resetformaction, .Actions .step-navigation #IE8 .primary.resetformaction, #IE8 .step-navigation .Actions .primary.resetformaction, .step-navigation .Actions #IE8 .primary.resetformaction, #IE8 .step-navigation .step-buttons .primary.resetformaction, .step-navigation .step-buttons #IE8 .primary.resetformaction, #IE8 .comment-reply-link {
   filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#FF800080', endColorstr='#FF800060', GradientType=0);
 }
-.btn-primary:hover, .Actions .action.primary:hover, .comment-reply-link:hover, .btn-primary:active, .Actions .action.primary:active, .comment-reply-link:active, .btn-primary.active, .Actions .active.action.primary, .active.comment-reply-link, .btn-primary.disabled, .Actions .disabled.action.primary, .disabled.comment-reply-link, .btn-primary[disabled], .Actions [disabled].action.primary, [disabled].comment-reply-link {
+.btn-primary:hover, .Actions .action.primary:hover, .step-navigation .step-buttons .action.primary:hover, .Actions .step-navigation .primary.resetformaction:hover, .step-navigation .Actions .primary.resetformaction:hover, .step-navigation .step-buttons .primary.resetformaction:hover, .comment-reply-link:hover, .btn-primary:active, .Actions .action.primary:active, .step-navigation .step-buttons .action.primary:active, .Actions .step-navigation .primary.resetformaction:active, .step-navigation .Actions .primary.resetformaction:active, .step-navigation .step-buttons .primary.resetformaction:active, .comment-reply-link:active, .btn-primary.active, .Actions .active.action.primary, .step-navigation .step-buttons .active.action.primary, .Actions .step-navigation .active.primary.resetformaction, .step-navigation .Actions .active.primary.resetformaction, .step-navigation .step-buttons .active.primary.resetformaction, .active.comment-reply-link, .btn-primary.disabled, .Actions .disabled.action.primary, .step-navigation .step-buttons .disabled.action.primary, .Actions .step-navigation .disabled.primary.resetformaction, .step-navigation .Actions .disabled.primary.resetformaction, .step-navigation .step-buttons .disabled.primary.resetformaction, .disabled.comment-reply-link, .btn-primary[disabled], .Actions [disabled].action.primary, .step-navigation .step-buttons [disabled].action.primary, .Actions .step-navigation [disabled].primary.resetformaction, .step-navigation .Actions [disabled].primary.resetformaction, .step-navigation .step-buttons [disabled].primary.resetformaction, [disabled].comment-reply-link {
   background-color: #800060;
   *background-color: #67004d;
 }
-.btn-primary:active, .Actions .action.primary:active, .comment-reply-link:active, .btn-primary.active, .Actions .active.action.primary, .active.comment-reply-link {
+.btn-primary:active, .Actions .action.primary:active, .step-navigation .step-buttons .action.primary:active, .Actions .step-navigation .primary.resetformaction:active, .step-navigation .Actions .primary.resetformaction:active, .step-navigation .step-buttons .primary.resetformaction:active, .comment-reply-link:active, .btn-primary.active, .Actions .active.action.primary, .step-navigation .step-buttons .active.action.primary, .Actions .step-navigation .active.primary.resetformaction, .step-navigation .Actions .active.primary.resetformaction, .step-navigation .step-buttons .active.primary.resetformaction, .active.comment-reply-link {
   background-color: #4d003a \9;
 }
 
@@ -3323,35 +3407,59 @@ button.close {
   background-color: #3b3b3b \9;
 }
 
-button.btn, .Actions button.action,
+button.btn, .Actions button.action, .step-navigation .step-buttons button.action, .Actions .step-navigation button.resetformaction, .step-navigation .Actions button.resetformaction, .step-navigation .step-buttons button.resetformaction,
 input[type="submit"].btn,
-.Actions input[type="submit"].action {
+.Actions input[type="submit"].action,
+.step-navigation .step-buttons input[type="submit"].action,
+.Actions .step-navigation input[type="submit"].resetformaction,
+.step-navigation .Actions input[type="submit"].resetformaction,
+.step-navigation .step-buttons input[type="submit"].resetformaction {
   *padding-top: 2px;
   *padding-bottom: 2px;
 }
-button.btn::-moz-focus-inner, .Actions button.action::-moz-focus-inner,
+button.btn::-moz-focus-inner, .Actions button.action::-moz-focus-inner, .step-navigation .step-buttons button.action::-moz-focus-inner, .Actions .step-navigation button.resetformaction::-moz-focus-inner, .step-navigation .Actions button.resetformaction::-moz-focus-inner, .step-navigation .step-buttons button.resetformaction::-moz-focus-inner,
 input[type="submit"].btn::-moz-focus-inner,
-.Actions input[type="submit"].action::-moz-focus-inner {
+.Actions input[type="submit"].action::-moz-focus-inner,
+.step-navigation .step-buttons input[type="submit"].action::-moz-focus-inner,
+.Actions .step-navigation input[type="submit"].resetformaction::-moz-focus-inner,
+.step-navigation .Actions input[type="submit"].resetformaction::-moz-focus-inner,
+.step-navigation .step-buttons input[type="submit"].resetformaction::-moz-focus-inner {
   padding: 0;
   border: 0;
 }
-button.btn.btn-large, .Actions button.btn-large.action,
+button.btn.btn-large, .Actions button.btn-large.action, .step-navigation .step-buttons button.btn-large.action, .Actions .step-navigation button.btn-large.resetformaction, .step-navigation .Actions button.btn-large.resetformaction, .step-navigation .step-buttons button.btn-large.resetformaction,
 input[type="submit"].btn.btn-large,
-.Actions input[type="submit"].btn-large.action {
+.Actions input[type="submit"].btn-large.action,
+.step-navigation .step-buttons input[type="submit"].btn-large.action,
+.Actions .step-navigation input[type="submit"].btn-large.resetformaction,
+.step-navigation .Actions input[type="submit"].btn-large.resetformaction,
+.step-navigation .step-buttons input[type="submit"].btn-large.resetformaction {
   *padding-top: 7px;
   *padding-bottom: 7px;
 }
-button.btn.btn-small, .Actions button.btn-small.action, .Actions button.action.comment-reply-link, button.btn.comment-reply-link,
+button.btn.btn-small, .Actions button.btn-small.action, .step-navigation .step-buttons button.btn-small.action, .Actions .step-navigation button.btn-small.resetformaction, .step-navigation .Actions button.btn-small.resetformaction, .step-navigation .step-buttons button.btn-small.resetformaction, .Actions .step-navigation button.resetformaction.comment-reply-link, .step-navigation .Actions button.resetformaction.comment-reply-link, .step-navigation .step-buttons button.resetformaction.comment-reply-link, .Actions button.action.comment-reply-link, .step-navigation .step-buttons button.action.comment-reply-link, button.btn.comment-reply-link,
 input[type="submit"].btn.btn-small,
 .Actions input[type="submit"].btn-small.action,
+.step-navigation .step-buttons input[type="submit"].btn-small.action,
+.Actions .step-navigation input[type="submit"].btn-small.resetformaction,
+.step-navigation .Actions input[type="submit"].btn-small.resetformaction,
+.step-navigation .step-buttons input[type="submit"].btn-small.resetformaction,
+.Actions .step-navigation input[type="submit"].resetformaction.comment-reply-link,
+.step-navigation .Actions input[type="submit"].resetformaction.comment-reply-link,
+.step-navigation .step-buttons input[type="submit"].resetformaction.comment-reply-link,
 .Actions input[type="submit"].action.comment-reply-link,
+.step-navigation .step-buttons input[type="submit"].action.comment-reply-link,
 input[type="submit"].btn.comment-reply-link {
   *padding-top: 3px;
   *padding-bottom: 3px;
 }
-button.btn.btn-mini, .Actions button.btn-mini.action,
+button.btn.btn-mini, .Actions button.btn-mini.action, .step-navigation .step-buttons button.btn-mini.action, .Actions .step-navigation button.btn-mini.resetformaction, .step-navigation .Actions button.btn-mini.resetformaction, .step-navigation .step-buttons button.btn-mini.resetformaction,
 input[type="submit"].btn.btn-mini,
-.Actions input[type="submit"].btn-mini.action {
+.Actions input[type="submit"].btn-mini.action,
+.step-navigation .step-buttons input[type="submit"].btn-mini.action,
+.Actions .step-navigation input[type="submit"].btn-mini.resetformaction,
+.step-navigation .Actions input[type="submit"].btn-mini.resetformaction,
+.step-navigation .step-buttons input[type="submit"].btn-mini.resetformaction {
   *padding-top: 1px;
   *padding-bottom: 1px;
 }
@@ -3386,7 +3494,7 @@ input[type="submit"].btn.btn-mini,
   *zoom: 1;
 }
 
-.btn-group > .btn, .Actions .btn-group > .action {
+.btn-group > .btn, .Actions .btn-group > .action, .step-navigation .step-buttons .btn-group > .action, .Actions .step-navigation .btn-group > .resetformaction, .step-navigation .Actions .btn-group > .resetformaction, .step-navigation .step-buttons .btn-group > .resetformaction {
   position: relative;
   float: left;
   margin-left: -1px;
@@ -3395,7 +3503,7 @@ input[type="submit"].btn.btn-mini,
   border-radius: 0;
 }
 
-.btn-group > .btn:first-child, .Actions .btn-group > .action:first-child {
+.btn-group > .btn:first-child, .Actions .btn-group > .action:first-child, .step-navigation .step-buttons .btn-group > .action:first-child, .Actions .step-navigation .btn-group > .resetformaction:first-child, .step-navigation .Actions .btn-group > .resetformaction:first-child, .step-navigation .step-buttons .btn-group > .resetformaction:first-child {
   margin-left: 0;
   -webkit-border-top-left-radius: 4px;
   -moz-border-radius-topleft: 4px;
@@ -3405,7 +3513,7 @@ input[type="submit"].btn.btn-mini,
   border-bottom-left-radius: 4px;
 }
 
-.btn-group > .btn:last-child, .Actions .btn-group > .action:last-child,
+.btn-group > .btn:last-child, .Actions .btn-group > .action:last-child, .step-navigation .step-buttons .btn-group > .action:last-child, .Actions .step-navigation .btn-group > .resetformaction:last-child, .step-navigation .Actions .btn-group > .resetformaction:last-child, .step-navigation .step-buttons .btn-group > .resetformaction:last-child,
 .btn-group > .dropdown-toggle {
   -webkit-border-top-right-radius: 4px;
   -moz-border-radius-topright: 4px;
@@ -3415,7 +3523,7 @@ input[type="submit"].btn.btn-mini,
   border-bottom-right-radius: 4px;
 }
 
-.btn-group > .btn.large:first-child, .Actions .btn-group > .large.action:first-child {
+.btn-group > .btn.large:first-child, .Actions .btn-group > .large.action:first-child, .step-navigation .step-buttons .btn-group > .large.action:first-child, .Actions .step-navigation .btn-group > .large.resetformaction:first-child, .step-navigation .Actions .btn-group > .large.resetformaction:first-child, .step-navigation .step-buttons .btn-group > .large.resetformaction:first-child {
   margin-left: 0;
   -webkit-border-top-left-radius: 6px;
   -moz-border-radius-topleft: 6px;
@@ -3425,7 +3533,7 @@ input[type="submit"].btn.btn-mini,
   border-bottom-left-radius: 6px;
 }
 
-.btn-group > .btn.large:last-child, .Actions .btn-group > .large.action:last-child,
+.btn-group > .btn.large:last-child, .Actions .btn-group > .large.action:last-child, .step-navigation .step-buttons .btn-group > .large.action:last-child, .Actions .step-navigation .btn-group > .large.resetformaction:last-child, .step-navigation .Actions .btn-group > .large.resetformaction:last-child, .step-navigation .step-buttons .btn-group > .large.resetformaction:last-child,
 .btn-group > .large.dropdown-toggle {
   -webkit-border-top-right-radius: 6px;
   -moz-border-radius-topright: 6px;
@@ -3435,13 +3543,25 @@ input[type="submit"].btn.btn-mini,
   border-bottom-right-radius: 6px;
 }
 
-.btn-group > .btn:hover, .Actions .btn-group > .action:hover,
+.btn-group > .btn:hover, .Actions .btn-group > .action:hover, .step-navigation .step-buttons .btn-group > .action:hover, .Actions .step-navigation .btn-group > .resetformaction:hover, .step-navigation .Actions .btn-group > .resetformaction:hover, .step-navigation .step-buttons .btn-group > .resetformaction:hover,
 .btn-group > .btn:focus,
 .Actions .btn-group > .action:focus,
+.step-navigation .step-buttons .btn-group > .action:focus,
+.Actions .step-navigation .btn-group > .resetformaction:focus,
+.step-navigation .Actions .btn-group > .resetformaction:focus,
+.step-navigation .step-buttons .btn-group > .resetformaction:focus,
 .btn-group > .btn:active,
 .Actions .btn-group > .action:active,
+.step-navigation .step-buttons .btn-group > .action:active,
+.Actions .step-navigation .btn-group > .resetformaction:active,
+.step-navigation .Actions .btn-group > .resetformaction:active,
+.step-navigation .step-buttons .btn-group > .resetformaction:active,
 .btn-group > .btn.active,
-.Actions .btn-group > .active.action {
+.Actions .btn-group > .active.action,
+.step-navigation .step-buttons .btn-group > .active.action,
+.Actions .step-navigation .btn-group > .active.resetformaction,
+.step-navigation .Actions .btn-group > .active.resetformaction,
+.step-navigation .step-buttons .btn-group > .active.resetformaction {
   z-index: 2;
 }
 
@@ -3481,10 +3601,10 @@ input[type="submit"].btn.btn-mini,
   -moz-box-shadow: inset 0 2px 4px rgba(0, 0, 0, 0.15), 0 1px 2px rgba(0, 0, 0, 0.05);
   box-shadow: inset 0 2px 4px rgba(0, 0, 0, 0.15), 0 1px 2px rgba(0, 0, 0, 0.05);
 }
-.btn-group.open .btn.dropdown-toggle, .btn-group.open .Actions .dropdown-toggle.action, .Actions .btn-group.open .dropdown-toggle.action {
+.btn-group.open .btn.dropdown-toggle, .btn-group.open .Actions .dropdown-toggle.action, .Actions .btn-group.open .dropdown-toggle.action, .btn-group.open .step-navigation .step-buttons .dropdown-toggle.action, .step-navigation .step-buttons .btn-group.open .dropdown-toggle.action, .btn-group.open .Actions .step-navigation .dropdown-toggle.resetformaction, .Actions .step-navigation .btn-group.open .dropdown-toggle.resetformaction, .btn-group.open .step-navigation .Actions .dropdown-toggle.resetformaction, .step-navigation .Actions .btn-group.open .dropdown-toggle.resetformaction, .btn-group.open .step-navigation .step-buttons .dropdown-toggle.resetformaction, .step-navigation .step-buttons .btn-group.open .dropdown-toggle.resetformaction {
   background-color: #f2f2f2;
 }
-.btn-group.open .btn-primary.dropdown-toggle, .btn-group.open .Actions .dropdown-toggle.action.primary, .Actions .btn-group.open .dropdown-toggle.action.primary, .btn-group.open .dropdown-toggle.comment-reply-link {
+.btn-group.open .btn-primary.dropdown-toggle, .btn-group.open .Actions .dropdown-toggle.action.primary, .Actions .btn-group.open .dropdown-toggle.action.primary, .btn-group.open .step-navigation .step-buttons .dropdown-toggle.action.primary, .step-navigation .step-buttons .btn-group.open .dropdown-toggle.action.primary, .btn-group.open .Actions .step-navigation .dropdown-toggle.primary.resetformaction, .Actions .step-navigation .btn-group.open .dropdown-toggle.primary.resetformaction, .btn-group.open .step-navigation .Actions .dropdown-toggle.primary.resetformaction, .step-navigation .Actions .btn-group.open .dropdown-toggle.primary.resetformaction, .btn-group.open .step-navigation .step-buttons .dropdown-toggle.primary.resetformaction, .step-navigation .step-buttons .btn-group.open .dropdown-toggle.primary.resetformaction, .btn-group.open .dropdown-toggle.comment-reply-link {
   background-color: #800060;
 }
 .btn-group.open .btn-warning.dropdown-toggle, .btn-group.open .comment-action-links a.dropdown-toggle.spam, .comment-action-links .btn-group.open a.dropdown-toggle.spam {
@@ -3503,12 +3623,12 @@ input[type="submit"].btn.btn-mini,
   background-color: #555;
 }
 
-.btn .caret, .Actions .action .caret {
+.btn .caret, .Actions .action .caret, .step-navigation .step-buttons .action .caret, .Actions .step-navigation .resetformaction .caret, .step-navigation .Actions .resetformaction .caret, .step-navigation .step-buttons .resetformaction .caret {
   margin-top: 7px;
   margin-left: 0;
 }
 
-.btn:hover .caret, .Actions .action:hover .caret,
+.btn:hover .caret, .Actions .action:hover .caret, .step-navigation .step-buttons .action:hover .caret, .Actions .step-navigation .resetformaction:hover .caret, .step-navigation .Actions .resetformaction:hover .caret, .step-navigation .step-buttons .resetformaction:hover .caret,
 .open.btn-group .caret {
   opacity: 1;
   filter: alpha(opacity=100);
@@ -3534,7 +3654,7 @@ input[type="submit"].btn.btn-mini,
   border-top: 0;
 }
 
-.btn-primary .caret, .Actions .action.primary .caret, .comment-reply-link .caret,
+.btn-primary .caret, .Actions .action.primary .caret, .step-navigation .step-buttons .action.primary .caret, .Actions .step-navigation .primary.resetformaction .caret, .step-navigation .Actions .primary.resetformaction .caret, .step-navigation .step-buttons .primary.resetformaction .caret, .comment-reply-link .caret,
 .btn-warning .caret,
 .comment-action-links a.spam .caret,
 .btn-danger .caret,
@@ -3550,7 +3670,7 @@ input[type="submit"].btn.btn-mini,
   filter: alpha(opacity=75);
 }
 
-.alert, #error-container div {
+.alert, .error-container div {
   padding: 8px 35px 8px 14px;
   margin-bottom: 24px;
   text-shadow: 0 1px 0 rgba(255, 255, 255, 0.5);
@@ -3566,7 +3686,7 @@ input[type="submit"].btn.btn-mini,
   color: inherit;
 }
 
-.alert .close, #error-container div .close {
+.alert .close, .error-container div .close {
   position: relative;
   top: -2px;
   right: -21px;
@@ -3581,7 +3701,7 @@ input[type="submit"].btn.btn-mini,
 
 .alert-danger,
 .alert-error,
-#error-container div {
+.error-container div {
   background-color: transparent;
   border-color: none;
   color: #EE0004;
@@ -4027,11 +4147,11 @@ input[type="submit"].btn.btn-mini,
 .navbar .navbar-link:hover {
   color: #fff;
 }
-.navbar .btn, .navbar .Actions .action, .Actions .navbar .action,
+.navbar .btn, .navbar .Actions .action, .Actions .navbar .action, .navbar .step-navigation .step-buttons .action, .step-navigation .step-buttons .navbar .action, .navbar .Actions .step-navigation .resetformaction, .Actions .step-navigation .navbar .resetformaction, .navbar .step-navigation .Actions .resetformaction, .step-navigation .Actions .navbar .resetformaction, .navbar .step-navigation .step-buttons .resetformaction, .step-navigation .step-buttons .navbar .resetformaction,
 .navbar .btn-group {
   margin-top: 13.5px;
 }
-.navbar .btn-group .btn, .navbar .btn-group .Actions .action, .Actions .navbar .btn-group .action {
+.navbar .btn-group .btn, .navbar .btn-group .Actions .action, .Actions .navbar .btn-group .action, .navbar .btn-group .step-navigation .step-buttons .action, .step-navigation .step-buttons .navbar .btn-group .action, .navbar .btn-group .Actions .step-navigation .resetformaction, .Actions .step-navigation .navbar .btn-group .resetformaction, .navbar .btn-group .step-navigation .Actions .resetformaction, .step-navigation .Actions .navbar .btn-group .resetformaction, .navbar .btn-group .step-navigation .step-buttons .resetformaction, .step-navigation .step-buttons .navbar .btn-group .resetformaction {
   margin: 0;
 }
 
@@ -4171,7 +4291,7 @@ input[type="submit"].btn.btn-mini,
   text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.25);
 }
 
-.navbar .btn, .navbar .Actions .action, .Actions .navbar .action {
+.navbar .btn, .navbar .Actions .action, .Actions .navbar .action, .navbar .step-navigation .step-buttons .action, .step-navigation .step-buttons .navbar .action, .navbar .Actions .step-navigation .resetformaction, .Actions .step-navigation .navbar .resetformaction, .navbar .step-navigation .Actions .resetformaction, .step-navigation .Actions .navbar .resetformaction, .navbar .step-navigation .step-buttons .resetformaction, .step-navigation .step-buttons .navbar .resetformaction {
   display: inline-block;
   padding: 4px 10px 4px;
   margin: 13.5px 5px 14.5px;
@@ -4597,11 +4717,11 @@ input[type="submit"].btn.btn-mini,
 .modal-footer:after {
   clear: both;
 }
-.modal-footer .btn + .btn, .modal-footer .Actions .action + .btn, .Actions .modal-footer .action + .btn, .modal-footer .Actions .btn + .action, .Actions .modal-footer .btn + .action, .modal-footer .Actions .action + .action, .Actions .modal-footer .action + .action {
+.modal-footer .btn + .btn, .modal-footer .Actions .action + .btn, .Actions .modal-footer .action + .btn, .modal-footer .step-navigation .step-buttons .action + .btn, .step-navigation .step-buttons .modal-footer .action + .btn, .modal-footer .Actions .step-navigation .resetformaction + .btn, .Actions .step-navigation .modal-footer .resetformaction + .btn, .modal-footer .step-navigation .Actions .resetformaction + .btn, .step-navigation .Actions .modal-footer .resetformaction + .btn, .modal-footer .step-navigation .step-buttons .resetformaction + .btn, .step-navigation .step-buttons .modal-footer .resetformaction + .btn, .modal-footer .Actions .btn + .action, .Actions .modal-footer .btn + .action, .modal-footer .Actions .action + .action, .Actions .modal-footer .action + .action, .modal-footer .Actions .step-navigation .resetformaction + .action, .Actions .step-navigation .modal-footer .resetformaction + .action, .modal-footer .step-navigation .Actions .resetformaction + .action, .step-navigation .Actions .modal-footer .resetformaction + .action, .step-navigation .step-buttons .modal-footer .Actions .resetformaction + .action, .modal-footer .step-navigation .step-buttons .btn + .action, .step-navigation .step-buttons .modal-footer .btn + .action, .modal-footer .step-navigation .step-buttons .action + .action, .step-navigation .step-buttons .modal-footer .action + .action, .Actions .step-navigation .modal-footer .step-buttons .resetformaction + .action, .step-navigation .Actions .modal-footer .step-buttons .resetformaction + .action, .modal-footer .step-navigation .step-buttons .resetformaction + .action, .step-navigation .step-buttons .modal-footer .resetformaction + .action, .modal-footer .Actions .step-navigation .btn + .resetformaction, .Actions .step-navigation .modal-footer .btn + .resetformaction, .modal-footer .Actions .step-navigation .action + .resetformaction, .Actions .modal-footer .step-navigation .action + .resetformaction, .Actions .step-navigation .modal-footer .action + .resetformaction, .modal-footer .Actions .step-navigation .resetformaction + .resetformaction, .Actions .step-navigation .modal-footer .resetformaction + .resetformaction, .step-navigation .Actions .modal-footer .step-navigation .resetformaction + .resetformaction, .modal-footer .step-navigation .Actions .btn + .resetformaction, .step-navigation .Actions .modal-footer .btn + .resetformaction, .modal-footer .step-navigation .Actions .action + .resetformaction, .step-navigation .modal-footer .Actions .action + .resetformaction, .step-navigation .Actions .modal-footer .action + .resetformaction, .Actions .step-navigation .modal-footer .Actions .resetformaction + .resetformaction, .modal-footer .step-navigation .Actions .resetformaction + .resetformaction, .step-navigation .Actions .modal-footer .resetformaction + .resetformaction, .step-navigation .step-buttons .modal-footer .Actions .resetformaction + .resetformaction, .modal-footer .step-navigation .step-buttons .btn + .resetformaction, .step-navigation .step-buttons .modal-footer .btn + .resetformaction, .modal-footer .step-navigation .step-buttons .action + .resetformaction, .step-navigation .step-buttons .modal-footer .action + .resetformaction, .Actions .step-navigation .modal-footer .step-buttons .resetformaction + .resetformaction, .step-navigation .Actions .modal-footer .step-buttons .resetformaction + .resetformaction, .modal-footer .step-navigation .step-buttons .resetformaction + .resetformaction, .step-navigation .step-buttons .modal-footer .resetformaction + .resetformaction {
   margin-left: 5px;
   margin-bottom: 0;
 }
-.modal-footer .btn-group .btn + .btn, .modal-footer .btn-group .Actions .action + .btn, .Actions .modal-footer .btn-group .action + .btn, .modal-footer .btn-group .Actions .btn + .action, .Actions .modal-footer .btn-group .btn + .action, .modal-footer .btn-group .Actions .action + .action, .Actions .modal-footer .btn-group .action + .action {
+.modal-footer .btn-group .btn + .btn, .modal-footer .btn-group .Actions .action + .btn, .Actions .modal-footer .btn-group .action + .btn, .modal-footer .btn-group .step-navigation .step-buttons .action + .btn, .step-navigation .step-buttons .modal-footer .btn-group .action + .btn, .modal-footer .btn-group .Actions .step-navigation .resetformaction + .btn, .Actions .step-navigation .modal-footer .btn-group .resetformaction + .btn, .modal-footer .btn-group .step-navigation .Actions .resetformaction + .btn, .step-navigation .Actions .modal-footer .btn-group .resetformaction + .btn, .modal-footer .btn-group .step-navigation .step-buttons .resetformaction + .btn, .step-navigation .step-buttons .modal-footer .btn-group .resetformaction + .btn, .modal-footer .btn-group .Actions .btn + .action, .Actions .modal-footer .btn-group .btn + .action, .modal-footer .btn-group .Actions .action + .action, .Actions .modal-footer .btn-group .action + .action, .modal-footer .btn-group .Actions .step-navigation .resetformaction + .action, .Actions .step-navigation .modal-footer .btn-group .resetformaction + .action, .modal-footer .btn-group .step-navigation .Actions .resetformaction + .action, .step-navigation .Actions .modal-footer .btn-group .resetformaction + .action, .step-navigation .step-buttons .modal-footer .btn-group .Actions .resetformaction + .action, .modal-footer .btn-group .step-navigation .step-buttons .btn + .action, .step-navigation .step-buttons .modal-footer .btn-group .btn + .action, .modal-footer .btn-group .step-navigation .step-buttons .action + .action, .step-navigation .step-buttons .modal-footer .btn-group .action + .action, .Actions .step-navigation .modal-footer .btn-group .step-buttons .resetformaction + .action, .step-navigation .Actions .modal-footer .btn-group .step-buttons .resetformaction + .action, .modal-footer .btn-group .step-navigation .step-buttons .resetformaction + .action, .step-navigation .step-buttons .modal-footer .btn-group .resetformaction + .action, .modal-footer .btn-group .Actions .step-navigation .btn + .resetformaction, .Actions .step-navigation .modal-footer .btn-group .btn + .resetformaction, .modal-footer .btn-group .Actions .step-navigation .action + .resetformaction, .Actions .modal-footer .btn-group .step-navigation .action + .resetformaction, .Actions .step-navigation .modal-footer .btn-group .action + .resetformaction, .modal-footer .btn-group .Actions .step-navigation .resetformaction + .resetformaction, .Actions .step-navigation .modal-footer .btn-group .resetformaction + .resetformaction, .step-navigation .Actions .modal-footer .btn-group .step-navigation .resetformaction + .resetformaction, .modal-footer .btn-group .step-navigation .Actions .btn + .resetformaction, .step-navigation .Actions .modal-footer .btn-group .btn + .resetformaction, .modal-footer .btn-group .step-navigation .Actions .action + .resetformaction, .step-navigation .modal-footer .btn-group .Actions .action + .resetformaction, .step-navigation .Actions .modal-footer .btn-group .action + .resetformaction, .Actions .step-navigation .modal-footer .btn-group .Actions .resetformaction + .resetformaction, .modal-footer .btn-group .step-navigation .Actions .resetformaction + .resetformaction, .step-navigation .Actions .modal-footer .btn-group .resetformaction + .resetformaction, .step-navigation .step-buttons .modal-footer .btn-group .Actions .resetformaction + .resetformaction, .modal-footer .btn-group .step-navigation .step-buttons .btn + .resetformaction, .step-navigation .step-buttons .modal-footer .btn-group .btn + .resetformaction, .modal-footer .btn-group .step-navigation .step-buttons .action + .resetformaction, .step-navigation .step-buttons .modal-footer .btn-group .action + .resetformaction, .Actions .step-navigation .modal-footer .btn-group .step-buttons .resetformaction + .resetformaction, .step-navigation .Actions .modal-footer .btn-group .step-buttons .resetformaction + .resetformaction, .modal-footer .btn-group .step-navigation .step-buttons .resetformaction + .resetformaction, .step-navigation .step-buttons .modal-footer .btn-group .resetformaction + .resetformaction {
   margin-left: -1px;
 }
 
@@ -4970,7 +5090,7 @@ a.label:hover, a.badge:hover {
   filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#FFF5F5F5', endColorstr='#FFF9F9F9', GradientType=0);
 }
 
-.progress .bar {
+.progress .bar, .progress .userform-progress div.progress-bar, .userform-progress .progress div.progress-bar {
   width: 0%;
   height: 18px;
   color: #fff;
@@ -4998,11 +5118,11 @@ a.label:hover, a.badge:hover {
   -o-transition: width 0.6s ease;
   transition: width 0.6s ease;
 }
-#IE8 .progress .bar {
+#IE8 .progress .bar, #IE8 .progress .userform-progress div.progress-bar, .userform-progress #IE8 .progress div.progress-bar {
   filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#FF149BDF', endColorstr='#FF0480BE', GradientType=0);
 }
 
-.progress-striped .bar {
+.progress-striped .bar, .progress-striped .userform-progress div.progress-bar, .userform-progress .progress-striped div.progress-bar {
   background-color: #149bdf;
   background-image: -webkit-gradient(linear, 0 100%, 100% 0, color-stop(0.25, rgba(255, 255, 255, 0.15)), color-stop(0.25, transparent), color-stop(0.5, transparent), color-stop(0.5, rgba(255, 255, 255, 0.15)), color-stop(0.75, rgba(255, 255, 255, 0.15)), color-stop(0.75, transparent), to(transparent));
   background-image: -webkit-linear-gradient(-45deg, rgba(255, 255, 255, 0.15) 25%, transparent 25%, transparent 50%, rgba(255, 255, 255, 0.15) 50%, rgba(255, 255, 255, 0.15) 75%, transparent 75%, transparent);
@@ -5016,7 +5136,7 @@ a.label:hover, a.badge:hover {
   background-size: 40px 40px;
 }
 
-.progress.active .bar {
+.progress.active .bar, .progress.active .userform-progress div.progress-bar, .userform-progress .progress.active div.progress-bar {
   -webkit-animation: progress-bar-stripes 2s linear infinite;
   -moz-animation: progress-bar-stripes 2s linear infinite;
   -ms-animation: progress-bar-stripes 2s linear infinite;
@@ -5024,7 +5144,7 @@ a.label:hover, a.badge:hover {
   animation: progress-bar-stripes 2s linear infinite;
 }
 
-.progress-danger .bar {
+.progress-danger .bar, .progress-danger .userform-progress div.progress-bar, .userform-progress .progress-danger div.progress-bar {
   background-color: #dd514c;
   background-image: -ms-linear-gradient(top, #ee5f5b, #c43c35);
   background-image: -webkit-gradient(linear, 0 0, 0 100%, from(#ee5f5b), to(#c43c35));
@@ -5034,11 +5154,11 @@ a.label:hover, a.badge:hover {
   background-image: linear-gradient(top, #ee5f5b, #c43c35);
   background-repeat: repeat-x;
 }
-#IE8 .progress-danger .bar {
+#IE8 .progress-danger .bar, #IE8 .progress-danger .userform-progress div.progress-bar, .userform-progress #IE8 .progress-danger div.progress-bar {
   filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#FFEE5F5B', endColorstr='#FFC43C35', GradientType=0);
 }
 
-.progress-danger.progress-striped .bar {
+.progress-danger.progress-striped .bar, .progress-danger.progress-striped .userform-progress div.progress-bar, .userform-progress .progress-danger.progress-striped div.progress-bar {
   background-color: #ee5f5b;
   background-image: -webkit-gradient(linear, 0 100%, 100% 0, color-stop(0.25, rgba(255, 255, 255, 0.15)), color-stop(0.25, transparent), color-stop(0.5, transparent), color-stop(0.5, rgba(255, 255, 255, 0.15)), color-stop(0.75, rgba(255, 255, 255, 0.15)), color-stop(0.75, transparent), to(transparent));
   background-image: -webkit-linear-gradient(-45deg, rgba(255, 255, 255, 0.15) 25%, transparent 25%, transparent 50%, rgba(255, 255, 255, 0.15) 50%, rgba(255, 255, 255, 0.15) 75%, transparent 75%, transparent);
@@ -5048,7 +5168,7 @@ a.label:hover, a.badge:hover {
   background-image: linear-gradient(-45deg, rgba(255, 255, 255, 0.15) 25%, transparent 25%, transparent 50%, rgba(255, 255, 255, 0.15) 50%, rgba(255, 255, 255, 0.15) 75%, transparent 75%, transparent);
 }
 
-.progress-success .bar {
+.progress-success .bar, .progress-success .userform-progress div.progress-bar, .userform-progress .progress-success div.progress-bar {
   background-color: #5eb95e;
   background-image: -ms-linear-gradient(top, #62c462, #57a957);
   background-image: -webkit-gradient(linear, 0 0, 0 100%, from(#62c462), to(#57a957));
@@ -5058,11 +5178,11 @@ a.label:hover, a.badge:hover {
   background-image: linear-gradient(top, #62c462, #57a957);
   background-repeat: repeat-x;
 }
-#IE8 .progress-success .bar {
+#IE8 .progress-success .bar, #IE8 .progress-success .userform-progress div.progress-bar, .userform-progress #IE8 .progress-success div.progress-bar {
   filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#FF62C462', endColorstr='#FF57A957', GradientType=0);
 }
 
-.progress-success.progress-striped .bar {
+.progress-success.progress-striped .bar, .progress-success.progress-striped .userform-progress div.progress-bar, .userform-progress .progress-success.progress-striped div.progress-bar {
   background-color: #62c462;
   background-image: -webkit-gradient(linear, 0 100%, 100% 0, color-stop(0.25, rgba(255, 255, 255, 0.15)), color-stop(0.25, transparent), color-stop(0.5, transparent), color-stop(0.5, rgba(255, 255, 255, 0.15)), color-stop(0.75, rgba(255, 255, 255, 0.15)), color-stop(0.75, transparent), to(transparent));
   background-image: -webkit-linear-gradient(-45deg, rgba(255, 255, 255, 0.15) 25%, transparent 25%, transparent 50%, rgba(255, 255, 255, 0.15) 50%, rgba(255, 255, 255, 0.15) 75%, transparent 75%, transparent);
@@ -5072,7 +5192,7 @@ a.label:hover, a.badge:hover {
   background-image: linear-gradient(-45deg, rgba(255, 255, 255, 0.15) 25%, transparent 25%, transparent 50%, rgba(255, 255, 255, 0.15) 50%, rgba(255, 255, 255, 0.15) 75%, transparent 75%, transparent);
 }
 
-.progress-info .bar {
+.progress-info .bar, .progress-info .userform-progress div.progress-bar, .userform-progress .progress-info div.progress-bar {
   background-color: #4bb1cf;
   background-image: -ms-linear-gradient(top, #5bc0de, #339bb9);
   background-image: -webkit-gradient(linear, 0 0, 0 100%, from(#5bc0de), to(#339bb9));
@@ -5082,11 +5202,11 @@ a.label:hover, a.badge:hover {
   background-image: linear-gradient(top, #5bc0de, #339bb9);
   background-repeat: repeat-x;
 }
-#IE8 .progress-info .bar {
+#IE8 .progress-info .bar, #IE8 .progress-info .userform-progress div.progress-bar, .userform-progress #IE8 .progress-info div.progress-bar {
   filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#FF5BC0DE', endColorstr='#FF339BB9', GradientType=0);
 }
 
-.progress-info.progress-striped .bar {
+.progress-info.progress-striped .bar, .progress-info.progress-striped .userform-progress div.progress-bar, .userform-progress .progress-info.progress-striped div.progress-bar {
   background-color: #5bc0de;
   background-image: -webkit-gradient(linear, 0 100%, 100% 0, color-stop(0.25, rgba(255, 255, 255, 0.15)), color-stop(0.25, transparent), color-stop(0.5, transparent), color-stop(0.5, rgba(255, 255, 255, 0.15)), color-stop(0.75, rgba(255, 255, 255, 0.15)), color-stop(0.75, transparent), to(transparent));
   background-image: -webkit-linear-gradient(-45deg, rgba(255, 255, 255, 0.15) 25%, transparent 25%, transparent 50%, rgba(255, 255, 255, 0.15) 50%, rgba(255, 255, 255, 0.15) 75%, transparent 75%, transparent);
@@ -5096,7 +5216,7 @@ a.label:hover, a.badge:hover {
   background-image: linear-gradient(-45deg, rgba(255, 255, 255, 0.15) 25%, transparent 25%, transparent 50%, rgba(255, 255, 255, 0.15) 50%, rgba(255, 255, 255, 0.15) 75%, transparent 75%, transparent);
 }
 
-.progress-warning .bar {
+.progress-warning .bar, .progress-warning .userform-progress div.progress-bar, .userform-progress .progress-warning div.progress-bar {
   background-color: #bd5600;
   background-image: -ms-linear-gradient(top, #dc6400, #8F4100);
   background-image: -webkit-gradient(linear, 0 0, 0 100%, from(#dc6400), to(#8F4100));
@@ -5106,11 +5226,11 @@ a.label:hover, a.badge:hover {
   background-image: linear-gradient(top, #dc6400, #8F4100);
   background-repeat: repeat-x;
 }
-#IE8 .progress-warning .bar {
+#IE8 .progress-warning .bar, #IE8 .progress-warning .userform-progress div.progress-bar, .userform-progress #IE8 .progress-warning div.progress-bar {
   filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#FFDC6400', endColorstr='#FF8F4100', GradientType=0);
 }
 
-.progress-warning.progress-striped .bar {
+.progress-warning.progress-striped .bar, .progress-warning.progress-striped .userform-progress div.progress-bar, .userform-progress .progress-warning.progress-striped div.progress-bar {
   background-color: #dc6400;
   background-image: -webkit-gradient(linear, 0 100%, 100% 0, color-stop(0.25, rgba(255, 255, 255, 0.15)), color-stop(0.25, transparent), color-stop(0.5, transparent), color-stop(0.5, rgba(255, 255, 255, 0.15)), color-stop(0.75, rgba(255, 255, 255, 0.15)), color-stop(0.75, transparent), to(transparent));
   background-image: -webkit-linear-gradient(-45deg, rgba(255, 255, 255, 0.15) 25%, transparent 25%, transparent 50%, rgba(255, 255, 255, 0.15) 50%, rgba(255, 255, 255, 0.15) 75%, transparent 75%, transparent);
@@ -5324,22 +5444,22 @@ select,
 }
 
 /* Styling for messages */
-#error-container div {
+.error-container div {
   border: 2px solid #EE0004;
   padding-top: 0;
 }
-#error-container ul {
+.error-container ul {
   list-style-position: inside;
 }
-#error-container li {
+.error-container li {
   padding-top: 6px;
 }
-#error-container a,
-#error-container a:visited,
-#error-container a:hover,
-#error-container a:focus,
-#error-container a:active,
-#error-container label {
+.error-container a,
+.error-container a:visited,
+.error-container a:hover,
+.error-container a:focus,
+.error-container a:active,
+.error-container label {
   color: #EE0004;
   text-decoration: none;
   margin-bottom: 0;
@@ -5519,32 +5639,81 @@ div.date input {
 }
 
 /* Submit button styling */
-.Actions {
+.Actions, .step-navigation .step-buttons {
   border-top: 1px solid gainsboro;
   padding: 15px 0;
   *zoom: 1;
 }
-.Actions:before, .Actions:after {
+.Actions:before, .step-navigation .step-buttons:before, .Actions:after, .step-navigation .step-buttons:after {
   display: table;
   content: "";
 }
-.Actions:after {
+.Actions:after, .step-navigation .step-buttons:after {
   clear: both;
 }
-.Actions .action {
+.Actions .action, .step-navigation .step-buttons .action, .Actions .step-navigation .resetformaction, .step-navigation .Actions .resetformaction, .step-navigation .step-buttons .resetformaction {
   padding-left: 15px;
   padding-right: 15px;
   margin: 0 12px 12px 0;
 }
-.Actions #MemberLoginForm_LoginForm_action_dologin {
+.Actions #MemberLoginForm_LoginForm_action_dologin, .step-navigation .step-buttons #MemberLoginForm_LoginForm_action_dologin {
   float: left;
 }
-.Actions #ForgotPassword {
+.Actions #ForgotPassword, .step-navigation .step-buttons #ForgotPassword {
   line-height: 2em;
   font-size: 0.9em;
 }
-.Actions #ForgotPassword a {
+.Actions #ForgotPassword a, .step-navigation .step-buttons #ForgotPassword a {
   padding-left: 30px;
+}
+
+/* Userform Multi-page styles */
+.userform-progress {
+  max-width: 490px;
+  position: relative;
+}
+.userform-progress .progress-title {
+  position: absolute;
+  top: -32px;
+}
+.typography .userform-progress p {
+  text-align: right;
+  margin-bottom: 4px;
+}
+.userform-progress div.progress {
+  margin-bottom: 0;
+  height: 12px;
+}
+.userform-progress div.progress-bar {
+  height: 12px;
+  min-width: 1%;
+  max-width: 99%;
+}
+.userform-progress .step-button-jump {
+  background: none;
+  border: none;
+}
+.userform-progress .step-button-wrapper.viewed .step-button-jump:hover {
+  background: #eee;
+}
+.userform-progress .step-button-wrapper.current .step-button-jump:hover {
+  background: none;
+}
+
+.step-navigation .step-buttons {
+  padding-top: 15px;
+}
+.step-navigation .step-button-wrapper.Actions, .step-navigation .step-button-wrapper.step-buttons {
+  border: 0;
+  padding: 0;
+}
+
+/* Userform fieldgroup styles */
+.userformsgroup > legend {
+  margin-left: 8px;
+}
+.userformsgroup > legend + .control-group {
+  margin-top: 0;
 }
 
 /*
@@ -6933,7 +7102,7 @@ ul.nav, ul.dropdown-menu {
     border-radius: 3px;
   }
 
-  .nav-collapse .btn, .nav-collapse .Actions .action, .Actions .nav-collapse .action {
+  .nav-collapse .btn, .nav-collapse .Actions .action, .Actions .nav-collapse .action, .nav-collapse .step-navigation .step-buttons .action, .step-navigation .step-buttons .nav-collapse .action, .nav-collapse .Actions .step-navigation .resetformaction, .Actions .step-navigation .nav-collapse .resetformaction, .nav-collapse .step-navigation .Actions .resetformaction, .step-navigation .Actions .nav-collapse .resetformaction, .nav-collapse .step-navigation .step-buttons .resetformaction, .step-navigation .step-buttons .nav-collapse .resetformaction {
     padding: 4px 10px 4px;
     font-weight: normal;
     -webkit-border-radius: 4px;
@@ -7333,7 +7502,7 @@ body {
   margin-left: 0;
   float: none;
 }
-#SearchGroup form input.action {
+#SearchGroup form input.action, #SearchGroup form .step-navigation input.resetformaction, .step-navigation #SearchGroup form input.resetformaction {
   display: none;
 }
 #SearchGroup form input.btn-navbar {
@@ -7742,7 +7911,7 @@ footer .socialLinks a:hover i:before {
   #SearchGroup form input {
     width: auto;
   }
-  #SearchGroup form input.action {
+  #SearchGroup form input.action, #SearchGroup form .step-navigation input.resetformaction, .step-navigation #SearchGroup form input.resetformaction {
     display: none;
   }
 
@@ -7790,7 +7959,7 @@ footer .socialLinks a:hover i:before {
     padding: 0;
   }
 
-  .Actions .action {
+  .Actions .action, .step-navigation .step-buttons .action, .Actions .step-navigation .resetformaction, .step-navigation .Actions .resetformaction, .step-navigation .step-buttons .resetformaction {
     width: 100%;
   }
 
@@ -7822,7 +7991,7 @@ footer .socialLinks a:hover i:before {
   #SearchGroup form input {
     width: auto;
   }
-  #SearchGroup form input.action {
+  #SearchGroup form input.action, #SearchGroup form .step-navigation input.resetformaction, .step-navigation #SearchGroup form input.resetformaction {
     display: none;
   }
 
@@ -7870,7 +8039,7 @@ footer .socialLinks a:hover i:before {
     padding: 0;
   }
 
-  .Actions .action {
+  .Actions .action, .step-navigation .step-buttons .action, .Actions .step-navigation .resetformaction, .step-navigation .Actions .resetformaction, .step-navigation .step-buttons .resetformaction {
     width: 100%;
   }
 
@@ -7902,7 +8071,7 @@ footer .socialLinks a:hover i:before {
   #SearchGroup form input {
     width: auto;
   }
-  #SearchGroup form input.action {
+  #SearchGroup form input.action, #SearchGroup form .step-navigation input.resetformaction, .step-navigation #SearchGroup form input.resetformaction {
     display: none;
   }
 
@@ -7950,7 +8119,7 @@ footer .socialLinks a:hover i:before {
     padding: 0;
   }
 
-  .Actions .action {
+  .Actions .action, .step-navigation .step-buttons .action, .Actions .step-navigation .resetformaction, .step-navigation .Actions .resetformaction, .step-navigation .step-buttons .resetformaction {
     width: 100%;
   }
 
@@ -7982,7 +8151,7 @@ footer .socialLinks a:hover i:before {
   #SearchGroup form input {
     width: auto;
   }
-  #SearchGroup form input.action {
+  #SearchGroup form input.action, #SearchGroup form .step-navigation input.resetformaction, .step-navigation #SearchGroup form input.resetformaction {
     display: none;
   }
 
@@ -8030,7 +8199,7 @@ footer .socialLinks a:hover i:before {
     padding: 0;
   }
 
-  .Actions .action {
+  .Actions .action, .step-navigation .step-buttons .action, .Actions .step-navigation .resetformaction, .step-navigation .Actions .resetformaction, .step-navigation .step-buttons .resetformaction {
     width: 100%;
   }
 
@@ -8062,7 +8231,7 @@ footer .socialLinks a:hover i:before {
   #SearchGroup form input {
     width: auto;
   }
-  #SearchGroup form input.action {
+  #SearchGroup form input.action, #SearchGroup form .step-navigation input.resetformaction, .step-navigation #SearchGroup form input.resetformaction {
     display: none;
   }
 
@@ -8110,7 +8279,7 @@ footer .socialLinks a:hover i:before {
     padding: 0;
   }
 
-  .Actions .action {
+  .Actions .action, .step-navigation .step-buttons .action, .Actions .step-navigation .resetformaction, .step-navigation .Actions .resetformaction, .step-navigation .step-buttons .resetformaction {
     width: 100%;
   }
 
@@ -8142,7 +8311,7 @@ footer .socialLinks a:hover i:before {
   #SearchGroup form input {
     width: auto;
   }
-  #SearchGroup form input.action {
+  #SearchGroup form input.action, #SearchGroup form .step-navigation input.resetformaction, .step-navigation #SearchGroup form input.resetformaction {
     display: none;
   }
 
@@ -8190,7 +8359,7 @@ footer .socialLinks a:hover i:before {
     padding: 0;
   }
 
-  .Actions .action {
+  .Actions .action, .step-navigation .step-buttons .action, .Actions .step-navigation .resetformaction, .step-navigation .Actions .resetformaction, .step-navigation .step-buttons .resetformaction {
     width: 100%;
   }
 
@@ -8350,13 +8519,13 @@ footer .socialLinks a:hover i:before {
 #IE6 .sidebar-form div.field.date input {
   height: 20px;
 }
-.sidebar-form .Actions {
+.sidebar-form .Actions, .sidebar-form .step-navigation .step-buttons, .step-navigation .sidebar-form .step-buttons {
   padding-bottom: 0;
 }
-#IE8 .sidebar-form .Actions {
+#IE8 .sidebar-form .Actions, #IE8 .sidebar-form .step-navigation .step-buttons, .step-navigation #IE8 .sidebar-form .step-buttons {
   filter: none;
 }
-#IE6 .sidebar-form .Actions input {
+#IE6 .sidebar-form .Actions input, #IE6 .sidebar-form .step-navigation .step-buttons input, .step-navigation #IE6 .sidebar-form .step-buttons input {
   margin-right: 0;
   width: 180px;
 }
