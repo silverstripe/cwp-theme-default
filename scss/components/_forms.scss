@@ -36,7 +36,7 @@ select,
 }
 
 /* Styling for messages */
-#error-container {
+.error-container {
 	div {
 		@extend .alert;
 		@extend .alert-error;
@@ -235,6 +235,78 @@ div.date{
 		font-size:0.9em;
 		a{
 			padding-left:30px;
+		}
+	}
+}
+
+/* Userform Multi-page styles */
+.userform-progress {
+	max-width: 490px;
+	position: relative;
+
+	.progress-title {
+		position: absolute;
+		top: -32px;
+	}
+
+	.typography & p {
+		text-align: right;
+		margin-bottom: 4px;
+	}
+
+	div.progress {
+		margin-bottom: 0;
+		height: 12px;
+	}
+
+	div.progress-bar {
+		@extend .bar;
+		height: 12px;
+		min-width: 1%;
+		max-width: 99%;
+	}
+
+	.step-button-jump {
+		background: none;
+		border: none;
+	}
+
+	.step-button-wrapper {
+		&.viewed .step-button-jump:hover {
+			background: #eee;
+		}
+
+		&.current .step-button-jump:hover {
+			background: none;
+		}
+	}	
+}
+
+.step-navigation{
+	.step-buttons {
+		@extend .Actions;
+		padding-top: 15px;
+	}
+
+	.step-button-wrapper.Actions {
+		//Remove .Actions styles
+		border: 0;
+		padding: 0;
+	}
+
+	//Clear form button
+	.resetformaction {
+		@extend .action;
+	}
+}
+
+/* Userform fieldgroup styles */
+.userformsgroup {
+	> legend {
+		margin-left: 8px;
+
+		+ .control-group {
+			margin-top: 0;
 		}
 	}
 }
