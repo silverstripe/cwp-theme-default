@@ -5616,6 +5616,8 @@ div.checkbox {
 }
 div.checkbox input.checkbox {
   min-height: 9px;
+  margin: 5px;
+  margin-left: 0;
 }
 div.checkbox label.required {
   float: left;
