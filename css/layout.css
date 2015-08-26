@@ -5695,7 +5695,7 @@ div.date input {
   background: none;
   border: none;
 }
-.userform-progress .step-button-wrapper.viewed .step-button-jump:hover {
+.userform-progress .step-button-wrapper.viewed .step-button-jump:hover, .userform-progress .step-button-wrapper.viewed .step-button-jump:focus {
   background: #eee;
 }
 .userform-progress .step-button-wrapper.current .step-button-jump:hover {
