@@ -274,8 +274,11 @@ div.date{
 	}
 
 	.step-button-wrapper {
-		&.viewed .step-button-jump:hover {
-			background: #eee;
+		&.viewed .step-button-jump {
+			&:hover,
+			&:focus {
+				background: #eee;
+			}
 		}
 
 		&.current .step-button-jump:hover {
