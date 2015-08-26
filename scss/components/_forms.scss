@@ -113,7 +113,7 @@ span.extra {
 }
 
 .requiredField {
-	label span.req-indicator, legend span.req-indicator {
+	label span.required-identifier, legend span.required-identifier {
 		position:relative;
 		color: $errorText;
 		overflow: hidden;

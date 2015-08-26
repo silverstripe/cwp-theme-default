@@ -5536,7 +5536,7 @@ span.extra {
   margin-bottom: 12px;
 }
 
-.requiredField label span.req-indicator, .requiredField legend span.req-indicator {
+.requiredField label span.required-identifier, .requiredField legend span.required-identifier {
   position: relative;
   color: #EE0004;
   overflow: hidden;
@@ -5545,7 +5545,7 @@ span.extra {
   width: 6px;
   height: 16px;
 }
-.requiredField label span.req-indicator:after, .requiredField legend span.req-indicator:after {
+.requiredField label span.required-identifier:after, .requiredField legend span.required-identifier:after {
   content: "*";
   position: absolute;
   left: 0;
