@@ -2,6 +2,7 @@
 	"name": "cwp-themes/default",
 	"description": "CWP Default Theme",
 	"type": "silverstripe-theme",
+	"keywords": ["silverstripe", "cwp"],
 	"require": {
 		"composer/installers": "*",
 		"silverstripe/cms": ">=3.0",
