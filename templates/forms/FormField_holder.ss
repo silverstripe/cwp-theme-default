@@ -1,4 +1,4 @@
-<div id="$Name" class="control-group field<% if extraClass %> $extraClass<% end_if %>">
+<div id="$HolderID" class="control-group field<% if extraClass %> $extraClass<% end_if %>">
 	<% if Title %>
 		<label class="left" for="$ID">
 			<% if Message %><span class="message $MessageType">$Message</span><% end_if %>
