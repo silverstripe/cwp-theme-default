@@ -9,6 +9,7 @@
 					<% include BlogPostMeta %>
 				</header>
 				$Content.RichLinks
+				<% include BlogEntryTags %>
 			</article>
 
 			$Form
