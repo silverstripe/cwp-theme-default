@@ -330,7 +330,7 @@ a:hover {
   margin-left: 0;
 }
 .row-fluid .span12 {
-  width: 100.0%;
+  width: 100%;
   *width: 99.94681%;
 }
 .row-fluid .span11 {
@@ -3404,7 +3404,7 @@ button.close {
   *background-color: #484848;
 }
 .btn-inverse:active, .btn-inverse.active {
-  background-color: #3b3b3b \9;
+  background-color: #3c3c3c \9;
 }
 
 button.btn, .Actions button.action, .step-navigation .step-buttons button.action, .Actions .step-navigation button.resetformaction, .step-navigation .Actions button.resetformaction, .step-navigation .step-buttons button.resetformaction,
@@ -6634,7 +6634,7 @@ ul.nav, ul.dropdown-menu {
     margin-left: 0;
   }
   .row-fluid .span12 {
-    width: 100.0%;
+    width: 100%;
     *width: 99.94681%;
   }
   .row-fluid .span11 {
