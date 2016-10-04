@@ -15,6 +15,9 @@
 					</description>
 					<pubDate>$LastEdited.Rfc822</pubDate>
 					<guid>$AbsoluteLink</guid>
+					<% loop Terms %>
+						<category>$Name.XML</category>
+					<% end_loop %>
 				</item>
 			<% end_loop %>
 		<% end_cached %>
