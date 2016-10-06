@@ -17,6 +17,9 @@
 				<summary type="html">
 					$Content.AbsoluteLinks.XML
 				</summary>
+				<% loop Terms %>
+					<category term="$Name.XML" />
+				<% end_loop %>
 			</entry>
 		<% end_loop %>
 	<% end_cached %>

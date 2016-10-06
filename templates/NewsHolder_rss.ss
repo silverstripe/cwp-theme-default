@@ -19,6 +19,9 @@
 			<% if FeaturedImage %>
 				<link rel="enclosure" type="image/$FeaturedImage.Extension" href="$FeaturedImage.AbsoluteURL" />
 			<% end_if %>
+			<% loop Terms %>
+				<category>$Name.XML</category>
+			<% end_loop %>
 		</item>
 		<% end_loop %>
 	</channel>
