@@ -1,18 +1,17 @@
 {
-	"name": "cwp-themes/default",
-	"description": "CWP Default Theme",
-	"type": "silverstripe-theme",
-	"keywords": ["silverstripe", "cwp"],
-	"require": {
-		"composer/installers": "*",
-		"silverstripe/cms": ">=3.0",
-		"silverstripe/framework": ">=3.0",
-		"cwp/cwp": "*",
-		"silverstripe-themes/module_bootstrap": "dev-ssexpress"
-	},
-	"extra": {
-		"branch-alias": {
-			"dev-master": "1.3.x-dev"
-		}
-	}
+    "name": "cwp-themes/default",
+    "description": "CWP Default Theme",
+    "type": "silverstripe-theme",
+    "keywords": [
+        "silverstripe",
+        "cwp"
+    ],
+    "require": {
+        "composer/installers": "*",
+        "silverstripe/cms": ">=3.0",
+        "silverstripe/framework": ">=3.0",
+        "cwp/cwp": "*",
+        "silverstripe-themes/module_bootstrap": "dev-ssexpress"
+    },
+    "extra": []
 }
