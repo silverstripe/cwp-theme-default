@@ -5375,8 +5375,7 @@ a.label:hover, a.badge:hover {
   background: rgba(0, 0, 0, 0.75);
 }
 
-.carousel-caption h4,
-.carousel-caption p {
+.carousel-caption {
   color: #fff;
 }
 
