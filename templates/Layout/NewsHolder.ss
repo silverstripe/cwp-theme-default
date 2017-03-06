@@ -6,17 +6,17 @@
 		<div class="clearfix">
 			$Content.RichLinks
 		</div>
-		
+
 		<% if AvailableMonths %>
 			<div class="month-filter">
 				<h2 class="nonvisual-indicator">Month filter:</h2>
-				
+
 				<% if FilteredUpdates %>
 					<% if FilterDescription %>
 						<p><a href="$Link">Show all news</a></p>
 					<% end_if %>
 				<% end_if %>
-				
+
 				<% loop AvailableMonths %>
 					<h3 class="year h6-style">$YearName:</h3>
 					<ol class="nav nav-pills unstyled months">
@@ -39,7 +39,7 @@
 					<header>
 						<h3><a href="$Link">$Title</a></h3>
 					</header>
-					
+
 					<% if $Date || Author %>
 						<p class="metaInfo">
 							<% if $Date %>
@@ -49,7 +49,7 @@
 							<% if Author %>by $Author<% end_if %>
 						</p>
 					<% end_if %>
-					
+
 					<p>
 						<% if Abstract %>
 							$Abstract
@@ -102,16 +102,10 @@
 
 					<fieldset>
 						<div class="field-note">Tip: Leave one field blank to search for a single date.</div>
-						<div id="from" class="field date text">
-							<label class="left" for="{$FormName}_from">Filter from date <span class="field-note">(example: 31/12/13)</span></label>
-							$Fields.dataFieldByName(from)
-						</div>
-						<div id="to" class="field date text">
-							<label class="left" for="{$FormName}_to">Filter to date <span class="field-note">(example: 31/12/13)</span></label>
-							$Fields.dataFieldByName(to)
-						</div>
-						$Fields.dataFieldByName(tag)
-						$Fields.dataFieldByName(SecurityID)
+						$Fields.dataFieldByName('from').FieldHolder
+						$Fields.dataFieldByName('to').FieldHolder
+						$Fields.dataFieldByName('tag').FieldHolder
+						$Fields.dataFieldByName('SecurityID').FieldHolder
 					</fieldset>
 
 					<div class="Actions">

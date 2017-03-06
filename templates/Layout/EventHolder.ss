@@ -6,7 +6,7 @@
 		<div class="clearfix">
 			$Content.RichLinks
 		</div>
-	
+
 		<% if AvailableMonths %>
 			<div class="month-filter">
 				<h2 class="nonvisual-indicator">Month filter:</h2>
@@ -23,7 +23,7 @@
 						<% end_loop %>
 					</ol>
 				<% end_loop %>
-				
+
 			</div>
 		<% end_if %>
 
@@ -33,7 +33,7 @@
 					<header>
 						<h3><a href="$Link">$Title</a></h3>
 					</header>
-					
+
 					<% if $Date %>
 						<p class="metaInfo">
 							<time datetime="$Date">$Date.Format(d/m/Y) <% if $StartTime %>$StartTime.Nice <% if $EndTime %>- $EndTime.Nice <% end_if %><% end_if %></time>
@@ -92,16 +92,10 @@
 
 					<fieldset>
 						<div class="field-note">Tip: Leave one field blank to search for a single date.</div>
-						<div id="from" class="field date text">
-							<label class="left" for="{$FormName}_from">Filter from date <span class="field-note">(example: 31/12/13)</span></label>
-							$Fields.dataFieldByName(from)
-						</div>
-						<div id="to" class="field date text">
-							<label class="left" for="{$FormName}_to">Filter to date <span class="field-note">(example: 31/12/13)</span></label>
-							$Fields.dataFieldByName(to)
-						</div>
-						$Fields.dataFieldByName(tag)
-						$Fields.dataFieldByName(SecurityID)
+						$Fields.dataFieldByName('from').FieldHolder
+						$Fields.dataFieldByName('to').FieldHolder
+						$Fields.dataFieldByName('tag').FieldHolder
+						$Fields.dataFieldByName('SecurityID').FieldHolder
 					</fieldset>
 
 					<div class="Actions">
