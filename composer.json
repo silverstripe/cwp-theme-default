@@ -8,6 +8,7 @@
 		"silverstripe/cms": ">=3.0",
 		"silverstripe/framework": ">=3.0",
 		"cwp/cwp": "*",
+		"cwp/agency-extensions": "*",
 		"silverstripe-themes/module_bootstrap": "dev-ssexpress"
 	},
 	"extra": {
