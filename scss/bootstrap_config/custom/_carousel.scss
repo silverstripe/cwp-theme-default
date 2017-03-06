@@ -9,7 +9,7 @@
   position: relative;
   margin-bottom: $baseLineHeight;
   line-height: 1;
-  //Override hover and focus in typography 
+  //Override hover and focus in typography
   a:hover img, a:focus img{
     border: none;
   }
@@ -26,7 +26,7 @@
 		overflow: hidden;
 		width: 100%;
 		position: relative;
-		
+
 	}
 	.item {
 		display: none;
@@ -128,7 +128,6 @@
   background: $grayDark;
   background: rgba(0,0,0,.75);
 }
-.carousel-caption h4,
-.carousel-caption p {
+.carousel-caption {
   color: $white;
 }
