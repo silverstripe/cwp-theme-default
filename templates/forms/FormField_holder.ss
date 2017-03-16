@@ -7,4 +7,6 @@
 	<% if RightTitle %><span class="extra" id="$ID-extra">$RightTitle</span><% end_if %>
 
 	$Field
+
+	<% if $Description %><span class="extra description">$Description</span><% end_if %>
 </div>
